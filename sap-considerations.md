@@ -69,7 +69,7 @@ If you are planning to use external storage as data stores for VMware ESX, follo
 VMware ESXi-based deployments in {{site.data.keyword.cloud_notm}} are different from other cloud-based deployments. {{site.data.keyword.cloud_notm}} does not provide its customers with running VMs; you take control of your environment and configure it to meet your requirements. You receive a configured server when you order a VMware ESX server. The following links provide information on additional storage and running guest VMs.
 
   *	[Storage to use with VMware Systems](https://console.bluemix.net/docs/infrastructure/vmware/select-storage-option-use-vmware.html#storage-to-use-with-vmware-systems) provides further direction on how to integrate storage in an ESX environment.
-  * [Mounting iSCSI VMware ESXi](https://console.bluemix.net/docs/infrastructure/vmware/mount-iscsi-vmware-esxi.html#mounting-iscsi-vmware-esxi) describes the steps to integrate iSCSI-based storage with ESX.
-  * [Creating a VMware ESX Virtual Machine](https://console.bluemix.net/docs/infrastructure/vmware/mount-iscsi-vmware-esxi.html#mounting-iscsi-vmware-esxi) guides you through the process of deploying your first VM.
+  * [Mounting iSCSI VMware ESXi](https://console.bluemix.net/docs/infrastructure/vmware/mounting-iscsi-vmware-esxi.html#mounting-iscsi-vmware-esxi) describes the steps to integrate iSCSI-based storage with ESX.
+  * [Creating a VMware ESX Virtual Machine](https://console.bluemix.net/docs/infrastructure/vmware/vmware-esx-create-virtual-machine.html#creating-a-vmware-esx-virtual-machine) guides you through the process of deploying your first VM.
 
 Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 24140970](https://launchpad.support.sap.com/#/notes/2414097).
