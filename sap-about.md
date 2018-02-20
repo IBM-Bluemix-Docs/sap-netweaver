@@ -58,7 +58,7 @@ The offering consists of the following servers, operating systems (OS), and data
       
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers cannot run any other operating systems or non-SAP NetWeaver-based SAP products.
 
-See [SAP HANA on {{site.data.keyword.cloud_notm}}](../doc/infrastructure/sap-hana.com) for information on deploying SAP HANA. Future versions of the {{site.data.keyword.cloud_notm}} for SAP Applications offering includes support for other databases', high availability, and disaster recovery.
+See [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/doc/infrastructure/sap-hana/hana-index.html#getting-started) for information on deploying SAP HANA. Future versions of the {{site.data.keyword.cloud_notm}} for SAP Applications offering includes support for other databases', high availability, and disaster recovery.
 
 Consult the [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630) for specific databases, operating system, and SAP NetWeaver requirements for {{site.data.keyword.cloud_notm}}. An SAP S-user ID is required to access SAP PAM.
 
