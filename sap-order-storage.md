@@ -24,7 +24,7 @@ lastupdated: "2018-01-25"
 ## Ordering {{site.data.keyword.cloud_notm}} storage
 {: #ibm_storage}
 
-You can use the steps under [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/provisioning-block-storage.html#provisioning-and-managing-block-storage) or [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](https://console.bluemix.net/docs/infrastructure/FileStorage/provisioning-file-storage.html#provisioning-and-managing-ibm-file-storage-for-ibm-cloud) to order your backup and restore storage solution. You are guided through the process of deciding which storage type to use, how to order it, and how to deploy it to your server.
+You can use the steps under [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) or [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](https://console.bluemix.net/docs/infrastructure/FileStorage/provisioning-file-storage.html#provisioning-and-managing-ibm-file-storage-for-ibm-cloud) to order your backup and restore storage solution. You are guided through the process of deciding which storage type to use, how to order it, and how to deploy it to your server.
 
 The *SAP NetWeaver Quick Reference Guides (for Microsoft Windows* or *for Red Hat Enterprise Linux*) take you through a complete server configuration and deployment, including {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}, and iSCSI configuration steps based on a sample deployment for Linux and Windows.
 
