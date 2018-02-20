@@ -24,7 +24,7 @@ lastupdated: "2018-01-25"
 
 Firewalls help prevent unwanted traffic from hitting your server, help reduce your attack vulnerability, and lets your server resource be dedicated for its use. You can choose a shared firewall, dedicated firewall, or the [Fortinet FortiGate security appliance](https://console.bluemix.net/docs/infrastructure/fortigate-10g/getting-started.html#getting-started-with-fortigate-security-appliance-10gbs) based on your specific performance and feature requirements.
 
-Visit [Introduction to Hardware Firewall](https://knowledgelayer.softlayer.com/learning/introduction-hardware-firewall) for information on the firewalls offered by {{site.data.keyword.cloud_notm}}, and see [Configure a Hardware Firewall (Dedicated)](https://knowledgelayer.softlayer.com/procedure/configure-hardware-firewall-dedicated) for guidance on how to set up a dedicated firewall.
+For more information on the firewalls offered by {{site.data.keyword.cloud_notm}}, see [Getting Started Hardware Firewall (Shared)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-shared/getting-started.html#getting-started), and for guidance on how to set up a dedicated firewall, see [Getting Started Hardware Firewall (Dedicated)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/getting-started.html#getting-started).
 
 ## Next Steps
 
