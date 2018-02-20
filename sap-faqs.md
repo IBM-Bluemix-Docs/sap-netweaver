@@ -21,7 +21,7 @@ lastupdated: "2018-01-25"
 
 ## Do I need DB2 to run SAP NetWeaver on {{site.data.keyword.cloud_notm}}?
 
-Check [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097) regularly and also reference [SAP Product Availability Matrix]([https://apps.support.sap.com/sap/support/pam). Be aware of the provided operating system in the SAP Note, becausedifferent sets of service packs are required by your database.
+Check [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097) regularly and also reference [SAP Product Availability Matrix](https://apps.support.sap.com/sap/support/pam). Be aware of the provided operating system in the SAP Note, becausedifferent sets of service packs are required by your database.
 
 ## Why was {{site.data.keyword.Db2_on_Cloud_short}} chosen for certification for {{site.data.keyword.cloud_notm}}?
 
