@@ -28,8 +28,8 @@ For more information on the firewalls offered by {{site.data.keyword.cloud_notm}
 
 ## Next Steps
 
-  [3. Installing your guest OS on the ESX hypervisor (optional)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-vmware-deployments.html)
+  [3. Installing your guest OS on the ESX hypervisor (optional)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html)
 
-  [4. Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-sap-landscape.html)
+  [4. Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
   [5. Testing connectivity to your {{site.data.keyword.cloud_notm}} data center](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
