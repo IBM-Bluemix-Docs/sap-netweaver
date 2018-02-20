@@ -23,6 +23,6 @@ Only the operating systems listed under [Offering model](/docs/infrastructure/sa
 
 ## Next Steps
 
-  [4. Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-sap-landscape.html)
+  [4. Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
   [5. Testing connectivity to your {{site.data.keyword.cloud_notm}} data center](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
