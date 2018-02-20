@@ -68,3 +68,7 @@ The internal addresses will not appear in the domain name system (DNS). Since in
 3. Click the **Submit Order** button. You are redirected to a screen with your order number. You can print the screen, because it is also your order receipt.
 
 A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ is be sent to the email address in your profile. This email is notice that your server has been approved and is in the process of being deployed. After it is deployed, another notice is sent notifying you that the server is available and can be managed through the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com).
+
+## Next Steps
+
+You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/infrastructure/sap-manage-environment) for your next steps.
