@@ -71,4 +71,4 @@ A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Ord
 
 ## Next Steps
 
-You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/infrastructure/sap-manage-environment) for your next steps.
+You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/infrastructure/sap-netweaver/sap-manage-environment.html) for your next steps.
