@@ -30,7 +30,6 @@ Review relevant documentation to help you determine any prerequisites for the SA
   * [SAP NetWeaver Quick Reference - Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-grq/ms-index.html#getting-started)
   * [SAP NetWeaver Quick Reference - Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)
   * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)
-  * [{{site.data.keyword.cloud_notm}} for SAP Applications Reference Architecture](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)
   * Third-party documentation
   
 ## Next Steps
