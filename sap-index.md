@@ -44,7 +44,6 @@ Table 1 contains steps to help you get your {{site.data.keyword.cloud_notm}} inf
    You might also find the following SAP documentation useful:
    <li><a href="https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77/">How to set up an SAP S-user ID</a></li>
    <li><a href="https://help.sap.com/netweaver">SAP NetWeaver Help</a></li>
-   <li><a href="https://service.sap.com/instguides">SAP Installation Guide</a>; requires an SAP S-user ID</li>
    <li><a href="https://support.sap.com">SAP Notes</a>; requires an SAP S-user ID</li>
    </td>
    <tr>
