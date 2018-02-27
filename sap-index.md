@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-21"
+lastupdated: "2018-02-27"
 
 
 ---
@@ -39,7 +39,7 @@ Table 1 contains steps to help you get your {{site.data.keyword.cloud_notm}} inf
    <td>If your organization is new to IBM Cloud, the following information can be useful and should be read before your planning phase.
    <li><a href="https://ibm.com/cloud-computing/">What is IBM Cloud</a></li>
    <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li>
-   <li><a href="https://help.sap.com/nw75#section2">SAP installation and upgrade information</a>: download the installation guide</li>
+   <li><a href="https://help.sap.com/nw75#section2">SAP NetWeaver 7.5 installation and upgrade information</a>: download the installation guide</li>
    
    You might also find the following SAP documentation useful:
    <li><a href="https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77/">How to set up an SAP S-user ID</a></li>
