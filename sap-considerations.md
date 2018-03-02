@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-03-02"
 
 
 ---
@@ -72,4 +72,4 @@ VMware ESXi-based deployments in {{site.data.keyword.cloud_notm}} are different 
   * [Mounting iSCSI VMware ESXi](https://console.bluemix.net/docs/infrastructure/vmware/mounting-iscsi-vmware-esxi.html#mounting-iscsi-vmware-esxi) describes the steps to integrate iSCSI-based storage with ESX.
   * [Creating a VMware ESX Virtual Machine](https://console.bluemix.net/docs/infrastructure/vmware/vmware-esx-create-virtual-machine.html#creating-a-vmware-esx-virtual-machine) guides you through the process of deploying your first VM.
 
-Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 24140970](https://launchpad.support.sap.com/#/notes/2414097).
+Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097).
