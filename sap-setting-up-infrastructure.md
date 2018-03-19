@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2010-03-02"
+lastupdated: "2010-03-19"
 
 
 ---
@@ -40,7 +40,7 @@ Use the following steps to order your {{site.data.keyword.baremetal_short}}. Add
 ## Selecting your server options
 {: #select_options}
 
-In the next step, you will select the type and number of disks you want to add to your configuration. You can also select different options for Redundant Array of Independent Disks (RAID) storage groups and partitioning layouts on-top of the RAID storage groups. See [About RAID](https://console.bluemix.net/docs/bare-metal/what-raid.html#about-raid} or [{{site.data.keyword.cloud_notm}} Support](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support) for more information.
+In the next step, you will select the type and number of disks you want to add to your configuration. You can also select different options for Redundant Array of Independent Disks (RAID) storage groups and partitioning layouts on-top of the RAID storage groups. See [About RAID](https://console.bluemix.net/docs/bare-metal/what-raid.html#about-raid) or [{{site.data.keyword.cloud_notm}} Support](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support) for more information.
 
 1. Under **SAP Certified Servers**, make your selection based on how you plan to use your server. Details on each option can be found in [Setting up your bare metal servers](https://console.bluemix.net/docs/bare-metal/configuring.html#setting-up-your-bare-metal-servers). You can also consult the [Design Decision Tool](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool) (scroll down to the tool) or [{{site.data.keyword.cloud_notm}} Support](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support) for more information
 2. Click the **Add to order** button at the bottom of the page.
