@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-23"
+lastupdated: "2018-03-19"
 
 
 ---
@@ -45,7 +45,7 @@ After you have determined your SAP applications and the SAPS numbers have been c
 
 All supported server types listed in Table 1 match those that have been certified by SAP with the published name and are verified in [SAP Note 2414097![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}; click [here![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window} for a complete listing. Note that the published names are subject to change.
 
-Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} certifed for SAP NetWeaver
+Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} certified for SAP NetWeaver
 
 | Server type | Certification document | SAPS | RAM |
 | --- | --- | --- | --- |
