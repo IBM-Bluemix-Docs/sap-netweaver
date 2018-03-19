@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-02"
+lastupdated: "2018-03-19"
 
 
 ---
@@ -46,7 +46,7 @@ For an SAP deployment with local storage, even for three-tier setups, 1 Gb-based
 ### Hybrid setups
 {: #hybrid}
 
-The {{site.data.keyword.cloud_notm}} for SAP Applications offering can be thought of as an external data center,especially if you are thinking of implementing a hybrid landscape with some SAP systems at an {{site.data.keyword.cloud_notm}} data center and other systems on site. Some specific configuration items that need to be considered as part of your project’s planning phase with a hybrid setup:
+The {{site.data.keyword.cloud_notm}} for SAP Applications offering can be thought of as an external data center, especially if you are thinking of implementing a hybrid landscape with some SAP systems at an {{site.data.keyword.cloud_notm}} data center and other systems on site. Some specific configuration items that need to be considered as part of your project’s planning phase with a hybrid setup:
 
   *	[SAP Transport Management System (STMS)](https://help.sap.com/saphelp_me60/helpdata/en/c4/6045377b52253de10000009b38f889/frameset.htm). Configure it based on Transport Groups to prevent file sharing across data centers.
   *	[SAProuter](https://support.sap.com/en/tools/connectivity-tools/saprouter.html). Provides access to SAP On-Line Service System (OSS). Use your on-premises SAProuter, which is already available, to access the OSS. This SAProuter can be used through further SAProuter hops if IP-based routing is not permitted between your {{site.data.keyword.cloud_notm}}-based systems and your on-premises SAProuter. Alternatively, you might consider setting up another SAProuter that is based on one {{site.data.keyword.cloud_notm}}-based server with a public IP and connect it to the SAP OSS system through the internet.
