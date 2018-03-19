@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-03-19"
 
 
 ---
@@ -25,7 +25,7 @@ With an SAP NetWeaver system, you have two deployment options:
   * Central system, which is a single-host installation (two-tier)
   * Distributed system, which is a multi-host installation (three-tier)
   
-The options influence your server choice. You might want to distrubute your workload to different servers or keep the workload on one server for simplicity. See [Setting up your infrastructure](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html#set_up_infrastructure) for step-by-step guidance on how deploy your server.
+The options influence your server choice. You might want to distribute your workload to different servers or keep the workload on one server for simplicity. See [Setting up your infrastructure](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html#set_up_infrastructure) for step-by-step guidance on how deploy your server.
 
 ## Storage configuration
 {: #storage_config}
