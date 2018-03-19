@@ -56,7 +56,7 @@ If you have decided on a public/private setup for your environment and plan to
   * Install multiple SAP systems that need to communicate with each other *or*
   * Choose a three-tier SAP setup (database and application instances on different hardware)
   
-Make sure that your name resolution reflects the internal and external addresses. The external address matchs the hostname of the server resolved by its fully-qualified domain name (FQDN). 
+Make sure that your name resolution reflects the internal and external addresses. The external address matches the hostname of the server resolved by its fully-qualified domain name (FQDN). 
 
 The internal addresses will not appear in the domain name system (DNS). Since internal IPs should be used for communication between the servers, make sure you extend your `/etc/hosts` or Microsoft Windows "host" file accordingly. This information might also apply to the guest operating system of you VMware ESXi-based deployments.
 
