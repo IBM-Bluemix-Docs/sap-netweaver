@@ -1,0 +1,52 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sap-netweaver" audience="compute" href="/docs/infrastructure/sap-netweaver/sap-index.html"}
+SAP NetWeaver on IBM Cloud
+
+    {: .navgroup id="learn"}
+    sap-index.md
+    sap-about.md
+    sap-general-iaas-concepts.md
+    sap-byol.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    规划
+        sap-planning-your-system-landscape.md
+        sap-considerations.md
+        sap-get-credentials.md
+        sap-review-doc.md
+        sap-determine-apps.md
+        sap-size-server.md
+        sap-determine-configuration.md
+
+    {: .topicgroup}
+    供应
+        sap-provision-environment.md
+        sap-requesting-setting-up-VPN.md
+        sap-setting-up-infrastructure.md
+
+    {: .topicgroup}
+    管理
+        sap-manage-environment.md
+        sap-order-storage.md
+        sap-secure-environment.md
+        sap-installing-guest-operating-system-VMware-deployments.md
+        sap-installing-SAP-landscape.md
+        sap-testing-connectivity.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    sap-support.md
+
+    {: .topicgroup}
+    常见问题
+        sap-faqs.md
+        
+    {: .navgroup-end}
