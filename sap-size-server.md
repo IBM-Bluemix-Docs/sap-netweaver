@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-04-30"
 
 
 ---
@@ -47,12 +47,17 @@ All supported server types listed in Table 1 match those that have been certifie
 
 Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} certified for SAP NetWeaver
 
-| Server type | Certification document | SAPS | RAM |
-| --- | --- | --- | --- |
-| BI.S1.NW32 | Cert16048 | 10,980 | 32 GB |
-| BI.S1.NW128 | Cert16063 | 54,130 | 128 GB |
-| BI.S1.NW256 | Cert17005 | 55,020 | 256 GB |
-| BI.S1.NW512 | Cert17027 | 65,520 | 512 GB |
+| Server type | SAPS | RAM |
+| --- | --- | --- |
+| BI.S1.NW32 | 10980 | 32 GB |
+| BI.S1.NW128 | 54130 | 128 GB |
+| BI.S1.NW256 | 55020 | 256 GB |
+| BI.S2.NW512 | 65520 | 512 GB |
+| BI.S3.NW32 | 11970 | 32 GB |
+| BI.S3.NW64 | 12750 | 64 GB |
+| BI.S3.NW192 | 78850 | 192 GB |
+| BI.S3.NW384 | 79430 | 384 GB |
+| BI.S3.SW768 | 79630 | 768 GB |
 
 ## Migrating an existing SAP system 
 {: #migrating}
