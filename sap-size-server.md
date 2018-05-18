@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-30"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -41,9 +41,9 @@ While the sizing method might be considered conservative, consider the fact that
 ## Choosing an {{site.data.keyword.cloud_notm}} bare metal server
 {: #choose_server}
 
-After you have determined your SAP applications and the SAPS numbers have been calculated through the SAP Quick Sizer, or based on your current landscape, you are ready to choose a server from the offered models. Table 1 contains the SAPS numbers for the {{site.data.keyword.baremetal_short}} that have been certified for SAP NetWeaver. See [SAP Standard Application Benchmarks![External link icon](../../icons/launch-glyph.svg "External link icon")]](https://go.sap.com/solution/benchmark.html){: new_window} for the certification documents. 
+After you have determined your SAP applications and the SAPS numbers have been calculated through the SAP Quick Sizer, or based on your current landscape, you are ready to choose a server from the offered models. Table 1 contains the SAPS numbers for the {{site.data.keyword.baremetal_short}} that have been certified for SAP NetWeaver. See [SAP Standard Application Benchmarks![External link icon](../../icons/launch-glyph.svg "External link icon")]](https://www.sap.com/about/benchmark.html){: new_window} for the certification documents. 
 
-All supported server types listed in Table 1 match those that have been certified by SAP with the published name and are verified in [SAP Note 2414097![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}; click [here![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window} for a complete listing. Note that the published names are subject to change.
+All supported server types listed in Table 1 match those that have been certified by SAP with the published name and are verified in [SAP Note 2414097![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}; click [here![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: new_window} for a complete listing. Note that the published names are subject to change.
 
 Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} certified for SAP NetWeaver
 
@@ -62,7 +62,7 @@ Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 
 ## Migrating an existing SAP system 
 {: #migrating}
 
-If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.cloud_notm}} environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://go.sap.com/solution/benchmark.html){: new_window}.
+If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.cloud_notm}} environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results![External link icon]](../../icons/launch-glyph.svg "External link icon")](https://www.sap.com/about/benchmark.html){: new_window}.
 
 ## Next Steps
 
