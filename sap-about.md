@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2018-05-18"
 {:table: .aria-labeledby="caption"}
 
 
-# About IBM Cloud for SAP applications
+# About IBM Cloud SAP-Certified Infrastructure
 {: #about_ibmcloud_for_sap}
 
 IBM and SAP have been teaming, partnering, and collaborating in areas that include hardware, software, cloud, services, and financing for over 45 years. The first collaboration was in 1972 and has continued to grow with hundreds of SAP clients that use {{site.data.keyword.cloud}} as their infrastructure-as-a-service (IaaS) solution. {{site.data.keyword.IBM_notm}} has continued to optimize its cloud infrastructure products to include support for the SAP NetWeaver computing platform. 
@@ -36,7 +36,7 @@ The offering features {{site.data.keyword.cloud_notm}} {{site.data.keyword.barem
 
 All eight options are certified for SAP NetWeaver and can provide a scalable, security-rich, open, global enterprise cloud platform for rapidly deploying SAP applications.
 
-You can use your servers for production, non-production, or proof-of-concept (PoC) environments. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}. For all other software components, non-SAP NetWeaver-based SAP products, or third-party products, contact [SAP Support](https://support.sap.com/home.html) if the products are supported within the IaaS offerings.
+You can use your servers for production, non-production, or proof-of-concept (POC) environments. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}. For all other software components, non-SAP NetWeaver-based SAP products, or third-party products, contact [SAP Support](https://support.sap.com/home.html) if the products are supported within the IaaS offerings.
 
 ## {{site.data.keyword.cloud_notm}} for SAP NetWeaver offering model
 {: #offer_model}
