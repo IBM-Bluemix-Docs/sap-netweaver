@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Getting started with IBM Cloud for SAP applications tutorial
+# Getting started with IBM Cloud SAP-Certified Infrastructure
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} and SAP have been collaborating for over 40 years in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP NetWeaver-based applications on {{site.data.keyword.baremetal_long}}. The offering features four memory options, single socket (32 GB) and dual sockets (128 GB, 256 GB, and 512 GB), which are all available in the more than 60 {{site.data.keyword.cloud_notm}} data centers worldwide.
