@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -31,7 +31,6 @@ Table 1. Managing your environment overview
 | 2 | [Securing your environment](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
 | 3 | [Installing guest OS on the VMware ESX hypervisor (optional)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
 | 4 | [Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [Testing connectivity to your {{site.data.keyword.cloud_notm}} data center](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
 
 ## Next Steps
 
