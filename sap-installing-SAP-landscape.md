@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,6 +25,4 @@ After you connect to the SAP Marketplace, you can choose the SAP software compon
 
 After downloading the installation media, follow the standard SAP installation procedure documented in the [SAP installation guide](https://service.sap.com/instguides) for your SAP version and components and the corresponding [SAP Notes](https://support.sap.com/notes). The installation guide and SAP Notes require an SAP S-user ID.
 
-## Next Steps
 
-  [5. Testing connectivity to your {{site.data.keyword.cloud_notm}} data center](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
