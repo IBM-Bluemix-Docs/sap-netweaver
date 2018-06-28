@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ You are offered an array of RAM and CPU combinations as the SAP-certified server
 
 If your project requires a virtualization layer, the SAP NetWeaver offering includes the option to order {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi. The ESX instance is under your full control, as it is deployed in your data center. The system is fully configured regarding networking (any further configuration, such as storage, is up to you). It is highly recommended that you have a person with an understanding of ESX administration on staff to successfully start your project.
 
-See [About bare metal servers](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers) for more information on bare metal servers. 
+See [About bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers) for more information on bare metal servers. 
 
 ## Operating systems
 
@@ -63,7 +63,7 @@ More information on NAS in an {{site.data.keyword.cloud_notm}} environment can b
 
 ## Deployment and management
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are deployed through the {{site.data.keyword.cloud_notm}} infrastructure customer portal or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the customer portal, API, or command line interface (CLI). More information can be found under [About bare metal servers](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers).
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} are deployed through the {{site.data.keyword.cloud_notm}} infrastructure customer portal or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the customer portal, API, or command line interface (CLI). More information can be found under [About bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers).
 
 ## Support
 
