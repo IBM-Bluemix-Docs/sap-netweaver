@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -32,4 +32,4 @@ For more information on the firewalls offered by {{site.data.keyword.cloud_notm}
 
   [4. Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Testing connectivity to your {{site.data.keyword.cloud_notm}} data center](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
+  
