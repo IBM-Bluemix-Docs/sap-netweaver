@@ -35,7 +35,6 @@ SAP NetWeaver on IBM Cloud
         sap-secure-environment.md
         sap-installing-guest-operating-system-VMware-deployments.md
         sap-installing-SAP-landscape.md
-        sap-testing-connectivity.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
