@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,4 +25,3 @@ Solo se da soporte a los sistemas operativos que se listan en el [Modelo de la o
 
   [4. Descarga e instalación de software y aplicaciones SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Prueba de conectividad a su centro de datos {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)

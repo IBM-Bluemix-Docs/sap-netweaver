@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ Se le ofrece una matriz de combinaciones de RAM y CPU, ya que los servidores cer
 
 Si su proyecto requiere una capa de virtualización, la oferta de SAP NetWeaver incluye la opción de solicitar {{site.data.keyword.baremetal_short}} que se despliegan con VMware ESXi. La instancia de ESX está bajo su control, ya que se despliega en su centro de datos. El sistema está completamente configurado, en cuanto a redes (cualquier configuración adicional, como el almacenamiento, depende de usted). Se recomienda contar con un experto en administración de ESX entre el personal para iniciar el proyecto con éxito.
 
-Consulte [Acerca de los servidores nativos](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers) para obtener más información sobre los servidores nativos. 
+Consulte [Acerca de los servidores nativos](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers) para obtener más información sobre los servidores nativos. 
 
 ## Sistemas operativos
 
@@ -57,13 +57,13 @@ Existen dos tipos de almacenamiento para {{site.data.keyword.cloud_notm}}, en bl
   * File Transfer Protocol (FTP) con Parallels Plesk Panel y cPanel@WHM
   * Microsoft Windows Server a través de procedimientos estándar de Windows utilizando el protocolo Common Internet File System (CIFS)
   
-El almacenamiento de NAS y FTP se factura mensualmente y está disponible en distintos tamaños de almacenamiento. Puede interactuar con el almacenamiento de NAS y FTP en la línea de mandatos o el terminal con el sistema operativo, o bien a través de interacciones de apuntar y pulsar en los paneles del portal del cliente de infraestructura de {{site.data.keyword.cloud_notm}}.
+El almacenamiento de NAS y FTP se factura mensualmente y está disponible en distintos tamaños de almacenamiento. Puede interactuar con el almacenamiento de NAS y FTP en la línea de mandatos o el terminal con el sistema operativo, o bien a través de interacciones de apuntar y pulsar en los paneles del portal de clientes de infraestructura de {{site.data.keyword.cloud_notm}}.
 
 Encontrará más información sobre NAS en un entorno {{site.data.keyword.cloud_notm}} en [Iniciación a NAS](https://console.bluemix.net/docs/infrastructure/network-attached-storage/index.html#getting-started-with-nas).
 
 ## Despliegue y gestión
 
-Los {{site.data.keyword.baremetal_short}} {{site.data.keyword.cloud_notm}} se despliegan a través del portal del cliente de infraestructura de {{site.data.keyword.cloud_notm}} o la API, después de crear su cuenta de cliente de {{site.data.keyword.cloud_notm}}. Los servidores se pueden gestionar a través del portal del cliente, API o interfaz de línea de mandatos (CLI). Encontrará más información en [Acerca de los servidores nativos](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers).
+Los {{site.data.keyword.baremetal_short}} {{site.data.keyword.cloud_notm}} se despliegan a través del portal de clientes de infraestructura de {{site.data.keyword.cloud_notm}} o la API, después de crear su cuenta de cliente de {{site.data.keyword.cloud_notm}}. Los servidores se pueden gestionar a través del portal de clientes, API o interfaz de línea de mandatos (CLI). Encontrará más información en [Acerca de los servidores nativos](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers).
 
 ## Soporte
 

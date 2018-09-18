@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-23"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -22,7 +22,7 @@ lastupdated: "2018-01-23"
 Un *entorno* SAP es un grupo de dos o más *sistemas* SAP, que normalmente incluyen desarrollo, calidad y pruebas y producción. Un sistema SAP consta de una o más *instancias de SAP*, que son un grupo de procesos que se inician y detienen al mismo tiempo. Para obtener más información sobre entornos SAP, consulte [*SAP Business Suite sobre la arquitectura de referencia de IBM X6 Systems*](https://lenovopress.com/redp5073.pdf). 
 {: shortdesc}
 
-Existen varias posibles configuraciones de entorno, como servidor (tamaño)/almacenamiento (tamaño), para todas las soluciones SAP del mercado. Estas soluciones incluyen productos basados en SAP NetWeaver, como [SAP Business Suite](https://open.sap.com/courses/suitehana1), SAP Business Warehouse y todos los complementos específicos de SAP, que admiten los servidores de la oferta de {{site.data.keyword.cloud}} para aplicaciones SAP. Otras soluciones a tener en cuenta son las soluciones SAP no basadas en SAP NetWeaver y software de terceros que puedan integrarse con SAP. Póngase en contacto con el [Soporte de SAP](https://support.sap.com/en/index.html) si tiene previsto desplegar software no basado en SAP NetWeaver o de terceros en su entorno de IaaS de {{site.data.keyword.cloud}}.
+Existen varias posibles configuraciones de entorno, como servidor (tamaño)/almacenamiento (tamaño), para todas las soluciones SAP del mercado. Estas soluciones incluyen productos basados en SAP NetWeaver, como [SAP Business Suite](https://open.sap.com/courses/suitehana1), SAP Business Warehouse y todos los complementos específicos de SAP, que admiten los servidores de {{site.data.keyword.cloud}} SAP-Certified Infrastructure. Otras soluciones a tener en cuenta son las soluciones SAP no basadas en SAP NetWeaver y software de terceros que puedan integrarse con SAP. Póngase en contacto con el [Soporte de SAP](https://support.sap.com/en/index.html) si tiene previsto desplegar software no basado en SAP NetWeaver o de terceros en su entorno de IaaS de {{site.data.keyword.cloud}}.
 
 Intente ser lo más detallado posible al determinar el tamaño de su servidor sobre la base de las aplicaciones que tiene previsto ejecutar, el crecimiento potencial y el rendimiento. Además, tenga en cuenta los requisitos de memoria y almacenamiento para sus aplicaciones. Los sistemas SAP en un entorno tienen requisitos específicos para la conectividad, ya sea entre ellos o bien con sistemas externos. Para obtener más información, consulte [Aspectos a considerar cuando planifique su entorno SAP](/docs/infrastructure/sap-netweaver/sap-considerations.html).
 

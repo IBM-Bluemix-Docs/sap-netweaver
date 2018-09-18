@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -19,12 +19,10 @@ lastupdated: "2018-01-25"
 # 4. Descarga e instalación de software y aplicaciones SAP
 {: #install_sap}
 
-Inicie sesión en [SAP Service Marketplace](https://websmp201.sap-ag.de/) y descargue los discos versátiles digitales (DVD) necesarios a una unidad compartida local que sea visible para la red privada de {{site.data.keyword.cloud_notm}}. Puede descargar cada DVD o bien utilizar [SAP Download Manager](https://support.sap.com/software/download-manager/help.html). Si utiliza SAP Download Manager, descárguelo en una máquina local y transfiéralo a su servidor SAP NetWeaver. 
+Inicie sesión en [SAP Support Portal](https://support.sap.com/en/index.html) y pulse **Download Software** para descargar los discos versátiles digitales (DVD) necesarios a una unidad compartida local que sea visible para la red privada de {{site.data.keyword.cloud_notm}}. Puede descargar cada DVD o bien utilizar [SAP Download Manager](https://support.sap.com/software/download-manager/help.html). Si utiliza SAP Download Manager, descárguelo en una máquina local y transfiéralo a su servidor SAP NetWeaver. 
 
 Después de conectarse a SAP Marketplace, puede elegir los componentes de software SAP para descargar a través de [SAP Download Basket](https://websmp210.sap-ag.de/~sapidp/002006825000000233112001/).
 
 Tras descargar el soporte de instalación, siga el procedimiento de instalación estándar de SAP, documentado en la [Guía de instalación de SAP](https://service.sap.com/instguides) para su versión y componentes de SAP y las [Notas de SAP](https://support.sap.com/notes) correspondientes. La guía de instalación y las Notas de SAP requieren un ID S-user de SAP.
 
-## Siguientes pasos
 
-  [5. Prueba de conectividad a su centro de datos {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)

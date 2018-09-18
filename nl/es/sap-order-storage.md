@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -43,4 +43,4 @@ El almacenamiento NAS (almacenamiento adjunto en red) puede ser otra ampliación
 
   [4. Descarga e instalación de software y aplicaciones SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Prueba de conectividad a su centro de datos {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
+  

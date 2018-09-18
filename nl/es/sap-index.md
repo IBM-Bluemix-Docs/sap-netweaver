@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Guía de aprendizaje de iniciación a IBM Cloud para aplicaciones SAP
+# Guía de aprendizaje de iniciación
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} y SAP llevan más de 40 años colaborando en muchas áreas, incluyendo hardware, software, nube, servicios y finanzas. Ahora están colaborando para ejecutar aplicaciones basadas en SAP NetWeaver en {{site.data.keyword.baremetal_long}}. La oferta presenta cuatro opciones de memoria, un solo socket (32 GB) y sockets duales (128 GB, 256 GB y 512 GB), que están disponibles en los más de 60 centros de datos {{site.data.keyword.cloud_notm}} en todo el mundo.
@@ -50,8 +50,8 @@ La Tabla 1 contiene los pasos para construir rápidamente la infraestructura de 
    <td>2. Regístrese en IBM Cloud</td>
    <td>Visite <a href="https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Registro de IBM Cloud</a> para conocer los pasos sobre cómo configurar su cuenta de IBM Cloud.</td>
  <tr>
-   <td>3. Acceda al portal del cliente de infraestructura de IBM Cloud</td>
-   <td>El <a href="https://control.softlayer.com">portal del cliente de infraestructura de IBM Cloud</a> es su pasarela gráfica a todos los componentes de la infraestructura: cálculo, conectividad, almacenamiento, red y centros de datos. Necesita un <a href="https://console.bluemix.net/docs/customer-portal/getting-started.html#getting-started">IBMid y contraseña</a> para acceder al portal del cliente.</td> 
+   <td>3. Acceda al portal de clientes de infraestructura de IBM Cloud</td>
+   <td>El <a href="https://control.softlayer.com">portal de clientes de infraestructura de IBM Cloud</a> es su pasarela gráfica a todos los componentes de la infraestructura: cálculo, conectividad, almacenamiento, red y centros de datos. Necesita un <a href="https://console.bluemix.net/docs/customer-portal/getting-started.html#getting-started">IBMid y contraseña</a> para acceder al portal de clientes.</td> 
    <tr>
    <td>4. Planifique su entorno de sistemas</td>
    <td>Utilice la información de <a href="sap-planning-your-system-landscape.html#planning-your-system-landscape">Planificación de su entorno de sistemas</a> para determinar la arquitectura y el tamaño y suministrar su entorno IBM Cloud para dar soporte a la carga de trabajo de SAP NetWeaver.</td>  
