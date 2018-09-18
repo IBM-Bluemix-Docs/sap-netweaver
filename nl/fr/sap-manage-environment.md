@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -31,7 +31,6 @@ Tableau 1. Présentation de la gestion de votre environnement
 | 2 | [Sécurisation de votre environnement](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
 | 3 | [Installation d'un système d'exploitation invité sur l'hyperviseur VMware ESX (en option)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
 | 4 | [Téléchargement et installation des logiciels et des applications SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [Test de connectivité à votre centre de données {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
 
 ## Etapes suivantes
 

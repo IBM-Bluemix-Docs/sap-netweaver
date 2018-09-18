@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -41,23 +41,28 @@ Bien que la méthode du dimensionnement puisse être considérée comme prudente
 ## Choisir un serveur {{site.data.keyword.cloud_notm}} bare metal
 {: #choose_server}
 
-Une fois que vous avez identifié vos applications SAP et calculé les valeurs SAPS à l'aide de l'outil SAP Quick Sizer, ou en fonction de votre paysage actuel, vous pouvez choisir un serveur parmi les modèles proposés. Le tableau 1 répertorie les valeurs SAPS associées aux serveurs Bare Metal certifiés pour SAP NetWeaver. Voir [SAP Standard Application Benchmarks![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]](https://go.sap.com/solution/benchmark.html){: new_window} pour consulter les documents de la certification. 
+Une fois que vous avez identifié vos applications SAP et calculé les valeurs SAPS à l'aide de l'outil SAP Quick Sizer, ou en fonction de votre paysage actuel, vous pouvez choisir un serveur parmi les modèles proposés. Le tableau 1 répertorie les valeurs SAPS associées aux serveurs Bare Metal certifiés pour SAP NetWeaver. Voir [SAP Standard Application Benchmarks![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]](https://www.sap.com/about/benchmark.html){: new_window} pour consulter les documents de la certification. 
 
-Tous les types de serveurs pris en charge qui figurent dans le tableau 1 correspondent à ceux ayant été certifiés par SAP avec les noms sous lesquels ils ont été publiés et peuvent être vérifiés dans la [note SAP 2414097![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}. Cliquez [ici ![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window} pour obtenir la liste complète. Notez que les noms publiés sont susceptibles d'être modifiés.
+Tous les types de serveurs pris en charge qui figurent dans le tableau 1 correspondent à ceux ayant été certifiés par SAP avec les noms sous lesquels ils ont été publiés et peuvent être vérifiés dans la [note SAP 2414097![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}. Cliquez [ici ![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: new_window} pour obtenir la liste complète. Notez que les noms publiés sont susceptibles d'être modifiés.
 
 Tableau 1. Serveurs Bare Metal {{site.data.keyword.cloud_notm}} certifiés pour SAP NetWeaver
 
-| Type de serveur | Document de certification | SAPS | RAM |
-| --- | --- | --- | --- |
-| BI.S1.NW32 | Cert16048 | 10 980 | 32 Go |
-| BI.S1.NW128 | Cert16063 | 54 130 | 128 Go |
-| BI.S1.NW256 | Cert17005 | 55 020 | 256 Go |
-| BI.S1.NW512 | Cert17027 | 65 520 | 512 Go |
+| Type de serveur | SAPS | RAM |
+| --- | --- | --- |
+| BI.S1.NW32 | 10980 | 32 Go |
+| BI.S1.NW128 | 54130 | 128 Go |
+| BI.S1.NW256 | 55020 | 256 Go |
+| BI.S2.NW512 | 65520 | 512 Go |
+| BI.S3.NW32 | 11970 | 32 Go |
+| BI.S3.NW64 | 12750 | 64 Go |
+| BI.S3.NW192 | 78850 | 192 Go |
+| BI.S3.NW384 | 79430 | 384 Go |
+| BI.S3.SW768 | 79630 | 768 Go |
 
 ## Migrer vers un système SAP existant 
 {: #migrating}
 
-Si vous envisagez de procéder à la migration d'un système SAP existant depuis une source quelconque vers votre environnement {{site.data.keyword.cloud_notm}}, vous pouvez déterminer les valeurs SAPS à partir de celles de votre environnement actuel. Utilisez les informations relatives à votre charge de travail actuelle (unités CPU et mémoire RAM utilisées), et recherchez les valeurs SAPS correspondantes pour votre CPU à partir des [résultats du benchmark SAP SD![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://go.sap.com/solution/benchmark.html){: new_window}.
+Si vous envisagez de procéder à la migration d'un système SAP existant depuis une source quelconque vers votre environnement {{site.data.keyword.cloud_notm}}, vous pouvez déterminer les valeurs SAPS à partir de celles de votre environnement actuel. Utilisez les informations relatives à votre charge de travail actuelle (unités CPU et mémoire RAM utilisées), et recherchez les valeurs SAPS correspondantes pour votre CPU à partir des [résultats du benchmark SAP SD![Icône de lien externe]](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.sap.com/about/benchmark.html){: new_window}.
 
 ## Etapes suivantes
 

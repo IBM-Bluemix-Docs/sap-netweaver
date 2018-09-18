@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Tutoriel d'initiation à IBM Cloud for SAP Applications
+# Tutoriel d'initiation
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} et SAP collaborent depuis plus de 40 ans sur différentes solutions (matériel, logiciel, cloud, services et financement). Aujourd'hui, leur travail porte sur le développement d'applications SAP NetWeaver à exécuter sur des serveurs IBM Bare Metal. L'offre comporte quatre options de mémoire, un socket unique (32 Go) et des sockets doubles (128 Go, 256 Go et 512 Go), disponibles dans plus de 60 centres de données {{site.data.keyword.cloud_notm}} partout dans le monde.

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -23,7 +23,7 @@ Un environnement d'infrastructure sous forme de services (IaaS) est constitué d
 
 Avec des centres de données se trouvant en Amérique du Nord et en Amérique du Sud, en Europe, en Asie et en Australie, vous pouvez mettre à disposition des ressources de cloud partout où vous en avez besoin (et à tout moment). Chaque centre de données est connecté au réseau privé global d'{{site.data.keyword.cloud_notm}}, ce qui permet des transferts de données plus rapides et plus efficaces, partout dans le monde.
 
-Consultez la page [Data Centers](https://www.ibm.com/cloud-computing/bluemix/data-centers){: new_window} pour en savoir plus sur les centres de données et les points de présence ({{site.data.keyword.cloud_notm}}.
+Consultez la page [Data Centers](https://www.ibm.com/cloud-computing/bluemix/data-centers){: new_window} pour en savoir plus sur les centres de données et les points de présence {{site.data.keyword.cloud_notm}}.
 
 ## Serveurs Bare Metal
 
@@ -35,7 +35,7 @@ Vous disposez d'un ensemble de combinaisons de mémoire RAM et d'unités central
 
 Si votre projet inclut une couche de virtualisation, l'offre SAP NetWeaver prévoit la possibilité de commander des serveurs Bare Metal qui sont déployés avec VMware ESXi. L'instance ESX est directement sous votre contrôle, car elle est déployée dans votre centre de données. Le système est pleinement configuré en ce qui concerne la mise en réseau (en revanche, toute configuration supplémentaire, notamment en matière de stockage, vous incombe). Il est fortement recommandé qu'une personne ayant une bonne compréhension de l'administration ESX participe au lancement du projet.
 
-Pour plus d'informations sur les serveurs bare metal, voir [About bare metal servers](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers). 
+Pour plus d'informations sur les serveurs bare metal, voir [About bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers). 
 
 ## Systèmes d'exploitation
 
@@ -57,13 +57,13 @@ Il existe deux types de stockage pour {{site.data.keyword.cloud_notm}} de type b
   * Le protocole FTP avec Parallels Plesk Panel et cPanel@WHM
   * Microsoft Windows Server via des procédures Windows standard utilisant le protocole CIFS
   
-Les stockages NAS et FTP sont facturés tous les mois et disponibles dans différentes tailles. Vous pouvez interagir avec vos stockages NAS et FTP principalement depuis la ligne de commande ou un terminal du système d'exploitation, ou par le biais d'interactions de type "pointer-cliquer" dans les panneaux, sur le portail {{site.data.keyword.cloud_notm}} Infrastructure Customer Portal.
+Les stockages NAS et FTP sont facturés tous les mois et disponibles dans différentes tailles. Vous pouvez interagir avec vos stockages NAS et FTP principalement depuis la ligne de commande ou un terminal du système d'exploitation, ou par le biais d'interactions de type "pointer-cliquer" dans les panneaux, sur le portail client de l'infrastructure {{site.data.keyword.cloud_notm}}.
 
 Vous trouverez davantage d'informations sur les NAS au sein d'un environnement {{site.data.keyword.cloud_notm}} sous [Getting started with NAS](https://console.bluemix.net/docs/infrastructure/network-attached-storage/index.html#getting-started-with-nas).
 
 ## Déploiement et gestion
 
-Les serveurs Bare Metal d'{{site.data.keyword.cloud_notm}} sont déployés via le portail {{site.data.keyword.cloud_notm}} Infrastructure Customer Portal ou l'API une fois que vous avez créé votre compte client {{site.data.keyword.cloud_notm}}. Ils peuvent être gérés par le biais du portail client, de l'API ou de l'interface de ligne de commande. Pour plus d'informations, consultez la rubrique [About bare metal servers](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers).
+Les serveurs Bare Metal d'{{site.data.keyword.cloud_notm}} sont déployés via le portail client de l'infrastructure {{site.data.keyword.cloud_notm}} ou l'API une fois que vous avez créé votre compte client {{site.data.keyword.cloud_notm}}. Ils peuvent être gérés par le biais du portail client, de l'API ou de l'interface de ligne de commande. Pour plus d'informations, consultez la rubrique [About bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers).
 
 ## Support
 

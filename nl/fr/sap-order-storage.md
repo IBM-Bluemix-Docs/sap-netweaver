@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -43,4 +43,4 @@ Le stockage NAS peut constituer une autre extension intéressante du stockage lo
 
   [4. Téléchargement et installation du logiciel et des applications SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Test de connectivité à votre centre de données {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
+  

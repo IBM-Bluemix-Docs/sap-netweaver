@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,4 +25,3 @@ Seuls les systèmes d'exploitation répertoriés dans la liste sous [Modèle d'o
 
   [4. Téléchargement et installation du logiciel et des applications SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Test de connectivité à votre centre de données {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-01-25"
 # Mise à disposition de votre environnement SAP NetWeaver
 {: #provision_environment}
 
-Le tableau 1 contient les étapes que vous devez suivre pour mettre à disposition votre infrastructure {{site.data.keyword.cloud}} for SAP Applications. 
+Le tableau 1 contient les étapes que vous devez suivre pour mettre à disposition l'infrastructure certifiée SAP d'{{site.data.keyword.cloud}}. 
 
 Tableau 1. Présentation de la mise à disposition
 
