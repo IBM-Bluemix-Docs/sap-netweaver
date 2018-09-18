@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,13 +25,12 @@ lastupdated: "2018-01-24"
 
 表 1. 環境の管理の概要
 
-| ステップ| 詳細|
+| ステップ | 詳細 |
 | --- | --- |
 | 1 | [ストレージを注文する](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
 | 2 | [環境を保護する](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
 | 3 | [VMware ESX ハイパーバイザーにゲスト OS をインストールする (オプション)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
 | 4 | [SAP ソフトウェアとアプリケーションをダウンロードしてインストールする](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [{{site.data.keyword.cloud_notm}} データ・センターへの接続をテストする](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
 
 ## 次のステップ
 

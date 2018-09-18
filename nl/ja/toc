@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver" audience="compute" href="/docs/infrastructure/sap-netweaver/sap-index.html"}
+{: .toc subcollection="sap-netweaver" audience="compute" arm="2437231" href="/docs/infrastructure/sap-netweaver/sap-index.html"}
 IBM Cloud 上の SAP NetWeaver
 
     {: .navgroup id="learn"}
@@ -35,7 +35,6 @@ IBM Cloud 上の SAP NetWeaver
         sap-secure-environment.md
         sap-installing-guest-operating-system-VMware-deployments.md
         sap-installing-SAP-landscape.md
-        sap-testing-connectivity.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

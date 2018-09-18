@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -20,11 +20,11 @@ lastupdated: "2018-01-25"
 # SAP NetWeaver 環境のプロビジョン
 {: #provision_environment}
 
-{{site.data.keyword.cloud}} for SAP Applications インフラストラクチャーをプロビジョンするための手順を表 1 に記載します。 
+{{site.data.keyword.cloud}} SAP-Certified Infrastructure をプロビジョンするための手順を表 1 に記載します。 
 
 表 1. プロビジョニングの概要
 
-| ステップ| 詳細|
+| ステップ | 詳細 |
 | --- | --- |
 | 1 | [{{site.data.keyword.cloud_notm}} VPN 接続を要求する](/docs/infrastructure/sap-netweaver/sap-requesting-setting-up-VPN.html)|
 | 2 | [インフラストラクチャーをセットアップする](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html)|
