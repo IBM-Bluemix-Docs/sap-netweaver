@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-01-25"
 # SAP NetWeaver-Umgebung bereitstellen
 {: #provision_environment}
 
-Tabelle 1 enthält die Schritte für die Bereitstellung der {{site.data.keyword.cloud}} for SAP Applications-Infrastruktur. 
+In Tabelle 1 sind die Schritte zur Bereitstellung der von SAP zertifizierten {{site.data.keyword.cloud}}-Infrastruktur aufgeführt. 
 
 Tabelle 1. Bereitstellung - Übersicht
 

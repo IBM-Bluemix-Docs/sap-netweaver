@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ Es stehen eine Reihe von RAM- und CPU-Kombinationen zur Auswahl, da die von SAP 
 
 Wenn für Ihr Projekt eine Virtualisierungsebene erforderlich ist, können Sie im Rahmen des SAP NetWeaver-Angebots {{site.data.keyword.baremetal_short}} bestellen, die mit VMware ESXi bereitgestellt werden. Die ESX-Instanz kann vollständig von Ihnen gesteuert werden, da sie ihn Ihrem Rechenzentrum bereitgestellt wird. Das System ist hinsichtlich des Netzbetriebs vollständig konfiguriert (jegliche weitere Konfiguration, wie das Festlegen von Speicher, muss von Ihnen vorgenommen werden). Es wird dringend empfohlen, dass eine Person mit Kenntnissen zur ESX-Verwaltung an Ihrem Projekt mitarbeitet, um dieses erfolgreich zu starten.
 
-Weitere Inforationen zu Bare-Metal-Servern finden Sie unter [Informationen zu Bare-Metal-Servern](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers). 
+Weitere Inforationen zu Bare-Metal-Servern finden Sie unter [Informationen zu Bare-Metal-Servern](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers). 
 
 ## Betriebssysteme
 
@@ -63,7 +63,7 @@ Weitere Informationen zu NAS in einer {{site.data.keyword.cloud_notm}}-Umgebung 
 
 ## Bereitstellung und Management
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} sind über das Kundenportal oder die API der {{site.data.keyword.cloud_notm}}-Infrastruktur verfügbar, sobald Sie Ihr {{site.data.keyword.cloud_notm}}-Kundenkonto erstellt haben. Die Server können über das Kundenportal, die API oder die Befehlszeilenschnittstelle (CLI) verwaltet werden. Weitere Informationen hierzu finden Sie unter [Informationen zu Bare-Metal-Servern](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers).
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} sind über das Kundenportal oder die API der {{site.data.keyword.cloud_notm}}-Infrastruktur verfügbar, sobald Sie Ihr {{site.data.keyword.cloud_notm}}-Kundenkonto erstellt haben. Die Server können über das Kundenportal, die API oder die Befehlszeilenschnittstelle (CLI) verwaltet werden. Weitere Informationen hierzu finden Sie unter [Informationen zu Bare-Metal-Servern](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers).
 
 ## Support
 

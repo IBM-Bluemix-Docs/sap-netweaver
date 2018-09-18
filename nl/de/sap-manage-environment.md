@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -31,7 +31,6 @@ Tabelle 1. Umgebung verwalten - Übersicht
 | 2 | [Umgebung sichern](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
 | 3 | [Gastbetriebssystem auf dem VMware ESX-Hypervisor installieren (optional)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
 | 4 | [SAP-Software und -Anwendungen herunterladen und installieren](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [Verbindung zum {{site.data.keyword.cloud_notm}}-Rechenzentrum testen](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
 
 ## Nächste Schritte
 

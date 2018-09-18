@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Einführung in IBM Cloud for SAP Applications - Lernprogramm
+# Lernprogramm zur Einführung
 {: #getting-started}
 
 Seit über 40 Jahren arbeiten {{site.data.keyword.IBM_notm}} und SAP in Bereichen wie Hardware, Software, Cloud, Services und Finanzen zusammen. Nun konzentriert sich diese Zusammenarbeit auf die Ausführung von SAP NetWeaver-basierten Anwendungen für {{site.data.keyword.baremetal_long}}. Das Angebot umfasst vier Speicheroptionen, Single-Socket (32 GB) und Dual-Sockets (128 GB, 256 GB und 512 GB), die alle in den mehr als 60 {{site.data.keyword.cloud_notm}}-Rechenzentren weltweit zur Verfügung stehen.

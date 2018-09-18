@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-23"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -19,10 +19,10 @@ lastupdated: "2018-01-23"
 # Systemlandschaft planen
 {: #planning-your-system-landscape}
 
-Eine SAP-*Landschaft* ist eine Gruppe von zwei oder mehreren SAP-*Systemen*, die normalerweise die Bereiche Entwicklung, Qualität und Tests und Produktion abdecken. Ein SAP-System besteht aus einer oder mehreren *SAP-Instanzen*, bei denen es sich um eine Gruppe von Prozessen handelt, die gleichzeitig gestartet und gestoppt werden. Weitere Informationen zu SAP-Landschaften finden Sie in der Veröffentlichung [*SAP Business Suite on IBM X6 Systems Reference Architecture*](https://lenovopress.com/redp5073.pdf).
+Eine SAP-*Landschaft* ist eine Gruppe von zwei oder mehreren SAP-*Systemen*, die normalerweise die Bereiche Entwicklung, Qualität und Tests und Produktion abdecken. Ein SAP-System besteht aus einer oder mehreren *SAP-Instanzen*, bei denen es sich um eine Gruppe von Prozessen handelt, die gleichzeitig gestartet und gestoppt werden. Weitere Informationen zu SAP-Landschaften finden Sie in der Veröffentlichung [*SAP Business Suite on IBM X6 Systems Reference Architecture*](https://lenovopress.com/redp5073.pdf). 
 {: shortdesc}
 
-Es gibt für alle SAP-Lösungen auf dem Markt mehrere mögliche Landschaftskonfigurationen, darunter beispielsweise Server (Größe)/Speicher (Größe). Zu den Lösungen zählen SAP NetWeaver-basierte Produkte, wie [SAP Business Suite](https://open.sap.com/courses/suitehana1), SAP Business Warehouse und alle entsprechenden SAP-Add-ons, die die Server im Angebot '{{site.data.keyword.cloud}} for SAP Applications' unterstützen. Weitere Lösungen, die nicht zu vergessen sind, sind alle SAP-Lösungen, die nicht auf SAP NetWeaver basieren, und Software anderer Anbieter, die mit SAP integriert werden kann. Wenden Sie sich an den [SAP-Support](https://support.sap.com/en/index.html), falls Sie solche Lösungen und Software in Ihrer IaaS-Landschaft in {{site.data.keyword.cloud}} bereitstellen möchten.
+Es gibt für alle SAP-Lösungen auf dem Markt mehrere mögliche Landschaftskonfigurationen, darunter beispielsweise Server (Größe)/Speicher (Größe). Diese Lösungen umfassen Produkte, die auf SAP NetWeaver basieren, wie z. B. [SAP Business Suite](https://open.sap.com/courses/suitehana1), SAP Business Warehouse und alle spezifischen SAP-Add-ons, die von den Servern in der von SAP zertifizierten {{site.data.keyword.cloud}}-Infrastruktur unterstützt werden. Weitere Lösungen, die nicht zu vergessen sind, sind alle SAP-Lösungen, die nicht auf SAP NetWeaver basieren, und Software anderer Anbieter, die mit SAP integriert werden kann. Wenden Sie sich an den [SAP-Support](https://support.sap.com/en/index.html), falls Sie solche Lösungen und Software in Ihrer IaaS-Landschaft in {{site.data.keyword.cloud}} bereitstellen möchten.
 
 Sie müssen beim Festlegen der Größe des Servers die Anwendungen, die Sie ausführen möchten, das potenzielle Wachstum und die Leistung berücksichtigen. Beachten Sie zudem Ihren Speicherbedarf für die Anwendungen. SAP-Systeme in einer Landschaft haben bestimmte Anforderungen an die Konnektivität, entweder untereinander oder zu externen Systemen. Weitere Informationen finden Sie im Abschnitt [Zu berücksichtigende Aspekte bei der Planung der SAP-Landschaft](/docs/infrastructure/sap-netweaver/sap-considerations.html).
 

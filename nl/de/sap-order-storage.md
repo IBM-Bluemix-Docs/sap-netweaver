@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -43,4 +43,4 @@ NAS-Speicher kann eine weitere wertvolle Erweiterung des lokalen Speichers für 
 
   [4. SAP-Software und -Anwendungen herunterladen und installieren](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Verbindung zum {{site.data.keyword.cloud_notm}}-Rechenzentrum testen](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
+  

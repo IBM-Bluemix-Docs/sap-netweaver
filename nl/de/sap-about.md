@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -17,22 +17,26 @@ lastupdated: "2018-01-25"
 {:table: .aria-labeledby="caption"}
 
 
-# Informationen zu IBM Cloud for SAP Applications
+# Informationen zu der von SAP zertifizierten IBM Cloud-Infrastruktur
 {: #about_ibmcloud_for_sap}
 
 Seit über 45 Jahren verbindet IBM und SAP in Bereichen wie Hardware, Software, Cloud, Services und Finanzen eine enge Partnerschaft, Teambildung und Zusammenarbeit. Die erste Zusammenarbeit reicht bis ins Jahr 1972 zurück und wächst seitdem stetig; mittlerweile verwenden hunderte von SAP-Kunden {{site.data.keyword.cloud}} als ihre IaaS-Lösung (IaaS, Infrastructure as a Service). {{site.data.keyword.IBM_notm}} optimiert dabei fortlaufend seine Cloudinfrastruktur-Produkte, die nun auch Unterstützung für die SAP NetWeaver-IT-Plattform bieten. 
 
 Aufgrund dieser Beziehung und weiterer {{site.data.keyword.cloud_notm}}-Funktionen wurde {{site.data.keyword.IBM_notm}} als einer von SAPs wichtigsten strategischen Anbietern von Cloudinfrastrukturservices für geschäftskritische SAP-Anwendungen ausgewählt. Unterstützung für die Produktsuite von SAP NetWeaver ist über die hoch skalierbare, offene und extrem sichere {{site.data.keyword.cloud_notm}}-Lösung verfügbar. Dank mehr als 60 {{site.data.keyword.IBM_notm}} Rechenzentren können sich im Rahmen dieser Partnerschaft SAP NetWeaver-basierte Anwendungen weltweit auf den wichtigsten Märkten etablieren.
 
-Das Angebot umfasst {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} mit vier Speicheroptionen:
+Das Angebot umfasst {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} mit acht Speicheroptionen:
   * Single-Socket 32 GB
+  * Single-Socket 64 GB
   * Dual-Socket 128 GB
   * Dual-Socket 256 GB
   * Dual-Socket 512 GB
+  * Dual-Socket 192 GB
+  * Dual-Socket 384 GB
+  * Dual-Socket 768 GB
 
-Alle vier Optionen sind für SAP NetWeaver zertifiziert und bieten eine skalierbare, sichere, offene, globale Cloudplattform für Unternehmen für eine schnelle Bereitstellung von SAP-Anwendungen.
+Alle acht Optionen sind für SAP NetWeaver zertifiziert und bieten eine skalierbare, sichere, offene, globale Cloudplattform für Unternehmen für eine schnelle Bereitstellung von SAP-Anwendungen.
 
-Sie können die Server für Produktionsumgebungen, Nicht-Produktionsumgebungen oder PoC-Umgebungen (PoC, Proof of Concept) verwenden. Alle ABAP-basierten und Java-basierten SAP NetWeaver Application Server-Produkte werden für {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} unterstützt. Für alle anderen Softwarekomponenten, SAP-Produkte, die nicht auf SAP NetWeaver basieren, oder Produkte anderer Anbieter wenden Sie sich an den [SAP-Support](https://support.sap.com/home.html), wenn die Produkte im Rahmen der IaaS-Angebote unterstützt werden.
+Sie können die Server für Produktionsumgebungen, Nicht-Produktionsumgebungen oder POC-Umgebungen (POC, Proof of Concept) verwenden. Alle ABAP-basierten und Java-basierten SAP NetWeaver Application Server-Produkte werden für {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} unterstützt. Für alle anderen Softwarekomponenten, SAP-Produkte, die nicht auf SAP NetWeaver basieren, oder Produkte anderer Anbieter wenden Sie sich an den [SAP-Support](https://support.sap.com/home.html), wenn die Produkte im Rahmen der IaaS-Angebote unterstützt werden.
 
 ## Angebotsmodell '{{site.data.keyword.cloud_notm}} for SAP NetWeaver'
 {: #offer_model}
@@ -40,11 +44,15 @@ Sie können die Server für Produktionsumgebungen, Nicht-Produktionsumgebungen o
 Das Angebot '{{site.data.keyword.cloud_notm}} for SAP Applications' ist ideal für nahezu alle SAP NetWeaver-Anwendungsfallszenarios für {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} über das {{site.data.keyword.cloud_notm}}-Netz.
 
 Das Angebot umfasst die folgenden Server, Betriebssysteme und Datenbanken:
-  * {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} ist in vier Größen mit der entsprechenden Software für die einzelnen Server verfügbar.
+  * {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} ist in acht Größen mit der entsprechenden Software für die einzelnen Server verfügbar.
       * 4 Cores mit 32 GB RAM
+      * 4 Cores mit 64 GB RAM
       * 24 Cores mit 128 GB RAM
       * 24 Cores mit 256 GB RAM
       * 28 Cores mit 512 GB RAM
+      * 36 Cores mit 192 GB RAM
+      * 36 Cores mit 384 GB RAM
+      * 36 Cores mit 768 GB RAM
       
   * Betriebssystem oder Hypervisor
       * VMware vSphere ESXi 6.0 oder 6.5 auf dem Server
@@ -58,7 +66,7 @@ Das Angebot umfasst die folgenden Server, Betriebssysteme und Datenbanken:
       
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}-Instanzen, die mit VMware ESXi bereitgestellt werden, können die aufgeführten Versionen von RHEL und Windows, die referenzierten Datenbanken und die SAP NetWeaver-basierten Softwareprodukte ausführen. Auf den Servern können keine anderen Betriebssysteme oder SAP-Produkte, die nicht auf SAP NetWeaver basieren, ausgeführt werden.
 
-Informationen zur Bereitstellung von SAP HANA finden Sie unter [SAP HANA for {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/doc/infrastructure/sap-hana/hana-index.html#getting-started). Für zukünftige Versionen von {{site.data.keyword.cloud_notm}} for SAP Applications ist die Unterstützung für weitere Datenbanken, Hochverfügbarkeit und Disaster-Recovery geplant.
+Informationen zur Bereitstellung von SAP HANA finden Sie unter [SAP HANA for {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started). Für zukünftige Versionen von {{site.data.keyword.cloud_notm}} for SAP Applications ist die Unterstützung für weitere Datenbanken, Hochverfügbarkeit und Disaster-Recovery geplant.
 
 In der [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630) finden Sie die speziellen Anforderungen an Datenbanken, Betriebssystem und SAP NetWeaver für {{site.data.keyword.cloud_notm}}. Für den Zugriff auf SAP PAM ist eine S-User-ID von SAP erforderlich.
 

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -41,23 +41,28 @@ Obwohl diese Dimensionierungsmethode als konservativ angesehen werden kann, soll
 ## {{site.data.keyword.cloud_notm}}-Bare-Metal-Server auswählen
 {: #choose_server}
 
-Nachdem Sie Ihre SAP-Anwendungen festgelegt haben und die SAPS-Zahlen mithilfe des SAP Quick Sizer oder basierend auf Ihrer aktuellen Umgebung berechnet wurden, können Sie nun einen Server aus den angebotenen Modellen auswählen. Tabelle 1 enthält die SAPS-Zahlen für die {{site.data.keyword.baremetal_short}}, die für SAP NetWeaver zertifiziert sind. Die Zertifizierungsdokumente finden Sie unter [SAP Standard Application Benchmarks![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]](https://go.sap.com/solution/benchmark.html){: new_window}. 
+Nachdem Sie Ihre SAP-Anwendungen festgelegt haben und die SAPS-Zahlen mithilfe des SAP Quick Sizer oder basierend auf Ihrer aktuellen Umgebung berechnet wurden, können Sie nun einen Server aus den angebotenen Modellen auswählen. Tabelle 1 enthält die SAPS-Zahlen für die {{site.data.keyword.baremetal_short}}, die für SAP NetWeaver zertifiziert sind. Die Zertifizierungsdokumente finden Sie unter [SAP Standard Application Benchmarks![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]](https://www.sap.com/about/benchmark.html){: new_window}. 
 
-Alle in Tabelle 1 aufgeführten unterstützten Servertypen entsprechen den von SAP zertifizierten Servern mit dem publizierten Namen und werden im [SAP-Hinweis 2414097![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} verifiziert; für eine vollständige Liste klicken Sie auf [hier![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window}. Beachten Sie, dass bei publizierten Namen Änderungen vorbehalten sind.
+Alle in Tabelle 1 aufgeführten unterstützten Servertypen entsprechen den von SAP zertifizierten Servern mit dem publizierten Namen und werden im [SAP-Hinweis 2414097![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} verifiziert; für eine vollständige Liste klicken Sie auf [hier![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: new_window}. Beachten Sie, dass bei publizierten Namen Änderungen vorbehalten sind.
 
-Tabelle 1. Fpr SAP NetWeaver zertifizierte {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 
+Tabelle 1. Fpr SAP NetWeaver zertifizierte {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}
 
-| Servertyp | Zertifizierungsdokument | SAPS | RAM |
-| --- | --- | --- | --- |
-| BI.S1.NW32 | Cert16048 | 10.980 | 32 GB |
-| BI.S1.NW128 | Cert16063 | 54.130 | 128 GB |
-| BI.S1.NW256 | Cert17005 | 55.020 | 256 GB |
-| BI.S1.NW512 | Cert17027 | 65.520 | 512 GB |
+| Servertyp | SAPS | RAM |
+| --- | --- | --- |
+| BI.S1.NW32 | 10980 | 32 GB |
+| BI.S1.NW128 | 54130 | 128 GB |
+| BI.S1.NW256 | 55020 | 256 GB |
+| BI.S2.NW512 | 65520 | 512 GB |
+| BI.S3.NW32 | 11970 | 32 GB |
+| BI.S3.NW64 | 12750 | 64 GB |
+| BI.S3.NW192 | 78850 | 192 GB |
+| BI.S3.NW384 | 79430 | 384 GB |
+| BI.S3.SW768 | 79630 | 768 GB |
 
 ## Migration eines vorhandenen SAP-Systems 
 {: #migrating}
 
-Wenn Sie ein vorhandenes SAP-System von einer beliebigen Quelle auf Ihre {{site.data.keyword.cloud_notm}}-Umgebung migrieren möchten, können Sie die SAPS-Zahlen anhand der SAPS-Zahlen der aktuellen Umgebung ermitteln. Verwenden Sie die Informationen zu Ihrer aktuellen Auslastung (CPU-Auslastung und belegter RAM) und rufen Sie die SAPS-Entsprechungen für die CPU aus den [SAP SD-Benchmarkergebnissen![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://go.sap.com/solution/benchmark.html){: new_window} ab.
+Wenn Sie ein vorhandenes SAP-System von einer beliebigen Quelle auf Ihre {{site.data.keyword.cloud_notm}}-Umgebung migrieren möchten, können Sie die SAPS-Zahlen anhand der SAPS-Zahlen der aktuellen Umgebung ermitteln. Verwenden Sie die Informationen zu Ihrer aktuellen Auslastung (CPU-Auslastung und belegter RAM) und rufen Sie die SAPS-Entsprechungen für die CPU aus den [SAP SD-Benchmarkergebnissen![Symbol für externen Link]](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.sap.com/about/benchmark.html){: new_window} ab.
 
 ## Nächste Schritte
 
