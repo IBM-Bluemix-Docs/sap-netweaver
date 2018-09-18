@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -30,7 +30,7 @@ Le opzioni influenzano la tua scelta del server. Potresti voler distribuire il t
 ## Configurazione dell'archiviazione
 {: #storage_config}
 
-La Tabella 1 è una configurazione dell'archiviazione di esempio per un server da 256 GB con 50.000 [SAPS](docs/infrastructure/sap-netweaver/sap-size-server.html), 1,5 TB a 6.000 IOPS per un sistema centrale con SAP, con un database {{site.data.keyword.Db2_on_Cloud_long}} con[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) o [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) esterna (4 IOPS/GB). Il calcolo per l'IOPS è
+La Tabella 1 è una configurazione dell'archiviazione di esempio per un server da 256 GB con 50.000 [SAPS](/docs/infrastructure/sap-netweaver/sap-size-server.html), 1,5 TB a 6.000 IOPS per un sistema centrale con SAP, con un database {{site.data.keyword.Db2_on_Cloud_long}} con[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) o [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) esterna (4 IOPS/GB). Il calcolo per l'IOPS è
 
   * 6.000 IOPS/1.500 GG = 4 IOPS/GB necessari per l'archiviazione esterna. Il presupposto sono 3.000 GB per il backup a 2 IOPS/GB (prestazioni medie).
   

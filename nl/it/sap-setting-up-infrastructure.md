@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2010-03-19"
+lastupdated: "2010-08-10"
 
 
 ---
@@ -24,10 +24,10 @@ La seguente sezione contiene le indicazioni per configurare i tuoi {{site.data.k
 ## Ordinazione del tuo server
 {: order-server}
 
-Per ordinare il tuo {{site.data.keyword.baremetal_short}}, attieniti alla seguente procedura. Ulteriori informazioni sono disponibili nel documento relativo alla [configurazione del tuo server bare metal](https://console.bluemix.net/docs/bare-metal/configuring.html#configuring-your-bare-metal-server).
+Per ordinare il tuo {{site.data.keyword.baremetal_short}}, attieniti alla seguente procedura. Ulteriori informazioni sono disponibili in [Creazione di un server bare metal personalizzato](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#building-a-custom-bare-metal-server).
 
 1. Accedi al [Portale del cliente dell'infrastruttura {{site.data.keyword.cloud_notm}}](https://control.softlayer.com) utilizzando le tue credenziali univoche.
-2. Fai clic sull'icona **Devices** nella pagina Account Summary.
+2. Fai clic su **Account** > **Place an Order** nella pagina Account Summary.
 3. Fai clic sul link **Monthly** sotto {{site.data.keyword.baremetal_short}} nella pagina Devices. Viene visualizzata la casella di dialogo Server List.
 4. I server con certificazione SAP sono in cima all'elenco. Fai clic sul collegamento ipertestuale sotto **STARTING PRICE PER MONTH** per selezionare il server appropriato e andare alla pagina Configure/Order. 
 
@@ -35,20 +35,20 @@ Per ordinare il tuo {{site.data.keyword.baremetal_short}}, attieniti alla seguen
    
 5. Immetti il numero di server che stai ordinando nel campo **Quality** e seleziona il tuo **Data Center**.
 6. **Server**, **RAM** e la tua opzione di archiviazione privata sono impostati su valori predefiniti in base alla tua selezione del server e non possono essere modificati. {{site.data.keyword.IBM_notm}} {{site.data.keyword.blockstorageshort}} per {{site.data.keyword.cloud_notm}} o {{site.data.keyword.filestorage_full_notm}} e NAS (Network Attached Storage) vengono ordinati dopo che hai ordinato il tuo server.
-7. Seleziona il tuo sistema operativo (**Operating System**) da Red Hat o Microsoft e seleziona lo specifico sistema operativo o hypervisor VMware per il tuo server.
+7. Seleziona il tuo sistema operativo (**Operating System**) da Microsoft, Red Hat o SUSE e seleziona il sistema operativo specifico, oppure l'hypervisor VMWare per il tuo server. **Nota**: se stai utilizzando la modalità BYOL (bring your own license) per il tuo sistema operativo, seleziona **Other** > **No Operating System**. Per ulteriori informazioni, vedi [BYOL (Bring your own license)](#byol).
 
 ## Selezione delle tue opzioni server
 {: #select_options}
 
 Nel passo successivo, selezionerai il tipo e il numero di dischi che vuoi aggiungere alla tua configurazione. Puoi anche selezionare delle opzioni differenti per i gruppi di archiviazione RAID (Redundant Array of Independent) e i layout di partizionamento sui gruppi di archiviazione RAID. Per ulteriori informazioni, consulta [About RAID](https://console.bluemix.net/docs/bare-metal/what-raid.html#about-raid) oppure il [supporto di {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support).
 
-1. In **SAP Certified Servers**, effettua la tua selezione in base a come intendi utilizzare il tuo server. I dettagli relativi a ciascuna opzione sono disponibili in [Configurazione dei tuoi server bare metal](https://console.bluemix.net/docs/bare-metal/configuring.html#setting-up-your-bare-metal-servers). Per ulteriori informazioni, puoi anche consultare il [Design Decision Tool](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool) (scorri in basso fino allo strumento) oppure il [supporto di {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support).
+1. In **SAP Certified Servers**, effettua la tua selezione in base a come intendi utilizzare il tuo server. Per ulteriori informazioni, consulta il [Design Decision Tool](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool) (scorri in basso fino allo strumento) oppure il [supporto di {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support).
 2. Fai clic sul pulsante **Add to order** in fondo alla pagina.
 
 ## Impostazione delle configurazioni di sistema avanzate
 {: #adv_config}
 
-1. Attieniti alle linee guida di [Configurazione di sistema avanzata](https://console.bluemix.net/docs/bare-metal/configuring.html#advanced-system-configuration) per un aiuto con i valori nella finestra **Advanced System Configuration**.
+1. Attieniti alle linee guida di [Configurazione di sistema avanzata](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#advanced-server-configuration-options) per un aiuto con i valori nella finestra **Advanced System Configuration**.
 
 I nomi SAP devono essere formati da un massimo di 13 caratteri alfanumerici. Consulta le [note SAP 611361](https://launchpad.support.sap.com/#/611361) e [129997](https://launchpad.support.sap.com/#/129997) per ulteriori dettagli sui nomi host SAP. 
 
@@ -68,6 +68,11 @@ Gli indirizzi interni non appariranno nel DNS (domain name system). Poiché si d
 3. Fai clic sul pulsante **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero di ordine. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine.
 
 Una email di conferma con l'oggetto Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ viene inviata all'indirizzo email nel tuo profilo. Questa email segnala che il tuo server è stato approvato ed è in fase di distribuzione. Dopo che è il server è stato distribuito, ti viene inviato un altro avviso che ti informa che il server è disponibile e che può essere gestito tramite il [Porta del cliente dell'infrastruttura {{site.data.keyword.cloud_notm}}](https://control.softlayer.com).
+
+## BYOL (bring your own license)
+{: #byol}
+
+Quando hai una tua licenza del sistema operativo, la installi nel tuo {{site.data.keyword.baremetal_short}} in base alle istruzioni del fornitore. Per ulteriori informazioni, vedi [The no OS option](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-).
 
 ## Passi successivi
 

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-05"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -30,6 +30,7 @@ Esamina la documentazione pertinente per un aiuto nel determinare gli eventuali 
   * [Guida di riferimento rapido SAP NetWeaver - Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)
   * [Guida di riferimento SAP NetWeaver - Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)
   * [SAP HANA su {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)
+  * [{{site.data.keyword.cloud_notm}} SAP Reference Architecture](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)
   * Documentazione di terze parti
   
 ## Passi successivi

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -31,7 +31,6 @@ Tabella 1. Panoramica della gestione del tuo ambiente
 | 2 | [Protezione del tuo ambiente](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
 | 3 | [Installazione del sistema operativo guest sull'hypervisor VMware ESX (facoltativo)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
 | 4 | [Download e installazione di software e applicazioni SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [Esecuzione di test della connettività al tuo data center {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
 
 ## Passi successivi
 

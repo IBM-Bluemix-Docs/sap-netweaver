@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2018-01-25"
 # Provisioning del tuo ambiente SAP NetWeaver
 {: #provision_environment}
 
-La Tabella 1 contiene la procedura per eseguire il provisioning della tua infrastruttura {{site.data.keyword.cloud}} for SAP Applications. 
+La Tabella 1 contiene la procedura per eseguire il provisioning del tuo {{site.data.keyword.cloud}} SAP-Certified Infrastructure. 
 
 Tabella 1. Panoramica del provisioning
 
