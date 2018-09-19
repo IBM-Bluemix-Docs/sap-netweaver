@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ lastupdated: "2018-01-25"
 
 如果您的專案需要虛擬化層級，則 SAP NetWeaver 供應項目包括了訂購隨 VMware ESXi 部署的 {{site.data.keyword.baremetal_short}} 的選項。ESX 實例將完全在您的控制之下，就像部署在您的資料中心內一樣。系統有完整配置的網路功能（任何進一步配置，例如儲存空間，將由您決定）。強烈建議您有對 ESX 管理瞭解的人員，以順利啟動您的專案。
 
-如需裸機伺服器的相關資訊，請參閱[關於裸機伺服器](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers)。 
+如需裸機伺服器的相關資訊，請參閱[關於裸機伺服器](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers)。 
 
 ## 作業系統
 
@@ -43,7 +43,7 @@ lastupdated: "2018-01-25"
 
 ## 網路連線功能
 
-設定 {{site.data.keyword.cloud_notm}} 帳戶時，會自動授與「虛擬專用網路 (VPN)」與「{{site.data.keyword.cloud_notm}} 虛擬雲端網路」的連線功能。依預設，您的伺服器有公用及專用 IP 位址。如果要讓伺服器成為專用伺服器，則可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需 {{site.data.keyword.cloud_notm}} VPN 的相關資訊，請參閱[開始使用虛擬專用網路 (VPN)](https://console.bluemix.net/docs/infrastructure/iaas-vpn/getting-started.html#getting-started-with-virtual-private-networking-vpn-)。
+設定 {{site.data.keyword.cloud_notm}} 帳戶時，會自動授與 Virtual Private Network (VPN) 與 {{site.data.keyword.cloud_notm}} Virtual Cloud Network 的連線功能。依預設，您的伺服器有公用及專用 IP 位址。如果要讓伺服器成為專用伺服器，則可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需 {{site.data.keyword.cloud_notm}} VPN 的相關資訊，請參閱[開始使用 Virtual Private Networking (VPN)](https://console.bluemix.net/docs/infrastructure/iaas-vpn/getting-started.html#getting-started-with-virtual-private-networking-vpn-)。
 
 ## 儲存空間
 {: #storage}
@@ -63,7 +63,7 @@ NAS 及 FTP 儲存空間為每月計費，並有各種不同的儲存空間大�
 
 ## 部署及管理
 
-當您建立 {{site.data.keyword.cloud_notm}} 客戶帳號之後，可透過 {{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站或 API 來部署 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。伺服器可以透過客戶入口網站、API 或指令行介面 (CLI) 來管理。如需相關資訊，請參考[關於裸機伺服器](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers)。
+當您建立 {{site.data.keyword.cloud_notm}} 客戶帳號之後，可透過 {{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站或 API 來部署 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。伺服器可以透過客戶入口網站、API 或指令行介面 (CLI) 來管理。如需相關資訊，請參考[關於裸機伺服器](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers)。
 
 ## 支援
 

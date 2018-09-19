@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -30,20 +30,20 @@ lastupdated: "2018-03-19"
 ## 儲存空間配置
 {: #storage_config}
 
-「表 1」是一個儲存空間配置範例，它是一個 256 GB 伺服器，具有 50,000 [SAPS](docs/infrastructure/sap-netweaver/sap-size-server.html)，對於具有 SAP 的中央系統，它有 1.5 TB 及 6,000 IOPS，並使用具有外部 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage)或 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) (4 IOPS/GB) 的 {{site.data.keyword.Db2_on_Cloud_long}} 資料庫）。IOPS 的計算方式如下
+表 1 是一個儲存空間配置範例，它是一個 256 GB 伺服器，具有 50,000 [SAPS](/docs/infrastructure/sap-netweaver/sap-size-server.html)，對於具有 SAP 的中央系統，它有 1.5 TB 及 6,000 IOPS，並使用具有外部 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage)或 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) (4 IOPS/GB) 的 {{site.data.keyword.Db2_on_Cloud_long}} 資料庫）。IOPS 的計算方式如下
 
   * 6,000 IOPS/1,500 GG = 4 IOPS/GB，為外部儲存空間所需。已假設有 3,000 GB 來進行 2 IOPS/GB（中間效能）的備份。
   
 表 1. 根據 IOPS 計算的儲存空間佈置範例
 
-| 檔案系統    | 磁區數目     | 儲存空間類型 | IOPS/GB | GB | # IOPS |
+|檔案系統    |磁區數目     |儲存空間類型 |IOPS/GB |GB |# IOPS |
 | --- | --- | --- | --- | --- | --- |
-| / | 1 | 內部     | N/A | 150 GB | N/A |
-| /boot | 1 | 內部     | N/A | 0.25 GB | N/A |
-| swap | 1 | 內部     | N/A | 256 GB | N/A |
-| /db2（包括日誌）      | 1 | 內部     | N/A | 250 GB | N/A |
-| sapdata | 1 | 外部     | 4 IOPS/GB | 1,500 GB | 6,000 IOPS |
-| 備份/日誌及備份       | 1 | 外部     | 2 IOPS/GB | 3,000 GB | 6,000 IOPS |
+| / |1 |內部     |N/A |150 GB |N/A |
+|/boot |1 |內部     |N/A |0.25 GB |N/A |
+|swap |1 |內部     |N/A |256 GB |N/A |
+|/db2（包括日誌）      |1 |內部     |N/A |250 GB |N/A |
+|sapdata |1 |外部     |4 IOPS/GB |1,500 GB |6,000 IOPS |
+|備份/日誌及備份       |1 |外部     |2 IOPS/GB |3,000 GB |6,000 IOPS |
 
 ## 高可用性配置
 {: #ha_config}

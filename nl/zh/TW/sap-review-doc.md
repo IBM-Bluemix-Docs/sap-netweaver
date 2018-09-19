@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-03-05"
+lastupdated: "2018-05-30"
 
 
 ---
@@ -30,6 +30,7 @@ lastupdated: "2018-03-05"
   * [SAP NetWeaver 快速參照 - Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)
   * [SAP NetWeaver 快速參照 - Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)
   * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)
+  * [{{site.data.keyword.cloud_notm}} SAP 參照架構](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)
   * 協力廠商說明文件
   
 ## 後續步驟

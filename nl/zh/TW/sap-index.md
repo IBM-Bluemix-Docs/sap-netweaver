@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 開始使用 IBM Cloud for SAP Applications 指導教學
+# 入門指導教學
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} 與 SAP 在包括硬體、軟體、雲端、服務及融資的多個領域中已分工合作超過 40 年。它們現在分工合作，在 {{site.data.keyword.baremetal_long}} 上執行 SAP NetWeaver 型的應用程式。此供應項目的特性為四個記憶體選項、單插槽 (32 GB) 及雙插槽（128 GB、256 GB 及 512 GB），這些在全球超過 60 個以上的 {{site.data.keyword.cloud_notm}} 資料中心全部都有提供。
@@ -24,7 +24,7 @@ lastupdated: "2018-02-27"
 
 此內容為您提供基礎架構佈建及安裝的建議，以便在 {{site.data.keyword.cloud_notm}} 上支援 SAP NetWeaver 型的 SAP 產品及訂閱。它並不取代任何 SAP NetWeaver 實作相關文件。其目的是協助您進行基礎架構規劃及佈建，以便您開始進行 SAP 安裝。SAP 安裝（包括資料庫安裝）與內部部署環境的安裝並沒有不同。會提供建議及準則，以協助您在 {{site.data.keyword.cloud_notm}} 環境中操作 SAP 系統。
 
-「表 1」包含的步驟可協助您快速建置 {{site.data.keyword.cloud_notm}} 基礎架構。
+表 1 包含的步驟可協助您快速建置 {{site.data.keyword.cloud_notm}} 基礎架構。
 <table>
    <CAPTION>表 1. 快速入門步驟</CAPTION>
    <THEAD>

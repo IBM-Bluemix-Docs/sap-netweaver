@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -41,23 +41,28 @@ lastupdated: "2018-03-19"
 ## 選擇 {{site.data.keyword.cloud_notm}} 裸機伺服器
 {: #choose_server}
 
-在決定了 SAP 應用程式且 SAPS 數目已透過 SAP Quick Sizer 或基於您的現行架構計算之後，您可以開始從提供的模型中選擇伺服器。「表 1」包含已針對 SAP NetWeaver 認證之 {{site.data.keyword.baremetal_short}} 的 SAPS 數目。請參閱 ![外部鏈結圖示](https://go.sap.com/solution/benchmark.html "外部鏈結圖示"){: new_window} 以取得憑證文件。 
+在決定了 SAP 應用程式且 SAPS 數目已透過 SAP Quick Sizer 或基於您的現行架構計算之後，您可以開始從提供的模型中選擇伺服器。表 1 包含已針對 SAP NetWeaver 認證之 {{site.data.keyword.baremetal_short}} 的 SAPS 數目。請參閱 [SAP Standard Application Benchmarks ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.sap.com/about/benchmark.html){: new_window} 以取得憑證文件。 
 
-「表 1」列出的所有受支援伺服器類型符合 SAP 認證的那些伺服器類型，其具有已發佈名稱，而且已在 [SAP Note 2414097 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中驗證過；請按一下[這裡 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window} 以取得完整清單。請注意，已發佈的名稱可能會變更。
+表 1 列出的所有受支援伺服器類型符合 SAP 認證的那些伺服器類型，其具有已發佈名稱，而且已在 [SAP Note 2414097 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中驗證過；請按一下[這裡 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: new_window} 以取得完整清單。請注意，已發佈的名稱可能會變更。
 
 表 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 已針對 SAP NetWeaver 認證
 
-| 伺服器類型  | 憑證文件               | SAPS | RAM |
-| --- | --- | --- | --- |
-| BI.S1.NW32 | Cert16048 | 10,980 | 32 GB |
-| BI.S1.NW128 | Cert16063 | 54,130 | 128 GB |
-| BI.S1.NW256 | Cert17005 | 55,020 | 256 GB |
-| BI.S1.NW512 | Cert17027 | 65,520 | 512 GB |
+|伺服器類型  |SAPS |RAM |
+| --- | --- | --- |
+|BI.S1.NW32 | 10980 |32 GB |
+|BI.S1.NW128 | 54130 |128 GB |
+|BI.S1.NW256 | 55020 |256 GB |
+| BI.S2.NW512 | 65520 |512 GB |
+| BI.S3.NW32 | 11970 |32 GB |
+| BI.S3.NW64 | 12750 | 64 GB |
+| BI.S3.NW192 | 78850 | 192 GB |
+| BI.S3.NW384 | 79430 | 384 GB |
+| BI.S3.SW768 | 79630 | 768 GB |
 
 ## 移轉現有的 SAP 系統 
 {: #migrating}
 
-如果您打算將現有的 SAP 系統從任何來源移轉至 {{site.data.keyword.cloud_notm}} 環境，則可以從現行環境的 SAPS 數目來決定 SAPS 數目。請使用現行工作負載的資訊（使用的 CPU 及 RAM），並從 [SAP Standard Application Benchmarks ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://go.sap.com/solution/benchmark.html){: new_window} 中取得 CPU 的 SAPS 對等項目。
+如果您打算將現有的 SAP 系統從任何來源移轉至 {{site.data.keyword.cloud_notm}} 環境，則可以從現行環境的 SAPS 數目來決定 SAPS 數目。請使用現行工作負載的資訊（使用的 CPU 及 RAM），並從 [SAP Standard Application Benchmarks ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.sap.com/about/benchmark.html){: new_window} 中取得 CPU 的 SAPS 對等項目。
 
 ## 後續步驟
 

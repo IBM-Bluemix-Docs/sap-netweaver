@@ -30,7 +30,7 @@ lastupdated: "2018-03-19"
 
 視您的使用案例而定，概念驗證 (PoC) 架構或許可接受公用 IP，因為外部 IP 可能更容易使用。即使已安裝及預先配置基本防火牆，仍存在潛在的安全風險。如果您要使用公用介面，務必在訂購伺服器時，為**公用頻寬**選擇足夠高的值。此值決定在一個月期間內，可以透過介面傳送的總資料量。雖然正常網路通訊、SAP 圖形使用者介面 (GUI) 或 SAP 遠端函數呼叫 (RFC) 資料流量，它們每天的總和可能只有幾百萬位元組，但大量資料上傳很容易超過每月 1,000 GB。您必須瞭解依數量級至少傳送的資料量是多少，或者切換至第二個選項。
 
-第二個選項透過 {{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站存取 {{site.data.keyword.cloud_notm}} 虛擬專用網路 (VPN)，或將安全裝置部署到您的架構。安全裝置是為防火牆、網址轉換、VPN 存取及其他網路功能而提供。此外，這些安全裝置可以提供較高的頻寬，這可協助您將大量資料傳送至 {{site.data.keyword.cloud_notm}} 資料中心。在決定了架構的佈置及 SAP 應用程式層需要的連線功能之後，建議您的網路部門要與 [{{site.data.keyword.cloud_notm}} 支援中心](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support)進行會談。
+第二個選項透過 {{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站存取 {{site.data.keyword.cloud_notm}} Virtual Private Network (VPN)，或將安全裝置部署到您的架構。安全裝置是為防火牆、網址轉換、VPN 存取及其他網路功能而提供。此外，這些安全裝置可以提供較高的頻寬，這可協助您將大量資料傳送至 {{site.data.keyword.cloud_notm}} 資料中心。在決定了架構的佈置及 SAP 應用程式層需要的連線功能之後，建議您的網路部門要與 [{{site.data.keyword.cloud_notm}} 支援中心](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support)進行會談。
 
 ### VLAN
 {: #vlans}
