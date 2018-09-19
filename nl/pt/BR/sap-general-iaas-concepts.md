@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ Como a customização é limitada em servidores bare metal, são obtidos tempos 
 
 Se o seu projeto requerer uma camada de virtualização, a oferta SAP NetWeaver incluirá a opção para pedir {{site.data.keyword.baremetal_short}} que são implementados com o VMware ESXi. A instância ESX está sob seu controle total, já que é implementado em seu data center. O sistema é totalmente configurado em relação à rede (qualquer configuração adicional, como armazenamento, cabe a você). É altamente recomendável ter uma pessoa que conheça administração ESX na equipe para iniciar seu projeto com sucesso.
 
-Veja [Sobre servidores bare metal](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers) para obter mais informações sobre servidores bare metal. 
+Veja [Sobre servidores bare metal](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers) para obter mais informações sobre servidores bare metal. 
 
 ## Sistemas operacionais
 
@@ -50,7 +50,7 @@ A conectividade da Rede privada virtual (VPN) com o {{site.data.keyword.cloud_no
 
 O armazenamento local é fornecido com os {{site.data.keyword.baremetal_short}} e usa a LAN virtual (VLAN) de rede privada do {{site.data.keyword.cloud_notm}} para ajudar a fornecer segurança de nível corporativo sem obstrução do acesso de administrador. É ideal para aplicativos de armazenamento intensivo com altas necessidades de E/S, como um S.O., e banco de dados e software de aplicativo. O espaço em disco do servidor SAP NetWeaver depende de como o servidor está configurado. Entre em contato com o [Suporte do {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/support/index.html#getting-customer-support) para obter as opções de extensão se o armazenamento local no servidor for insuficiente para sua carga de trabalho.
 
-Há dois tipos de armazenamento para o {{site.data.keyword.cloud_notm}} - de bloco e de arquivo - dos quais escolher para executar backups e restaurações para o SAP NetWeaver. Ambos os tipos usam operações de entrada/saída por segundo (IOPS), que são usadas para determinar as necessidades de armazenamento. Os IOPS são medidos com base no tamanho de bloco de 16 KB com uma combinação de leitura/gravação de 50/50. Para obter o IOPS máximo em um volume, recursos de rede adequados precisam estar em vigor. Outras considerações incluem o uso de rede privada fora do armazenamento e do lado do host e ajustes específicos do aplicativo (por exemplo, pilhas de IP e profundidades de fila). Veja [Introdução ao armazenamento de bloco](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) e [Introdução ao armazenamento de arquivo](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) para obter mais informações sobre camadas de armazenamento e desempenho.
+Há dois tipos de armazenamento para o {{site.data.keyword.cloud_notm}} - de bloco e de arquivo - dos quais escolher para executar backups e restaurações para o SAP NetWeaver. Ambos os tipos usam operações de entrada/saída por segundo (IOPS), que são usadas para determinar as necessidades de armazenamento. Os IOPS são medidos com base no tamanho de bloco de 16 KB com uma combinação de leitura/gravação de 50/50. Para obter o IOPS máximo em um volume, recursos de rede adequados precisam estar em vigor. Outras considerações incluem o uso de rede privada fora do armazenamento e do lado do host e ajustes específicos do aplicativo (por exemplo, pilhas de IP e profundidades de fila). Veja [Introdução ao Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) e [Introdução ao File Storage](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) para obter mais informações sobre camadas de armazenamento e desempenho.
 
 O {{site.data.keyword.cloud_notm}} também oferecerá Network Attached Storage (NAS) se você estiver procurando uma solução de backup rápida e de baixo custo para seus dispositivos. O NAS é compatível com
   * S.O. Red Hat Enterprise Linux (RHEL) for SAP Business Applications 6.X
@@ -63,7 +63,7 @@ Mais informações sobre o NAS em um ambiente do {{site.data.keyword.cloud_notm}
 
 ## Implementação e gerenciamento
 
-Os {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} são implementados por meio do portal do cliente de infraestrutura do {{site.data.keyword.cloud_notm}} ou da API depois de criar sua conta do cliente do {{site.data.keyword.cloud_notm}}. Os servidores podem ser gerenciados por meio do portal do cliente, da API ou da interface de linha de comandos (CLI). Mais informações podem ser localizadas em [Sobre servidores bare metal](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers).
+Os {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} são implementados por meio do portal do cliente de infraestrutura do {{site.data.keyword.cloud_notm}} ou da API depois de criar sua conta do cliente do {{site.data.keyword.cloud_notm}}. Os servidores podem ser gerenciados por meio do portal do cliente, da API ou da interface de linha de comandos (CLI). Mais informações podem ser localizadas em [Sobre servidores bare metal](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers).
 
 ## Versão
 

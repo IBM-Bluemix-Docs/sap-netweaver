@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -24,7 +24,7 @@ O {{site.data.keyword.cloud}} oferece firewalls que podem fornecer aos {{site.da
 
 Os firewalls ajudam a evitar que tráfego indesejado atinja o servidor, ajudam a reduzir a vulnerabilidade de ataque e permitem que o recurso do servidor seja dedicado ao seu uso. É possível escolher um firewall compartilhado, um firewall dedicado ou o [dispositivo de segurança Fortinet FortiGate](https://console.bluemix.net/docs/infrastructure/fortigate-10g/getting-started.html#getting-started-with-fortigate-security-appliance-10gbs) com base nos requisitos específicos de desempenho e recurso.
 
-Para obter mais informações sobre os firewalls oferecidos pelo {{site.data.keyword.cloud_notm}}, veja [Introdução ao Firewall de hardware (Compartilhado)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-shared/getting-started.html#getting-started) e para obter orientação sobre como configurar um firewall dedicado, veja [Introdução ao Firewall de hardware (dedicado)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/getting-started.html#getting-started).
+Para obter mais informações sobre os firewalls oferecidos pelo {{site.data.keyword.cloud_notm}}, veja [Introdução ao Firewall de hardware (Compartilhado)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-shared/getting-started.html#getting-started) e para obter orientação sobre como configurar um firewall dedicado, veja [Introdução ao Hardware Firewall (Dedicated)](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/getting-started.html#getting-started).
 
 ## Próximas etapas
 
@@ -32,4 +32,4 @@ Para obter mais informações sobre os firewalls oferecidos pelo {{site.data.key
 
   [4. Fazendo download e instalando o software e aplicativos SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. Testando a conectividade com seu data center do {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)
+  

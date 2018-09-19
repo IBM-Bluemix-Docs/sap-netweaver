@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Introdução ao tutorial do IBM Cloud for SAP Applications 
+# Tutorial de Introdução
 {: #getting-started}
 
 A {{site.data.keyword.IBM_notm}} e a SAP têm colaborado há mais de 40 anos em diversas áreas, incluindo hardware, software, nuvem, serviços e finanças. Elas estão agora colaborando para executar aplicativos baseados no SAP NetWeaver nos {{site.data.keyword.baremetal_long}}. A oferta apresenta quatro opções de memória, soquete único (32 GB) e soquetes duais (128 GB, 256 GB e 512 GB), todas disponíveis nos mais de 60 data centers do {{site.data.keyword.cloud_notm}} no mundo todo.
