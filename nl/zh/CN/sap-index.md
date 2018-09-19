@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-08-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-27"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# IBM Cloud for SAP Applications 教程入门
+# 入门教程
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} 和 SAP 已在包括硬件、软件、云、服务和融资在内的多个领域开展协作超过 40 年。目前双方正在协作以在 {{site.data.keyword.baremetal_long}} 上运行基于 SAP NetWeaver 的应用程序。该产品提供四个内存选项，即单插槽 (32 GB) 和双插槽（128 GB、256 GB 和 512 GB），这些选项在全球 60 多个 {{site.data.keyword.cloud_notm}} 数据中心内都可用。

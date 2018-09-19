@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -35,7 +35,7 @@ lastupdated: "2018-01-25"
 
 如果项目需要虚拟化层，那么 SAP NetWeaver 产品包含订购随 VMware ESXi 部署的 {{site.data.keyword.baremetal_short}} 的选项。您对 ESX 实例具有完全控制权，因为它部署在您的数据中心内。系统已完全配置了联网相关信息（由您决定是否进行诸如存储器之类的任何进一步配置）。强烈建议您配备了解 ESX 管理的人员，以成功启动项目。
 
-请参阅[关于裸机服务器](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers)，以获取有关裸机服务器的更多信息。 
+请参阅[关于裸机服务器](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers)，以获取有关裸机服务器的更多信息。 
 
 ## 操作系统
 
@@ -63,7 +63,7 @@ NAS 和 FTP 存储器按月计费，并且提供各种存储器大小。您可�
 
 ## 部署和管理
 
-创建 {{site.data.keyword.cloud_notm}} 客户帐户后，通过 {{site.data.keyword.cloud_notm}} 基础架构客户门户网站或 API 部署 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。可通过客户门户网站、API 或命令行界面 (CLI) 来管理服务器。可以在[有关裸机服务器](https://console.bluemix.net/docs/bare-metal/index.html#about-bare-metal-servers)下找到更多信息。
+创建 {{site.data.keyword.cloud_notm}} 客户帐户后，通过 {{site.data.keyword.cloud_notm}} 基础架构客户门户网站或 API 部署 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}。可通过客户门户网站、API 或命令行界面 (CLI) 来管理服务器。可以在[有关裸机服务器](https://console.bluemix.net/docs/bare-metal/about.html#about-bare-metal-servers)下找到更多信息。
 
 ## 支持
 

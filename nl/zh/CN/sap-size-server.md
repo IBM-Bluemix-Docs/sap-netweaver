@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -34,30 +34,35 @@ lastupdated: "2018-03-19"
   
 [SAP Quick Sizer](https://service.sap.com/quicksizer) 是 SAP 为所有合作伙伴和客户提供的基于 Web 的工具。大小设置信息直接输入到该工具中，然后该工具会对基于 SAP NetWeaver 的应用程序和非基于 SAP NetWeaver 的应用程序设置大小。需要 SAP S 用户标识。
   
-此工具计算工作负载（以 SAPS 为单位），并对其进行调整以适应适当的处理器使用。因此，如果需要每小时 4,800 个 SAP SD 基准事务的工作负载，该工具会将其计算为 200 SAPS。如果允许 33% 的目标处理器负载，请调整此值以找到能够在负载为 100% 时达到 600 SAPS（相当于负载为 33% 时达到 200 SAPS）的处理器。有关 SAPS 计算的更多详细信息，请参阅 [*SAP Business Suite on IBM X6 Systems 参考体系结构*![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://lenovopress.com/redp5073.pdf){: new_window}。
+此工具计算工作负载（以 SAPS 为单位），并对其进行调整以适应适当的处理器使用。因此，如果需要每小时 4,800 个 SAP SD 基准事务的工作负载，该工具会将其计算为 200 SAPS。如果允许 33% 的目标处理器负载，请调整此值以找到能够在负载为 100% 时达到 600 SAPS（相当于负载为 33% 时达到 200 SAPS）的处理器。有关 SAPS 计算的更多详细信息，请参阅 [*SAP Business Suite on IBM X6 Systems 参考体系结构*![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://lenovopress.com/redp5073.pdf){: new_window}.
 
 虽然该大小设置方法可能被视为较保守，但值得注意的是，服务器的 SAPS 数量是基于仅运行特定 SAP SD 工作负载的高度调优 SAP 系统来计算的。根据 SAP 应用程序的类型以及系统中的任何定制配置或定制编码，结果可能有所不同。此外，项目的需求（例如概念证明 (PoC) 或有关性能和响应时间的需求）可能也不同。
 
 ## 选择 {{site.data.keyword.cloud_notm}} 裸机服务器
 {: #choose_server}
 
-确定 SAP 应用程序并通过 SAP Quick Sizer 或基于当前格局计算 SAPS 数量后，即可从提供的模型中选择服务器。表 1 包含已针对 SAP NetWeaver 认证的 {{site.data.keyword.baremetal_short}} SAPS 数量。请参阅 [SAP 标准应用程序基准 ![外部链接图](../../icons/launch-glyph.svg "外部链接图标")]](https://go.sap.com/solution/benchmark.html){: new_window} ，以获取认证文档。 
+确定 SAP 应用程序并通过 SAP Quick Sizer 或基于当前格局计算 SAPS 数量后，即可从提供的模型中选择服务器。表 1 包含已针对 SAP NetWeaver 认证的 {{site.data.keyword.baremetal_short}} SAPS 数量。请参阅 [SAP 标准应用程序基准 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")]](https://www.sap.com/about/benchmark.html){: new_window}，以获取认证文档。 
 
-表 1 中列出的所有受支持服务器类型都与 SAP 认证的带有已发布名称的服务器类型相匹配，并在 [SAP Note 2414097![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中进行了验证；单击[此处![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://sap.com/solution/benchmark/appbm/cloud.html){: new_window} 可获取完整列表。请注意，已发布的名称可能会更改。
+表 1 中列出的所有受支持服务器类型都与 SAP 认证的带有已发布名称的服务器类型相匹配，并在 [SAP Note 2414097![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中进行了验证；单击[此处![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/power-systems.html){: new_window}可获取完整列表。请注意，已发布的名称可能会更改。
 
 表 1. 针对 SAP NetWeaver 进行认证的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}
 
-| 服务器类型| 证书文档| SAPS | RAM |
-| --- | --- | --- | --- |
-| BI.S1.NW32 | Cert16048 | 10,980 | 32 GB |
-| BI.S1.NW128 | Cert16063 | 54,130 | 128 GB |
-| BI.S1.NW256 | Cert17005 | 55,020 | 256 GB |
-| BI.S1.NW512 | Cert17027 | 65,520 | 512 GB |
+|服务器类型|SAPS |RAM |
+| --- | --- | --- |
+|BI.S1.NW32 | 10980 |32 GB |
+|BI.S1.NW128 | 54130 |128 GB |
+|BI.S1.NW256 | 55020 |256 GB |
+| BI.S2.NW512 | 65520 |512 GB |
+| BI.S3.NW32 | 11970 |32 GB |
+| BI.S3.NW64 | 12750 | 64 GB |
+| BI.S3.NW192 | 78850 | 192 GB |
+| BI.S3.NW384 | 79430 | 384 GB |
+| BI.S3.SW768 | 79630 | 768 GB |
 
 ## 迁移现有 SAP 系统 
 {: #migrating}
 
-如果计划将现有 SAP 系统从任何源迁移到 {{site.data.keyword.cloud_notm}} 环境，那么可以从当前环境的 SAPS 数量确定 SAPS 数量。使用有关当前工作负载（CPU 数和已用 RAM）的信息，并从 [SAP SD 基准结果![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://go.sap.com/solution/benchmark.html){: new_window} 获取适用于您的 CPU 的 SAPS 等效值。
+如果计划将现有 SAP 系统从任何源迁移到 {{site.data.keyword.cloud_notm}} 环境，那么可以从当前环境的 SAPS 数量确定 SAPS 数量。使用有关当前工作负载（CPU 数和已用 RAM）的信息，并从 [SAP SD 基准结果![外部链接图标]](../../icons/launch-glyph.svg "外部链接图标")](https://www.sap.com/about/benchmark.html){: new_window}.
 
 ## 后续步骤
 

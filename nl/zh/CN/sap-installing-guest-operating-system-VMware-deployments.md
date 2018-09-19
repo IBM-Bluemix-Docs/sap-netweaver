@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,4 +25,3 @@ lastupdated: "2018-01-25"
 
   [4. 下载和安装 SAP 软件和应用程序](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html)
   
-  [5. 测试与 {{site.data.keyword.cloud_notm}} 数据中心的连接](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html)

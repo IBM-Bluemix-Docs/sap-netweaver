@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-24"
+lastupdated: "2018-06-28"
 
 
 ---
@@ -25,13 +25,12 @@ lastupdated: "2018-01-24"
 
 表 1. 管理环境概述
 
-| 步骤| 详细信息|
+|步骤|详细信息|
 | --- | --- |
-| 1 | [订购存储器](/docs/infrastructure/sap-netweaver/sap-order-storage.html)|
-| 2 | [保护环境](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-| 3 | [在 ESX 管理程序上安装访客操作系统（可选）](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-| 4 | [下载和安装 SAP 软件和应用程序](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
-| 5 | [测试与 {{site.data.keyword.cloud_notm}} 数据中心的连接](/docs/infrastructure/sap-netweaver/sap-testing-connectivity.html) |
+|1 |[订购存储器](/docs/infrastructure/sap-netweaver/sap-order-storage.html)|
+|2 |[保护环境](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
+|3 |[在 ESX 管理程序上安装访客操作系统（可选）](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
+|4 |[下载和安装 SAP 软件和应用程序](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
 
 ## 后续步骤
 

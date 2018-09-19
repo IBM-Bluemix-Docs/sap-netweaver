@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-05-18"
 
 
 ---
@@ -30,20 +30,20 @@ lastupdated: "2018-03-19"
 ## 存储器配置
 {: #storage_config}
 
-表 1 是样本存储器配置，用于 [SAPS](docs/infrastructure/sap-netweaver/sap-size-server.html) 为 50,000 的 256 GB 服务器，针对具有 SAP 的中央系统，大小为 1.5 TB 且 IOPS 为 6,000，同时使用带有外部 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) 或 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) 的 {{site.data.keyword.Db2_on_Cloud_long}} 数据库 (4 IOPS/GB)。IOPS 的计算方法为
+表 1 是样本存储器配置，用于 [SAPS](/docs/infrastructure/sap-netweaver/sap-size-server.html) 为 50,000 的 256 GB 服务器，针对具有 SAP 的中央系统，大小为 1.5 TB 且 IOPS 为 6,000，同时使用带有外部 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.blockstorageshort}}](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) 或 [{{site.data.keyword.cloud_notm}}{{site.data.keyword.filestorage_short}}](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) 的 {{site.data.keyword.Db2_on_Cloud_long}} 数据库 (4 IOPS/GB)。IOPS 的计算方法为
 
   * 6,000 IOPS/1,500 GB = 4 IOPS/GB（外部存储器所需）。假定将 3,000 GB 用于备份，速度为 2 IOPS/GB（中等性能）。
   
 表 1. 基于 IOPS 计算的样本存储器布局
 
-| 文件系统 | 卷数| 存储器类型| IOPS/GB | GB | IOPS 数|
+|文件系统 |卷数|存储器类型|IOPS/GB |GB |IOPS 数|
 | --- | --- | --- | --- | --- | --- |
-| / | 1 | 内部| 不适用| 150 GB | 不适用|
-| /boot | 1 | 内部| 不适用| 0.25 GB | 不适用|
-| swap | 1 | 内部| 不适用| 256 GB | 不适用|
-| /db2（包括日志）| 1 | 内部| 不适用| 250 GB | 不适用|
-| sapdata | 1 | 外部| 4 IOPS/GB | 1,500 GB | 6,000 IOPS |
-| backup/日志和备份| 1 | 外部| 2 IOPS/GB | 3,000 GB | 6,000 IOPS |
+| / |1 |内部|不适用|150 GB |不适用|
+|/boot |1 |内部|不适用|0.25 GB |不适用|
+|swap |1 |内部|不适用|256 GB |不适用|
+|/db2（包括日志）|1 |内部|不适用|250 GB |不适用|
+|sapdata |1 |外部|4 IOPS/GB |1,500 GB |6,000 IOPS |
+|backup/日志和备份|1 |外部|2 IOPS/GB |3,000 GB |6,000 IOPS |
 
 ## 高可用性配置
 {: #ha_config}
