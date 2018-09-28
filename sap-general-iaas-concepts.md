@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-09-28"
 
 
 ---
@@ -51,15 +51,6 @@ Virtual private network (VPN) connectivity to the {{site.data.keyword.cloud_notm
 Local storage is provided with your {{site.data.keyword.baremetal_short}} and uses the {{site.data.keyword.cloud_notm}} private network virtual LAN (VLAN) to help provide enterprise-grade security while not obstructing administrator access. It is ideal for storage-intensive applications with high I/O needs, such as an OS, and database and application software. SAP NetWeaver server disk space depends on how your server is configured. Contact [{{site.data.keyword.cloud_notm}} Support](https://console.bluemix.net/docs/support/index.html#getting-customer-support) for extension options if the local storage on your server is insufficient for your workload.
 
 There are two types of storage for {{site.data.keyword.cloud_notm}}-block and file-from which to choose to perform backups and restores for SAP NetWeaver. Both types use input/output operations per second (IOPS), which are used to determine storage needs. IOPS are measured based on 16 KB block size with a 50/50 read/write mix. To achieve maximum IOPS on a volume, adequate network resources need to be in place. Other considerations include private network usage outside of storage and host side, and application-specific tunings (for example, IP stacks and queue depths). See [Getting started with Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage) and [Getting started with File Storage](https://console.bluemix.net/docs/infrastructure/FileStorage/index.html#getting-started-with-file-storage) for more information on storage tiers and performance.
-
-{{site.data.keyword.cloud_notm}} also offers Network Attached Storage (NAS) if you are looking to for a quick, cost-efficient, backup solution for your devices. NAS is compatible with
-  * Red Hat Enterprise Linux (RHEL) for SAP Business Applications 6.X OS
-  * File Transfer Protocol (FTP) with both Parallels Plesk Panel and cPanel@WHM
-  * Microsoft Windows Server through standard Windows procedures using the Common Internet File System (CIFS) Protocol
-  
-NAS and FTP storage are billed monthly and are available in various storage sizes. You can primarily interact with your NAS and FTP storage within the command line or terminal with the OS, or through point-and-click interactions on the panels within the {{site.data.keyword.cloud_notm}} infrastructure customer portal.
-
-More information on NAS in an {{site.data.keyword.cloud_notm}} environment can be found under [Getting started with NAS](https://console.bluemix.net/docs/infrastructure/network-attached-storage/index.html#getting-started-with-nas).
 
 ## Deployment and management
 
