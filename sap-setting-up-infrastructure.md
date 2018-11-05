@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2010-08-10"
+lastupdated: "2018-11-05"
 
 
 ---
@@ -31,7 +31,19 @@ Use the following steps to order your {{site.data.keyword.baremetal_short}}. Add
 3. Click the **Monthly** link under {{site.data.keyword.baremetal_short}} on the Devices page. The Server List dialog box appears.
 4. The SAP Certified Servers are at the top of the list. Click on the hyperlink under **STARTING PRICE PER MONTH** to select the appropriate server and be taken to the Configure/Order page. 
 
-   SAP NetWeaver-certified servers are identified with **-NW** under CPU Model. The Red Hat-based server configuration is described in step 7 and step 1 under Selecting your server options; the steps are the same for Microsoft Windows. Note that for VMWare, your choice is limited, however, the steps are the same.
+   SAP NetWeaver-certified servers are identified with **-NW** under CPU Model. The Red Hat-based server configuration is described in step 7 and step 1 under [Selecting your server options](#select_options); the steps are the same for Microsoft Windows. Note that for VMWare, your choice is limited, however, the steps are the same.
+   
+   Here's an example on how to decipher the SAP NetWeaver server names.
+
+| Server name | Naming convention component | What it means |
+| --- | --- | --- |
+| BI.S3.NW768 | BI | Bluemix Interface |
+| | S3 | Series 2 (processor generation) |
+| | | S1 is Ivy Bridge/Haswell |
+| | | S2 is Broadwell |
+| | | S3 is Skylake/Kaby Lake |
+| | NW | NetWeaver-certified server |
+| | 768 | Amount of RAM |
    
 5. Enter the number of servers you are ordering in the **Quality** field and select your **Data Center**.
 6. **Server**, **RAM**, and your private storage option default based on your server selection and cannot be changed. {{site.data.keyword.IBM_notm}} {{site.data.keyword.blockstorageshort}} for {{site.data.keyword.cloud_notm}} or {{site.data.keyword.filestorage_full_notm}}, and Network Attached Storage (NAS) are ordered after you have ordered your server.
