@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-03-02"
+lastupdated: "2018-11-12"
 
 
 ---
@@ -24,9 +24,9 @@ Your business and functional requirements determine the SAP solutions to run on 
 
   * How do you intend to use the applications? Is the intended use for development and testing, or production?
   * Do you use an {{site.data.keyword.cloud_notm}} Virtual Private Network service-SSL or Point-to-Point Tunneling Protocol (PPTP)?
-  
+
 ## Next Steps
 
   [4. Sizing the server](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
+
   [5. Determining your configuration](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
