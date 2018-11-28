@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-11-28"
 
 
 ---
@@ -57,7 +57,7 @@ Table 1. {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 
 | BI.S3.NW64 | 12750 | 64 GB |
 | BI.S3.NW192 | 78850 | 192 GB |
 | BI.S3.NW384 | 79430 | 384 GB |
-| BI.S3.SW768 | 79630 | 768 GB |
+| BI.S3.NW768 | 79630 | 768 GB |
 
 ## Migrating an existing SAP system
 {: #migrating}
