@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-12-21"
 
 
 ---
@@ -57,12 +57,15 @@ The offering consists of the following servers, operating systems (OS), and data
   * Operating system or hypervisor
       * VMware vSphere ESXi 6.0 or 6.5 on your server
       * Red Hat Enterprise Linux (RHEL) for SAP Business Applications 6.X OS [SAP Business Warehouse (SAP BW) is supported in production on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}]
+      * SUSE Linux Enterprise Server (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
       * Microsoft Windows Server (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
 
   * The databases that are offered are
       * Microsoft SQL Server for Windows (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
       * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Linux (see [SAP Note 101809 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
       * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Windows (see [SAP Note 101809-DB6 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
+      * SAP MaxDB (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
+      * SAP HANA
 
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers cannot run any other operating systems or non-SAP NetWeaver-based SAP products.
 

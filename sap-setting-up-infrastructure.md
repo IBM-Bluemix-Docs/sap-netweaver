@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-12-21"
 
 
 ---
@@ -54,7 +54,7 @@ Use the following steps to order your {{site.data.keyword.baremetal_short}}. Add
 
 In the next step, you will select the type and number of disks you want to add to your configuration. You can also select different options for Redundant Array of Independent Disks (RAID) storage groups and partitioning layouts on-top of the RAID storage groups. See [About RAID](/docs/bare-metal/what-raid.html#about-raid) or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support/howtogetsupport.html#getting-customer-support) for more information.
 
-1. Under **SAP Certified Servers**, make your selection based on how you plan to use your server. Consult the [Design Decision Tool ![External link icon](../icons/launch-glyph.svg "External link icon")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool){: new_window} (scroll down to the tool) or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support/howtogetsupport.html#getting-customer-support) for more information
+1. Under **SAP Certified Servers**, make your selection based on how you plan to use your server. Consult the [Design Decision Tool ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool){: new_window} (scroll down to the tool) or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support/howtogetsupport.html#getting-customer-support) for more information
 2. Click the **Add to order** button at the bottom of the page.
 
 ## Setting up Advanced System Configurations
@@ -62,7 +62,7 @@ In the next step, you will select the type and number of disks you want to add t
 
 1. Follow the [Advanced System Configuration](/docs/bare-metal/baremetal-provision.html#advanced-server-configuration-options) guidelines for help with the values in the **Advanced System Configuration** window.
 
-SAP Hostnames must consist of a maximum of 13 alpha-numeric characters. See [SAP Notes 611361 ![External link icon](../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/611361){: new_window} and [129997 ![External link icon](../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/129997){: new_window} for more SAP Hostname details.
+SAP Hostnames must consist of a maximum of 13 alpha-numeric characters. See [SAP Notes 611361 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/611361){: new_window} and [129997 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/129997){: new_window} for more SAP Hostname details.
 
 If you have decided on a public/private setup for your environment and plan to
   * Install multiple SAP systems that need to communicate with each other *or*
@@ -79,7 +79,7 @@ The internal addresses will not appear in the domain name system (DNS). Since in
 2. Scroll down to Create Account: Enter Billing and enter the **Payment Type, Name, Card** and **Expiration** (date) for the credit card to be used for billing.
 3. Click the **Submit Order** button. You are redirected to a screen with your order number. You can print the screen, because it is also your order receipt.
 
-A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ is be sent to the email address in your profile. This email is notice that your server has been approved and is in the process of being deployed. After it is deployed, another notice is sent notifying you that the server is available and can be managed through the [{{site.data.keyword.cloud_notm}} infrastructure customer portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com){: new_window}.
+A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ is be sent to the email address in your profile. This email is notice that your server has been approved and is in the process of being deployed. After it is deployed, another notice is sent notifying you that the server is available and can be managed through the [{{site.data.keyword.cloud_notm}} infrastructure customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com){: new_window}.
 
 ## Bring your own license
 {: #byol}

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-12-21"
 
 
 ---
@@ -25,7 +25,7 @@ Review relevant documentation to help you determine any prerequisites for the SA
 
   * Applicable [installation guides ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/software/installations.html){: new_window}; requires an [SAP S-user ID](/docs/infrastructure/sap-netweaver/sap-index.html#getting-started).
   * SAP release notes, which can be found in the application help of the relevant SAP product documentation on the [SAP Help Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://help.sap.com/){: new_window}; requires an SAP S-user ID.
-  * [SAP Product Availability Matrix (PAM) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://apps.support.sap.com/sap/support/pam){: new_window}; requires an SAP S-user ID.
+  * [SAP Product Availability Matrix (PAM) ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://apps.support.sap.com/sap/support/pam){: new_window}; requires an SAP S-user ID.
   * [SAP Notes ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/notes); requires an SAP S-user ID.
   * [SAP NetWeaver Quick Reference - Microsoft Windows](/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)
   * [SAP NetWeaver Quick Reference - Red Hat Enterprise Linux](/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)

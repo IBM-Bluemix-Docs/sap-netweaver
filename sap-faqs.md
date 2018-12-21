@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-12-21"
 
 
 ---
@@ -43,4 +43,4 @@ The only supported high availability architecture is the scaling of application 
 ## Can I download the SAP distribution software directly from {{site.data.keyword.cloud_notm}}?
 {: faq}
 
-Currently, we are not offering a direct link with the [SAP Service Marketplace ![External link icon](../icons/launch-glyph.svg "External link icon")](https://websmp201.sap-ag.de/){: new_window}. Therefore, you should download the distribution DVDs just like you do today for an on-premise deployment.
+Currently, we are not offering a direct link with the [SAP Service Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://websmp201.sap-ag.de/){: new_window}. Therefore, you should download the distribution DVDs just like you do today for an on-premise deployment.
