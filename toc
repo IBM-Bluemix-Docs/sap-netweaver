@@ -36,6 +36,7 @@ SAP NetWeaver on IBM Cloud
         sap-installing-guest-operating-system-VMware-deployments.md
         sap-installing-SAP-landscape.md
         sap-ha.md
+        sap-content-server.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}

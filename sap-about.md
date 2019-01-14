@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-21"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-10"
 
 
 ---
@@ -15,6 +15,8 @@ lastupdated: "2018-12-21"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:note: .note}
+{:faq: .faq}
 
 
 # About IBM Cloud SAP-Certified Infrastructure
@@ -67,7 +69,10 @@ The offering consists of the following servers, operating systems (OS), and data
       * SAP MaxDB (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
       * SAP HANA
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers cannot run any other operating systems or non-SAP NetWeaver-based SAP products.
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers can run other operating systems or non-SAP NetWeaver-based products, such as SAP liveCache, SAP Content Server, SAP Business One on Microsft SQL, and SAP BusinessObjects as listed in [SAP Note 2279688 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2279688){: new_window}.
+
+If you're running SAP NetWeaver-based SAP products on your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, you must also run one of the supported operating systems and databases.
+{: note}
 
 See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana/hana-index.html#getting-started) for information on deploying SAP HANA. Future versions of the {{site.data.keyword.cloud_notm}} for SAP Applications offering includes support for other databases', high availability, and disaster recovery.
 
