@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2019-01-30"
 
 
 ---
@@ -34,7 +34,7 @@ Table 1. Planning process overview
 | --- | --- |
 | 1 | [Get SAP and {{site.data.keyword.cloud_notm}} credentials and create accounts](/docs/infrastructure/sap-netweaver/sap-get-credentials.html) |
 | 2 | [Review any relevant SAP and {{site.data.keyword.cloud_notm}} documentation](/docs/infrastructure/sap-netweaver/sap-review-doc.html) |
-| 3 | [Determine your SAP NetWeaver applications](sap-determine-apps.html) |
+| 3 | [Determine your SAP NetWeaver applications](/docs/infrastructure/sap-netweaver/sap-determine-apps.html) |
 | 4 | [Size the server](/docs/infrastructure/sap-netweaver/sap-size-server.html) |
 | 5 | [Determine your configuration](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html) |
 
