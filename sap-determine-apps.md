@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-12"
+  years: 2018, 2019
+lastupdated: "2019-02-11"
 
 
 ---
@@ -27,6 +27,6 @@ Your business and functional requirements determine the SAP solutions to run on 
 
 ## Next Steps
 
-  [4. Sizing the server](/docs/infrastructure/sap-netweaver/sap-size-server.html)
+  [4. Sizing the server](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
 
-  [5. Determining your configuration](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [5. Determining your configuration](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018, 2019
-lastupdated: "2019-01-10"
+lastupdated: "2019-02-11"
 
 
 ---
@@ -74,7 +74,7 @@ The offering consists of the following servers, operating systems (OS), and data
 If you're running SAP NetWeaver-based SAP products on your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, you must also run one of the supported operating systems and databases.
 {: note}
 
-See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana/hana-index.html#getting-started) for information on deploying SAP HANA. Future versions of the {{site.data.keyword.cloud_notm}} for SAP Applications offering includes support for other databases', high availability, and disaster recovery.
+See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started) for information on deploying SAP HANA. Future versions of the {{site.data.keyword.cloud_notm}} for SAP Applications offering includes support for other databases', high availability, and disaster recovery.
 
 Consult the [SAP Product Availability Matrix (PAM) ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window} for specific databases, operating system, and SAP NetWeaver requirements for {{site.data.keyword.cloud_notm}}. An SAP S-user ID is required to access SAP PAM.
 

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-01-31"
 
 
 ---
@@ -18,6 +18,6 @@ lastupdated: "2018-11-14"
 
 # Support
 
-[{{site.data.keyword.cloud}} Customer Support](/docs/get-support/howtogetsupport.html#getting-customer-support) handles any support questions and issues that may arise using a variety of outlets, including chat, phone, and ticket-based support. It's offered at no cost to all {{site.data.keyword.cloud_notm}} customers and covers most tickets that are placed each day.
+[{{site.data.keyword.cloud}} Customer Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) handles any support questions and issues that may arise using a variety of outlets, including chat, phone, and ticket-based support. It's offered at no cost to all {{site.data.keyword.cloud_notm}} customers and covers most tickets that are placed each day.
 
-Visit [Getting Customer Support](/docs/get-support/howtogetsupport.html#getting-customer-support) for more information.
+Visit [Getting Customer Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.

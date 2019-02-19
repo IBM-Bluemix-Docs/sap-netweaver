@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver" audience="compute" href="/docs/infrastructure/sap-netweaver/sap-index.html" path="infrastructure/sap-netweaver"}
+{: .toc subcollection="sap-netweaver" audience="compute" href="docs/infrastructure/sap-netweaver?topic=sap-netweaver-getting-started" path="infrastructure/sap-netweaver"}
 SAP NetWeaver on IBM Cloud
 
     {: .navgroup id="learn"}
@@ -40,14 +40,15 @@ SAP NetWeaver on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    
+
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    [Getting help and support](/docs/bare-metal?topic=bare-metal-gettinghelp#gettinghelp)
     sap-support.md
 
     {: .topicgroup}
     FAQs
         sap-faqs.md
-        
+
     {: .navgroup-end}

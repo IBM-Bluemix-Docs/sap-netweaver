@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-28"
+  years: 2018, 2019
+lastupdated: "2019-01-31"
 
 
 ---
@@ -66,4 +66,4 @@ If you are planning to migrate an existing SAP system from any source to your {{
 
 ## Next Steps
 
- [5. Determining your configuration](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+ [5. Determining your configuration](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

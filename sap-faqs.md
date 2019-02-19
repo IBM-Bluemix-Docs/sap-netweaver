@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-21"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-13"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2018-12-21"
 ## Do I need DB2 to run SAP NetWeaver on {{site.data.keyword.cloud_notm}}?
 {: faq}
 
-Check [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} regularly and also reference [SAP Product Availability Matrix ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://apps.support.sap.com/sap/support/pam){: new_window}. Be aware of the provided operating system in the SAP Note, because different sets of service packs are required by your database.
+Check [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} regularly and also reference [SAP Product Availability Matrix ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window}. Be aware of the provided operating system in the SAP Note, because different sets of service packs are required by your database.
 
 ## Why was {{site.data.keyword.Db2_on_Cloud_short}} chosen for certification for {{site.data.keyword.cloud_notm}}?
 {: faq}

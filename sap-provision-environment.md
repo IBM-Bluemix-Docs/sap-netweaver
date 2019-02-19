@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-13"
+  years: 2017, 2018. 2019
+lastupdated: "2019-01-31"
 
 
 ---
@@ -26,8 +26,8 @@ Table 1. Provisioning overview
 
 | Step | Details |
 | --- | --- |
-| 1 | [Requesting {{site.data.keyword.cloud_notm}} VPN connectivity](/docs/infrastructure/sap-netweaver/sap-requesting-setting-up-VPN.html) |
-| 2 | [Setting up your infrastructure](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html) |
+| 1 | [Requesting {{site.data.keyword.cloud_notm}} VPN connectivity](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-request_vpn_connect#request_vpn_connect) |
+| 2 | [Setting up your infrastructure](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure) |
 
 ## Next Steps
 
