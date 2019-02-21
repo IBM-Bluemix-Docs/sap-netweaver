@@ -3,9 +3,12 @@
 
 
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-02-04"
+  years: 2017, 2019
+lastupdated: "2019-02-20"
 
+keywords: SAP NetWeaver, IBM Cloud, SAP certified servers
+
+subcollection: sap-netweaver
 
 ---
 
@@ -48,10 +51,10 @@ Table 1 contains steps to help you get your {{site.data.keyword.cloud_notm}} inf
    </td>
    <tr>
    <td>2. Sign up for IBM Cloud</td>
-   <td>See <a href="https://console.test.cloud.ibm.com/docs/account?topic=account-signup#signup">Signing up for IBM Cloud</a> for the steps on how to set up your IBM Cloud account.</td>
+   <td>See <a href="https://cloud.ibm.com/docs/account/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> for the steps on how to set up your IBM Cloud account.</td>
  <tr>
    <td>3. Access the IBM Cloud infrastructure customer portal</td>
-   <td>The <a href="https://control.softlayer.com">IBM Cloud infrastructure customer portal</a> is your graphical gateway to all your infrastructure components-compute, connectivity, storage, network, and data centers. You need an <a href="https://console.test.cloud.ibm.com/docs/customer-portal?topic=customer-portal-getting-started#getting-started">IBMid and password</a> to access the customer portal.</td>
+   <td>The <a href="https://control.softlayer.com">IBM Cloud infrastructure customer portal</a> is your graphical gateway to all your infrastructure components-compute, connectivity, storage, network, and data centers. You need an <a href="https://console.bluemix.net/docs/customer-portal/getting-started.html#getting-started">IBMid and password</a> to access the customer portal.</td>
    <tr>
    <td>4. Plan your system landscape</td>
    <td>Use the information in <a href="sap-netweaver?topic=sap-netweaver-planning-your-system-landscape#planning-your-system-landscape">Planning your system landscape</a> to architect, size, and provision your IBM Cloud environment to support your SAP NetWeaver workload.</td>  
