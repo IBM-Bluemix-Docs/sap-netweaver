@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, high availability, highly available, HA, disaster recovery, DR, Microsft Windows Server Failover Clustering, WFSC, bring your own license, BYOL, single point of failure, SPOF, Link Aggregation Control Protocol, LACP, VLANs, SAP Certified, database, Linux Pacemaker
+
+subcollection: sap-netweaver
 
 ---
 
@@ -44,7 +45,7 @@ All the operating systems and distributions supported by {{site.data.keyword.clo
 * [SAP NetWeaver High Availability and Business Continuity in Virtual Environments with VMware and Hyper-V on Microsoft Windows ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.sap.com/documents/2015/07/508b62bc-5b7c-0010-82c7-eda71af511fa.html){: new_window} covers the virtualization aspects if you’re planning to implement HA on virtualized servers.
 
 For more high-availability products certified by SAP partners for high-availability scenarios, see [High Availability Partner Information ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://wiki.scn.sap.com/wiki/display/SI/High+Availability+Partner+Information){: new_window}.
-For non-SAP HANA databases, more information on HA fail-over, and DR configurations, is available in your database documentation.
+For non-HANA SAP databases, more information on HA fail-over, and DR configurations, is available in your database documentation.
 
 Note that shared access to Network File System (NFS)/Common Internet File System (CIFS) storage, or shared access to iSCSI-based logical unique number storage (LUNS), is usually required to support system failover. Local storage, combined with a replication method, is usually required to support a DR-like setup. As with on-premises installations, check the performance and latency requirements of the database product when planning your deployment.
 

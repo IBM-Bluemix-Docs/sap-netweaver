@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2019
-lastupdated: "2019-02-13"
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP Content Server, SAP Product Availability Matrix, PAM, SAP certified, database
+
+subcollection: sap-netweaver
 
 ---
 

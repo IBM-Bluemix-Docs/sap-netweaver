@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-02-13"
+  years: 2017, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, VLANs, hybrid, STMS, SAProuter, SAP Solution Manager, SAP certified, database
+
+subcollection: sap-netweaver
 
 ---
 

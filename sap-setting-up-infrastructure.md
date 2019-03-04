@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-02-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, deployment, BYOL, database
+
+subcollection: sap-netweaver
 
 ---
 
@@ -31,6 +32,9 @@ Use the following steps to order your {{site.data.keyword.baremetal_short}}. Add
 2. Click **Account** > **Place an Order** on the Account Summary page.
 3. Click the **Monthly** link under {{site.data.keyword.baremetal_short}} on the Devices page. The Server List dialog box appears; the SAP Certified Servers are at the top of the list.
 4. Click on the hyperlink under **STARTING PRICE PER MONTH** to select the appropriate server and be taken to the Configure/Order page.
+
+The BI.S3.NW32 (OS Options) server is also available for **Hourly** billing.
+{: note}
 
    SAP NetWeaver-certified servers are identified with **-NW** under CPU Model. The Red Hat-based server configuration is described in step 7 and step 1 under [Selecting your server options](#select_options); the steps are the same for Microsoft Windows. Note that for VMWare, your choice is limited, however, the steps are the same.
 

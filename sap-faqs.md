@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-02-13"
+  years: 2017, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.Db2_on_Cloud_short}}, FAQs, VLAN, application server, SAP Certified, high availability, highly available
+
+subcollection: sap-netweaver
 
 ---
 
