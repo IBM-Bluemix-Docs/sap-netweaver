@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-11"
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP ERP Central Component, ECC, SAP S/4HANA Business Suite, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 

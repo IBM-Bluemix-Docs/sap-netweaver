@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-01-31"
+  years: 2017, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, ESXI-based deployments, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 

@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018. 2019
-lastupdated: "2019-01-31"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP deployment
+
+subcollection: sap-netweaver
 
 ---
 
