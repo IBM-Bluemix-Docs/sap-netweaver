@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-03-18"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.baremetal_short}}, ABAP, application server, SAP Product Availability Matrix, PAM, SAP Certified, SAP Content Server, SAP liveCache
 
@@ -68,6 +68,7 @@ The offering consists of the following servers, operating systems (OS), and data
       * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Linux (see [SAP Note 101809 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
       * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Windows (see [SAP Note 101809-DB6 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
       * SAP MaxDB (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
+      * SAP ASE 16.0 (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for details)
       * SAP HANA
 
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers can run other operating systems or non-SAP NetWeaver-based products, such as SAP liveCache, SAP Content Server, SAP Business One on Microsft SQL, and SAP BusinessObjects as listed in [SAP Note 2279688 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2279688){: new_window}.
