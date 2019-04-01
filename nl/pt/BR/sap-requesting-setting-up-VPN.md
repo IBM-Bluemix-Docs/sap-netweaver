@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-01-24"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, virtual private network, VPN
+
+subcollection: sap-netweaver
 
 ---
 
@@ -19,10 +20,10 @@ lastupdated: "2018-01-24"
 # 1. Solicitando a conectividade do IBM Cloud VPN
 {: #request_vpn_connect}
 
-Trabalhe com o [Suporte do {{site.data.keyword.cloud}}](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support) para obter seu acesso ao {{site.data.keyword.cloud_notm}} Virtual Private Network (VPN) se planeja desativar a porta pública ou provisionar sua máquina como privada somente. Depois de ter criado seus usuários, será possível designar a eles acesso VPN à rede privada do {{site.data.keyword.cloud_notm}} se estiver usando uma das opções VPN de nível de produção.
+Trabalhe com o [{{site.data.keyword.cloud}} Suporte](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) para obter seu acesso à {{site.data.keyword.cloud_notm}}Rede privada virtual (VPN) se planejar desativar a porta pública ou provisionar sua máquina somente como privada. Depois de ter criado seus usuários, será possível designar a eles acesso VPN à rede privada do {{site.data.keyword.cloud_notm}} se estiver usando uma das opções VPN de nível de produção.
 
-Veja [Introdução ao Virtual Private Network](https://console.bluemix.net/docs/infrastructure/iaas-vpn/getting-started.html#getting-started-with-virtual-private-networking-vpn-) para obter as etapas sobre como configurar o acesso VPN.
+Veja [Introdução ao Virtual Private Network](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-) para obter as etapas sobre como configurar o acesso VPN.
 
 ## Próximas etapas
 
-  [2. Configurando sua infraestrutura](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html)
+  [2. Configurando sua infraestrutura](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure)

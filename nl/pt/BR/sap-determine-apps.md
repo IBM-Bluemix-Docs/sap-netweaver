@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-03-02"
+  years: 2018, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP ERP Central Component, ECC, SAP S/4HANA Business Suite, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 
@@ -24,9 +25,9 @@ Seus requisitos de negócios e funcionais determinam as soluções SAP a serem e
 
   * Como você pretende usar os aplicativos? O uso desejado é para desenvolvimento e teste ou para produção?
   * Você usa um serviço SSL {{site.data.keyword.cloud_notm}} Virtual Private Network ou um Point-to-Point Tunneling Protocol (PPTP)?
-  
+
 ## Próximas etapas
 
-  [4. Dimensionando o servidor](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
-  [5. Determinando sua configuração](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [4. Dimensionando o servidor](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. Determinando sua configuração](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)
