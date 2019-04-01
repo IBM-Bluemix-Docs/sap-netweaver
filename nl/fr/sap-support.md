@@ -1,12 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-19"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
 
+subcollection: sap-netweaver
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,6 +18,6 @@ lastupdated: "2018-03-19"
 
 # Support
 
-Le [support client {{site.data.keyword.cloud}}](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support) traite toutes les questions et tous les problèmes susceptibles de survenir en recourant à divers médias, tels que le support par messagerie instantanée, téléphone ou création de tickets. Le support est gratuite pour tous les clients {{site.data.keyword.cloud_notm}} et traite la plupart des tickets ouverts quotidiennement.
+Le [support client {{site.data.keyword.cloud}}](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) traite toutes les questions et tous les problèmes susceptibles de survenir au moyen de divers médias, tels que le support par messagerie instantanée, par téléphone ou la création de ticket. Le support est gratuit pour tous les clients {{site.data.keyword.cloud_notm}} et traite la plupart des tickets ouverts quotidiennement.
 
-Pour plus d'informations, voir [Comment obtenir l'aide dont j'ai besoin ?](https://console.bluemix.net/docs/get-support/howtogetsupport.html#getting-customer-support).
+Pour plus d'informations, voir [Comment obtenir l'aide dont j'ai besoin ?](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support).

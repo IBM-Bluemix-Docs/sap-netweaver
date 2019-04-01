@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-06-28"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
+
+subcollection: sap-netweaver
 
 ---
 
@@ -27,10 +28,10 @@ Tableau 1. Présentation de la gestion de votre environnement
 
 | Etape | Détails |
 | --- | --- |
-| 1 | [Commande de stockage](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
-| 2 | [Sécurisation de votre environnement](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-| 3 | [Installation d'un système d'exploitation invité sur l'hyperviseur VMware ESX (en option)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-| 4 | [Téléchargement et installation des logiciels et des applications SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
+| 1 | [Commande de stockage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+| 2 | [Sécurisation de votre environnement](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+| 3 | [Installation d'un système d'exploitation invité sur l'hyperviseur VMware ESX (en option)](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+| 4 | [Téléchargement et installation des logiciels et des applications SAP](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 
 ## Etapes suivantes
 
