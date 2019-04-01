@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-01-25"
+  years: 2017, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, credentials, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 
@@ -26,25 +27,25 @@ La seguente procedura spiega come ottenere le credenziali necessarie per SAP e {
 ## Credenziali ed account SAP per i nuovi utenti
 {: #sap_credentials}
 
-1. Configura un account sulla [home page di SAP](https://www.sap.com/) e attieniti alle istruzioni.
+1. Configura un account sulla [home page di SAP ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.sap.com/){: new_window} e attieniti alle istruzioni.
 
 ## Credenziali ed account {{site.data.keyword.cloud_notm}} per i nuovi utenti
 {: #ibm_credentials}
 
-1. Vai alla pagina di [introduzione a {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/get-started) e scorri in fondo alla pagina per il link **Sign up**.
+1. Vai a [Getting started with {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/get-started){: new_window} e fai clic su **Get started free**.
 
    Riceverai una mail dal supporto {{site.data.keyword.cloud_notm}} che contiene il tuo codice di verifica, da cui puoi creare il tuo ID di accesso e la tua password iniziali.
-   
-2. Configura il tuo [profilo](https://console.bluemix.net/docs/admin/profile.html#usersettings) per accedere come un nuovo utente.
 
-Puoi [creare altri account](https://console.bluemix.net/docs/customer-portal/getting-started.html#getting-started) e [creare nuovi utenti](https://console.bluemix.net/docs/customer-portal/getting-started.html#users-permissions) dopo che hai ricevuto le tue credenziali di accesso e disponi della connettività alla rete privata di {{site.data.keyword.cloud_notm}}. 
+2. Configura il tuo [profilo](/docs/account?topic=account-usersettings#profile-photo) per accedere come un nuovo utente.
+
+Puoi [creare altri account](/docs/customer-portal?topic=customer-portal-getting-started#getting-started) e [creare nuovi utenti](/docs/customer-portal?topic=customer-portal-getting-started#users-permissions) dopo che hai ricevuto le tue credenziali di accesso e disponi della connettività alla rete privata di {{site.data.keyword.cloud_notm}}.
 
 ## Passi successivi
 
-  [2. Esame dell'eventuale documentazione SAP e IBM Cloud pertinente](/docs/infrastructure/sap-netweaver/sap-review-doc.html)
-  
-  [3. Determinazione delle tue applicazioni SAP NetWeaver](/docs/infrastructure/sap-netweaver/sap-determine-apps.html)
-  
-  [4. Dimensionamento del server](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
-  [5. Determinazione della tua configurazione](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [2. Esame dell'eventuale documentazione SAP e IBM Cloud pertinente](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-review_doc#review_doc)
+
+  [3. Determinazione delle tue applicazioni SAP NetWeaver](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-3-determining-your-sap-netweaver-applications#3-determining-your-sap-netweaver-applications)
+
+  [4. Dimensionamento del server](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. Determinazione della tua configurazione](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

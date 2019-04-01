@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-06-28"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
+
+subcollection: sap-netweaver
 
 ---
 
@@ -27,10 +28,10 @@ Tabella 1. Panoramica della gestione del tuo ambiente
 
 | Passo | Dettagli |
 | --- | --- |
-| 1 | [Ordinazione dell'archiviazione](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
-| 2 | [Protezione del tuo ambiente](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-| 3 | [Installazione del sistema operativo guest sull'hypervisor VMware ESX (facoltativo)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-| 4 | [Download e installazione di software e applicazioni SAP](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
+| 1 | [Ordine dell'archiviazione](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+| 2 | [Protezione dell'ambiente](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+| 3 | [Installazione del sistema operativo guest sull'hypervisor VMware ESX (facoltativo)](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+| 4 | [Scaricamento e installazione delle applicazioni e del software SAP](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 
 ## Passi successivi
 
