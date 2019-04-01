@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-06-28"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
+
+subcollection: sap-netweaver
 
 ---
 
@@ -27,10 +28,10 @@ lastupdated: "2018-06-28"
 
 |步驟 |詳細資料 |
 | --- | --- |
-|1 |[訂購儲存空間](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
-|2 |[保護環境的安全](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-|3 |[在 VMware ESX Hypervisor 上安裝來賓作業系統（選用）](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-|4 |[下載及安裝 SAP 軟體和應用程式](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
+|1 |[訂購儲存空間](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+|2 |[保護環境的安全](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+|3 |[在 VMware ESX Hypervisor 上安裝來賓作業系統（選用）](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+|4 |[下載及安裝 SAP 軟體和應用程式](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 
 ## 後續步驟
 
