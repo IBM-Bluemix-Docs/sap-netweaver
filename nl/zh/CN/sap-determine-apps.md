@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-03-02"
+  years: 2018, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP ERP Central Component, ECC, SAP S/4HANA Business Suite, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 
@@ -24,9 +25,9 @@ lastupdated: "2018-03-02"
 
   * 打算如何使用这些应用程序？是打算用于开发和测试还是生产？
   * 是否使用 {{site.data.keyword.cloud_notm}} 虚拟专用网服务（SSL 或点对点隧道协议 (PPTP)）？
-  
+
 ## 后续步骤
 
-  [4. 设置服务器的大小](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
-  [5. 确定配置](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [4. 设置服务器的大小](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. 确定配置](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

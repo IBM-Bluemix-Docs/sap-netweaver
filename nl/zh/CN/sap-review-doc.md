@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-30"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP Product Availability Matrix, PAM
+
+subcollection: sap-netweaver
 
 ---
 
@@ -23,20 +24,20 @@ lastupdated: "2018-05-30"
 查看相关文档以帮助您确定计划在 {{site.data.keyword.baremetal_long}} 上安装的 SAP 产品的任何先决条件。
 {: shortdesc}
 
-  * 适用的[安装指南](https://support.sap.com/software/installations.html)；需要 [SAP S 用户标识](/docs/infrastructure/sap-netweaver/sap-index.html#getting-started)。
-  * SAP 发行说明，可在 [SAP 帮助门户网站](https://help.sap.com/)上相关 SAP 产品文档的应用程序帮助中找到；需要 SAP S 用户标识。
-  * [SAP Product Availability Matrix (PAM)](https://apps.support.sap.com/sap/support/pam)；需要 SAP S 用户标识。
-  * [SAP Note](https://support.sap.com/notes)；需要 SAP S 用户标识。
-  * [SAP NetWeaver 快速参考 - Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)
-  * [SAP NetWeaver 快速参考 - Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)
-  * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)
-  * [{{site.data.keyword.cloud_notm}} SAP 参考体系结构](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)
+  * 适用的[安装指南 ![](../../icons/launch-glyph.svg "外部链接图标")](https://support.sap.com/software/installations.html){: new_window}；需要 [SAP S 用户标识](/docs/infrastructure/sap-netweaver/sap-index.html#getting-started)。
+  * SAP 发行说明，可在 [SAP Help Portal ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://help.sap.com/){: new_window} 上相关 SAP 产品文档的应用程序帮助中找到；需要 SAP S 用户标识。
+  * [SAP Product Availability Matrix (PAM) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window}；需要 SAP S 用户标识。
+  * [SAP Note ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://support.sap.com/notes)；需要 SAP S 用户标识。
+  * [SAP NetWeaver 快速参考 - Microsoft Windows](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started-tutorial#getting-started)
+  * [SAP NetWeaver 快速参考 - Red Hat Enterprise Linux](/docs/infrastructure/sap-netweaver-rhel-qrg?topic=sap-netweaver-rhel-qrg-getting-started-tutorial#getting-started)
+  * [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started)
+  * [{{site.data.keyword.cloud_notm}} SAP 参考体系结构](/docs/infrastructure/sap-reference-architecture?topic=sap-reference-architecture-getting-started#getting-started)
   * 第三方文档
-  
+
 ## 后续步骤
-  
-  [3. 确定 SAP NetWeaver 应用程序](/docs/infrastructure/sap-netweaver/sap-determine-apps.html)
-    
-  [4. 设置服务器的大小](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-    
-  [5. 确定配置](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+
+  [3. 确定 SAP NetWeaver 应用程序](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-3-determining-your-sap-netweaver-applications#3-determining-your-sap-netweaver-applications)
+
+  [4. 设置服务器的大小](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. 确定配置](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)
