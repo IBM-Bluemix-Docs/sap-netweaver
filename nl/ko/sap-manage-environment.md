@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-06-28"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
+
+subcollection: sap-netweaver
 
 ---
 
@@ -27,10 +28,10 @@ lastupdated: "2018-06-28"
 
 |단계 |세부사항 |
 | --- | --- |
-|1 |[스토리지 주문](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
-|2 |[환경 보안](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-|3 |[VMware ESX 하이퍼바이저에 게스트 OS 설치(선택사항)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-|4 |[SAP 소프트웨어 및 애플리케이션 다운로드 및 설치](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
+|1 |[스토리지 주문](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+|2 |[환경 보안](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+|3 |[VMware ESX 하이퍼바이저에 게스트 OS 설치(선택사항)](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+|4 |[SAP 소프트웨어 및 애플리케이션 다운로드 및 설치](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 
 ## 다음 단계
 
