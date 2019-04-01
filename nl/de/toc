@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver" audience="compute" arm="2437231" href="/docs/infrastructure/sap-netweaver/sap-index.html"}
+{: .toc subcollection="sap-netweaver" audience="compute" href="docs/infrastructure/sap-netweaver?topic=sap-netweaver-getting-started" path="infrastructure/sap-netweaver"}
 SAP NetWeaver on IBM Cloud
 
     {: .navgroup id="learn"}
@@ -35,17 +35,20 @@ SAP NetWeaver on IBM Cloud
         sap-secure-environment.md
         sap-installing-guest-operating-system-VMware-deployments.md
         sap-installing-SAP-landscape.md
+        sap-ha.md
+        sap-content-server.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    
+
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    [Hilfe und Unterstützung anfordern](/bare-metal/bare-metal-gettinghelp#gettinghelp)
     sap-support.md
 
     {: .topicgroup}
     Häufig gestellte Fragen
         sap-faqs.md
-        
+
     {: .navgroup-end}
