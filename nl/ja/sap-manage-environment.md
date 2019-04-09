@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-06-28"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
+
+subcollection: sap-netweaver
 
 ---
 
@@ -27,10 +28,10 @@ lastupdated: "2018-06-28"
 
 | ステップ | 詳細 |
 | --- | --- |
-| 1 | [ストレージを注文する](/docs/infrastructure/sap-netweaver/sap-order-storage.html) |
-| 2 | [環境を保護する](/docs/infrastructure/sap-netweaver/sap-secure-environment.html) |
-| 3 | [VMware ESX ハイパーバイザーにゲスト OS をインストールする (オプション)](/docs/infrastructure/sap-netweaver/sap-installing-guest-operating-system-VMware-deployments.html) |
-| 4 | [SAP ソフトウェアとアプリケーションをダウンロードしてインストールする](/docs/infrastructure/sap-netweaver/sap-installing-SAP-landscape.html) |
+| 1 | [ストレージを注文する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+| 2 | [環境を保護する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+| 3 | [VMware ESX ハイパーバイザーにゲスト OS をインストールする (オプション)](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+| 4 | [SAP ソフトウェアとアプリケーションをダウンロードしてインストールする](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 
 ## 次のステップ
 

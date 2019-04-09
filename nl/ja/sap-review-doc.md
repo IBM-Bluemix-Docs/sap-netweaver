@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-30"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP Product Availability Matrix, PAM
+
+subcollection: sap-netweaver
 
 ---
 
@@ -23,20 +24,20 @@ lastupdated: "2018-05-30"
 関連資料を確認して、{{site.data.keyword.baremetal_long}}へのインストールを計画している SAP 製品に関する前提条件を判別します。
 {: shortdesc}
 
-  * 利用可能な[インストール・ガイド](https://support.sap.com/software/installations.html)。[SAP S ユーザー ID](/docs/infrastructure/sap-netweaver/sap-index.html#getting-started) が必要です。
-  * SAP のリリース情報。[SAP Help Portal](https://help.sap.com/) の関連する SAP 製品資料のアプリケーション・ヘルプ内にあります。SAP S ユーザー ID が必要です。
-  * [SAP の製品出荷マトリクス (PAM)](https://apps.support.sap.com/sap/support/pam)。SAP S ユーザー ID が必要です。
-  * [SAP Notes](https://support.sap.com/notes)。SAP S ユーザー ID が必要です。
-  * [SAP NetWeaver Quick Reference - Microsoft Windows](https://console.bluemix.net/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html#getting-started)
-  * [SAP NetWeaver Quick Reference - Red Hat Enterprise Linux](https://console.bluemix.net/docs/infrastructure/sap-netweaver-rhel-qrg/rhel-index.html#getting-started)
-  * [SAP HANA on {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/docs/infrastructure/sap-hana/hana-index.html#getting-started)
-  * [{{site.data.keyword.cloud_notm}} SAP リファレンス・アーキテクチャー](https://console.bluemix.net/docs/infrastructure/sap-reference-architecture/sap-ra-index.html#getting-started)
+  * 該当する[インストール・ガイド ![外部リンクのアイコン](../../icons/launch-glyph.svg "外部リンクのアイコン")](https://support.sap.com/software/installations.html){: new_window}。[SAP S-user ID](/docs/infrastructure/sap-netweaver/sap-index.html#getting-started) が必要です。
+  * SAP のリリース情報。[SAP ヘルプ・ポータル ![外部リンクのアイコン](../../icons/launch-glyph.svg "外部リンクのアイコン")](https://help.sap.com/){: new_window} の関連する SAP 製品資料のアプリケーション・ヘルプ内に記されています。SAP S-user ID が必要です。
+  * [SAP の製品出荷マトリクス (PAM) ![外部リンクのアイコン](../../icons/launch-glyph.svg "外部リンクのアイコン")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window}。SAP S-user ID が必要です。
+  * [SAP Notes ![外部リンクのアイコン](../../icons/launch-glyph.svg "外部リンクのアイコン")](https://support.sap.com/notes)。SAP S-user ID が必要です。
+  * [SAP NetWeaver Quick Reference - Microsoft Windows](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started-tutorial#getting-started)
+  * [SAP NetWeaver Quick Reference - Red Hat Enterprise Linux](/docs/infrastructure/sap-netweaver-rhel-qrg?topic=sap-netweaver-rhel-qrg-getting-started-tutorial#getting-started)
+  * [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started)
+  * [{{site.data.keyword.cloud_notm}} SAP リファレンス・アーキテクチャー](/docs/infrastructure/sap-reference-architecture?topic=sap-reference-architecture-getting-started#getting-started)
   * サード・パーティーの資料
-  
+
 ## 次のステップ
-  
-  [3. SAP NetWeaver アプリケーションを決定する](/docs/infrastructure/sap-netweaver/sap-determine-apps.html)
-    
-  [4. サーバーのサイズを決定する](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-    
-  [5. 構成を決定する](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+
+  [3. SAP NetWeaver アプリケーションを決定する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-3-determining-your-sap-netweaver-applications#3-determining-your-sap-netweaver-applications)
+
+  [4. サーバーのサイズを決定する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. 構成を決定する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

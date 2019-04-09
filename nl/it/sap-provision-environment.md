@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-30"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP deployment
+
+subcollection: sap-netweaver
 
 ---
 
@@ -20,14 +21,14 @@ lastupdated: "2018-05-30"
 # Provisioning del tuo ambiente SAP NetWeaver
 {: #provision_environment}
 
-La Tabella 1 contiene la procedura per eseguire il provisioning del tuo {{site.data.keyword.cloud}} SAP-Certified Infrastructure. 
+La Tabella 1 contiene la procedura per eseguire il provisioning del tuo {{site.data.keyword.cloud}} SAP-Certified Infrastructure.
 
 Tabella 1. Panoramica del provisioning
 
 | Passo | Dettagli |
 | --- | --- |
-| 1 | [Richiesta della connettività VPN di {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver/sap-requesting-setting-up-VPN.html) |
-| 2 | [Configurazione della tua infrastruttura](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html) |
+| 1 | [Richiesta della connettività VPN di {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-request_vpn_connect#request_vpn_connect) |
+| 2 | [Configurazione della tua infrastruttura](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure) |
 
 ## Passi successivi
 

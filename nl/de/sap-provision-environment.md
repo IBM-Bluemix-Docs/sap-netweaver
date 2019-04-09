@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-30"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP deployment
+
+subcollection: sap-netweaver
 
 ---
 
@@ -20,14 +21,14 @@ lastupdated: "2018-05-30"
 # SAP NetWeaver-Umgebung bereitstellen
 {: #provision_environment}
 
-In Tabelle 1 sind die Schritte zur Bereitstellung der von SAP zertifizierten {{site.data.keyword.cloud}}-Infrastruktur aufgeführt. 
+In Tabelle 1 sind die Schritte zur Bereitstellung der von SAP zertifizierten {{site.data.keyword.cloud}}-Infrastruktur aufgeführt.
 
 Tabelle 1. Bereitstellung - Übersicht
 
 | Schritt | Details |
 | --- | --- |
-| 1 | [VPN-Konnektivität für {{site.data.keyword.cloud_notm}} anfordern](/docs/infrastructure/sap-netweaver/sap-requesting-setting-up-VPN.html) |
-| 2 | [Infrastruktur einrichten](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html) |
+| 1 | [VPN-Konnektivität für {{site.data.keyword.cloud_notm}} anfordern](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-request_vpn_connect#request_vpn_connect) |
+| 2 | [Infrastruktur einrichten](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure) |
 
 ## Nächste Schritte
 

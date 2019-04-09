@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-30"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, SAP deployment
+
+subcollection: sap-netweaver
 
 ---
 
@@ -20,14 +21,14 @@ lastupdated: "2018-05-30"
 # 供应 SAP NetWeaver 环境
 {: #provision_environment}
 
-表 1 包含供应 {{site.data.keyword.cloud}} SAP-Certified Infrastructure 所需执行的步骤。 
+表 1 包含供应 {{site.data.keyword.cloud}} SAP-Certified Infrastructure 的步骤。
 
 表 1. 供应概述
 
 |步骤|详细信息|
 | --- | --- |
-|1 |[请求 {{site.data.keyword.cloud_notm}} VPN 连接](/docs/infrastructure/sap-netweaver/sap-requesting-setting-up-VPN.html) |
-|2 |[设置基础架构](/docs/infrastructure/sap-netweaver/sap-setting-up-infrastructure.html) |
+|1 |[请求 {{site.data.keyword.cloud_notm}} VPN 连接](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-request_vpn_connect#request_vpn_connect) |
+|2 |[设置基础架构](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure) |
 
 ## 后续步骤
 

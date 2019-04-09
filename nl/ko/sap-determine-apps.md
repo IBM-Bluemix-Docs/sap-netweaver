@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-03-02"
+  years: 2018, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP ERP Central Component, ECC, SAP S/4HANA Business Suite, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 
@@ -24,9 +25,9 @@ lastupdated: "2018-03-02"
 
   * 애플리케이션을 어떤 용도로 사용할 것입니까? 개발 및 테스트에 사용합니까, 아니면 프로덕션에 사용합니까?
   * {{site.data.keyword.cloud_notm}} 가상 사설망(VPN) 서비스(SSL 또는 PPTP(Point-to-Point Tunneling Protocol))를 사용합니까?
-  
+
 ## 다음 단계
 
-  [4. 서버 크기 결정](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
-  [5. 구성 결정](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [4. 서버 크기 결정](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. 구성 결정](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

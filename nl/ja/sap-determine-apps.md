@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-03-02"
+  years: 2018, 2019
+lastupdated: "2019-02-28"
 
+keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP ERP Central Component, ECC, SAP S/4HANA Business Suite, SAP Certified
+
+subcollection: sap-netweaver
 
 ---
 
@@ -24,9 +25,9 @@ SAP NetWeaver スタック上で実行する SAP ソリューションは、ビ�
 
   * アプリケーションの使用目的は何ですか? 開発とテスト、または実動に使用する予定ですか?
   * {{site.data.keyword.cloud_notm}} 仮想プライベート・ネットワーク・サービスとして SSL または Point-to-Point Tunneling Protocol (PPTP) を使用しますか?
-  
+
 ## 次のステップ
 
-  [4. サーバーのサイズを決定する](/docs/infrastructure/sap-netweaver/sap-size-server.html)
-  
-  [5. 構成を決定する](/docs/infrastructure/sap-netweaver/sap-determine-configuration.html)
+  [4. サーバーのサイズを決定する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
+
+  [5. 構成を決定する](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)
