@@ -44,14 +44,14 @@ subcollection: sap-netweaver
 
 ## 網路連線功能
 
-設定 {{site.data.keyword.cloud_notm}} 帳戶時，會自動授與 Virtual Private Network (VPN) 與 {{site.data.keyword.cloud_notm}} Virtual Cloud Network 的連線功能。依預設，您的伺服器有公用及專用 IP 位址。如果要讓伺服器成為專用伺服器，則可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需 {{site.data.keyword.cloud_notm}} VPN 的相關資訊，請參閱[開始使用 Virtual Private Networking (VPN)](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-)。
+設定 {{site.data.keyword.cloud_notm}} 帳戶時，會自動授與 Virtual Private Network (VPN) 與 {{site.data.keyword.cloud_notm}} Virtual Cloud Network 的連線功能。依預設，您的伺服器有公用及專用 IP 位址。如果要讓伺服器成為專用伺服器，則可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需 {{site.data.keyword.cloud_notm}} VPN 的相關資訊，請參閱[開始使用 Virtual Private Networking (VPN)](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking)。
 
 ## 儲存空間
 {: #storage}
 
 本端儲存空間是隨著 {{site.data.keyword.baremetal_short}} 一起提供，它使用 {{site.data.keyword.cloud_notm}} 專用網路虛擬 LAN (VLAN) 來協助提供企業級安全，且不阻礙管理者存取。它很適合具有高 I/O 需求之耗用大量儲存空間的應用程式，例如 OS、資料庫及應用軟體。SAP NetWeaver 伺服器磁碟空間視如何配置伺服器而定。如果伺服器上的本端儲存空間不夠工作負載使用，請聯絡 [{{site.data.keyword.cloud_notm}} 支援中心](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)，以取得延伸選項。
 
-{{site.data.keyword.cloud_notm}} 有兩種類型的儲存空間 - 區塊和檔案 - 可從中選擇來執行 SAP NetWeaver 的備份及還原。兩種類型都使用每秒輸入/輸出作業數 (IOPS)，其用來決定儲存空間需求。IOPS 是根據 16 KB 區塊大小與 50/50 讀寫混合大小進行測量。若要達到磁區的 IOPS 上限，需要備妥足夠的網路資源。其他考量包括在儲存空間和主機端外的專用網路使用情形，以及應用程式特定的調整（例如，IP 堆疊及佇列深度）。如需儲存空間層級及效能的相關資訊，請參閱[開始使用區塊儲存空間](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted)和[開始使用檔案儲存空間](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted)。
+{{site.data.keyword.cloud_notm}} 有兩種類型的儲存空間 - 區塊和檔案 - 可從中選擇來執行 SAP NetWeaver 的備份及還原。兩種類型都使用每秒輸入/輸出作業數 (IOPS)，其用來決定儲存空間需求。IOPS 是根據 16 KB 區塊大小與 50/50 讀寫混合大小進行測量。若要達到磁區的 IOPS 上限，需要備妥足夠的網路資源。其他考量包括在儲存空間和主機端外的專用網路使用情形，以及應用程式特定的調整（例如，IP 堆疊及佇列深度）。如需儲存空間層級及效能的相關資訊，請參閱[開始使用區塊儲存空間](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started)和[開始使用檔案儲存空間](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started)。
 
 ## 部署及管理
 

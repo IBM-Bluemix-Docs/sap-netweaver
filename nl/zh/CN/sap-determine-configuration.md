@@ -31,7 +31,7 @@ subcollection: sap-netweaver
 ## 存储器配置
 {: #storage_config}
 
-表 1 是样本存储器配置，用于 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server) 为 50,000 的 256 GB 服务器，针对具有 SAP 的中央系统，大小为 1.5 TB 且 IOPS 为 6,000，同时使用带有外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) 或 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted) 的 {{site.data.keyword.Db2_on_Cloud_long}} 数据库 (4 IOPS/GB)。IOPS 的计算方法为
+表 1 是样本存储器配置，用于 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server) 为 50,000 的 256 GB 服务器，针对具有 SAP 的中央系统，大小为 1.5 TB 且 IOPS 为 6,000，同时使用带有外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) 或 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) 的 {{site.data.keyword.Db2_on_Cloud_long}} 数据库 (4 IOPS/GB)。IOPS 的计算方法为
 
   * 6,000 IOPS/1,500 GB = 4 IOPS/GB（外部存储器所需）。假定将 3,000 GB 用于备份，速度为 2 IOPS/GB（中等性能）。
 

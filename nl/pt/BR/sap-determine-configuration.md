@@ -31,7 +31,7 @@ As opções influenciam a escolha do servidor. Talvez você queira distribuir su
 ## Configuração de armazenamento
 {: #storage_config}
 
-A Tabela 1 é uma configuração de armazenamento de amostra para um servidor 256 GB com 50 mil [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server), 1,5 TB a 6.000 IOPS para um sistema central com SAP, usando um banco de dados {{site.data.keyword.Db2_on_Cloud_long}} com[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) ou [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted) externo (4 IOPS/GB). O cálculo para o IOPS é
+A Tabela 1 é uma configuração de armazenamento de amostra para um servidor 256 GB com 50 mil [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server), 1,5 TB a 6.000 IOPS para um sistema central com SAP, usando um banco de dados {{site.data.keyword.Db2_on_Cloud_long}} com[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) ou [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) externo (4 IOPS/GB). O cálculo para o IOPS é
 
   * 6.000 IOPS/1.500 GG = 4 IOPS/GB necessários para armazenamento externo. Há uma suposição de 3.000 GB para backup em 2 IOPS/GB (desempenho médio).
 

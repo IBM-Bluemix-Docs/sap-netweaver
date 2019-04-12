@@ -62,15 +62,15 @@ subcollection: sap-netweaver
 
 또 다른 권장사항은 데이터베이스가 주로 외부 스토리지에 상주하는 경우 4IOPS/GB 이상을 사용하는 것입니다. 이보다 느린 스토리지는 데이터베이스 성능이 프로젝트에서 중요하지 않은 경우에만, 또는 백업 용도로만 사용해야 합니다.
 
-외부 스토리지를 VMware ESX의 데이터 저장소로 사용하려는 경우에는 [VMware 시스템과 함께 사용하는 스토리지](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)의 의사결정 가이드라인에 따라 사용자의 유스 케이스에 가장 적합한 스토리지 유형을 판별하십시오.
+외부 스토리지를 VMware ESX의 데이터 저장소로 사용하려는 경우에는 [VMware 시스템과 함께 사용하는 스토리지](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)의 의사결정 가이드라인에 따라 사용자의 유스 케이스에 가장 적합한 스토리지 유형을 판별하십시오.
 
 ## VMware ESXi 서버 배치
 {: #vmware_server}
 
 {{site.data.keyword.cloud_notm}}에서의 VMware ESXi 기반 배치는 다른 클라우드 기반 배치와는 다릅니다. {{site.data.keyword.cloud_notm}}에서는 고객에게 실행 중인 VM을 제공하지 않으며, 사용자가 환경을 제어하고 요구사항을 만족시킬 수 있도록 이를 구성해야 합니다. VMware ESX 서버를 주문하면 구성된 서버를 받게 됩니다. 다음 링크는 추가 스토리지 및 게스트 VM 실행에 대한 정보를 제공합니다.
 
-  *	[VMware 시스템과 함께 사용하는 스토리지](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)는 스토리지를 ESX 환경과 통합하는 방법에 대한 추가 지시사항을 제공합니다.
-  * [iSCSI VMware ESXi 마운트](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi)에는 iSCSI 기반 스토리지를 ESX와 통합하는 단계가 설명되어 있습니다.
-  * [VMware ESX 가상 머신 작성](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine)에서는 첫 번째 VM을 배치하는 프로세스를 단계별로 안내합니다.
+  *	[VMware 시스템과 함께 사용하는 스토리지](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)는 스토리지를 ESX 환경과 통합하는 방법에 대한 추가 지시사항을 제공합니다.
+  * [iSCSI VMware ESXi 마운트](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi)에는 iSCSI 기반 스토리지를 ESX와 통합하는 단계가 설명되어 있습니다.
+  * [VMware ESX 가상 머신 작성](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm)에서는 첫 번째 VM을 배치하는 프로세스를 단계별로 안내합니다.
 
 게스트 OS에 SAP NetWeaver 기반 소프트웨어를 배치하려면 [SAP Note 2414097![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}에 언급된 운영 체제 중에서 게스트 OS를 선택해야 한다는 점에 유의하십시오.

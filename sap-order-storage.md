@@ -25,11 +25,11 @@ subcollection: sap-netweaver
 ## Ordering {{site.data.keyword.cloud_notm}} storage
 {: #ibm_storage}
 
-You can use the steps under [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) or [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) to order your backup and restore storage solution. You are guided through the process of deciding which storage type to use, how to order it, and how to deploy it to your server.
+You can use the steps under [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) or [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) to order your backup and restore storage solution. You are guided through the process of deciding which storage type to use, how to order it, and how to deploy it to your server.
 
 The *SAP NetWeaver Quick Reference Guides (for Microsoft Windows* or *for Red Hat Enterprise Linux*) take you through a complete server configuration and deployment, including {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}, and iSCSI configuration steps based on a sample deployment for Linux and Windows.
 
-For VMware ESXi, the {{site.data.keyword.cloud_notm}} storage type can be used as data stores; in which case, it is mapped to ESXi as an iSCSI device. Follow the steps in [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) to map iSCSI devices to ESXi.
+For VMware ESXi, the {{site.data.keyword.cloud_notm}} storage type can be used as data stores; in which case, it is mapped to ESXi as an iSCSI device. Follow the steps in [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) to map iSCSI devices to ESXi.
 
 ## Next Steps
 

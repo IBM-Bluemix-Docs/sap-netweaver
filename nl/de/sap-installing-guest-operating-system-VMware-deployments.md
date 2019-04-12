@@ -20,7 +20,7 @@ subcollection: sap-netweaver
 # 3. Gastbetriebssystem auf dem ESX-Hypervisor installieren (optional)
 {: #install_guest_os}
 
-Nur die unter [Angebotsmodell](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-offer_model#offer_model) aufgeführten Betriebssysteme werden als Gastbetriebssysteme für ESXi-basierte Bereitstellungen in {{site.data.keyword.cloud_notm}} unterstützt. Informationen zum Installieren eines Gastbetriebssystems finden Sie unter [VMware vSphere ESXi über die ferne Konsole und virtuelle Medien installieren](/docs/infrastructure/vmware?topic=VMware-installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media#installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media). Zudem finden Sie Informationen zu externen Adressen und Hostnamen unter [Erweiterte Systemkonfiguration einrichten](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-adv_config#adv_config).
+Nur die unter [Angebotsmodell](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-offer_model#offer_model) aufgeführten Betriebssysteme werden als Gastbetriebssysteme für ESXi-basierte Bereitstellungen in {{site.data.keyword.cloud_notm}} unterstützt. Informationen zum Installieren eines Gastbetriebssystems finden Sie unter [VMware vSphere ESXi über die ferne Konsole und virtuelle Medien installieren](docs/infrastructure/vmware?topic=VMware-installing-vsphere-esxi#installing-vsphere-esxi). Zudem finden Sie Informationen zu externen Adressen und Hostnamen unter [Erweiterte Systemkonfiguration einrichten](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-adv_config#adv_config).
 
 ## Nächste Schritte
 

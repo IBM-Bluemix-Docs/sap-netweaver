@@ -25,11 +25,11 @@ subcollection: sap-netweaver
 ## Pedindo armazenamento do {{site.data.keyword.cloud_notm}}
 {: #ibm_storage}
 
-É possível usar as etapas de [Provisionando e gerenciando o {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) ou [Provisionando e gerenciando o {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) para pedir sua solução de armazenamento de backup e restauração. Você é guiado pelo processo de decisão de qual tipo de armazenamento usar, como pedir e como implementá-lo no servidor.
+É possível usar as etapas de [Provisionando e gerenciando o {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) ou [Provisionando e gerenciando o {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) para pedir sua solução de armazenamento de backup e restauração. Você é guiado pelo processo de decisão de qual tipo de armazenamento usar, como pedir e como implementá-lo no servidor.
 
 Os *Guias de consulta rápida do SAP NetWeaver (para Microsoft Windows* ou *para Red Hat Enterprise Linux*) levam por uma configuração e implementação completas do servidor, incluindo o {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}} e as etapas de configuração do iSCSI baseadas em uma implementação de amostra para Linux e Windows.
 
-Para o VMware ESXi, o tipo de armazenamento do {{site.data.keyword.cloud_notm}} pode ser usado como armazenamentos de dados; nesse caso, ele é mapeado para o ESXi como um dispositivo iSCSI. Siga as etapas em [Montando o iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) para mapear dispositivos iSCSI para o ESXi.
+Para o VMware ESXi, o tipo de armazenamento do {{site.data.keyword.cloud_notm}} pode ser usado como armazenamentos de dados; nesse caso, ele é mapeado para o ESXi como um dispositivo iSCSI. Siga as etapas em [Montando o iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) para mapear dispositivos iSCSI para o ESXi.
 
 ## Próximas etapas
 

@@ -62,15 +62,15 @@ Ti consigliamo di scegliere un data center basato su 10 Gb per la tua distribuzi
 
 Un altro suggerimento è quello di utilizzare almeno 4 IOPS/GB se il tuo database risiede principalmente sull'archiviazione esterna. Un'archiviazione più lenta deve essere utilizzata solo se le prestazioni del database non sono critiche per il tuo progetto o per scopi di backup.
 
-Se intendi utilizzare l'archiviazione esterna come archivi di dati per VMware ESX, attieniti alle linee guida relative alle decisioni in [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) per determinare il tipo di archiviazione ottimale per il tuo caso d'uso.
+Se intendi utilizzare l'archiviazione esterna come archivi di dati per VMware ESX, attieniti alle linee guida relative alle decisioni in [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) per determinare il tipo di archiviazione ottimale per il tuo caso d'uso.
 
 ## Distribuzioni del server VMware ESXi
 {: #vmware_server}
 
 Le distribuzioni basate su VMware ESXi in {{site.data.keyword.cloud_notm}} sono diverse dalle altre distribuzioni basate sul cloud. {{site.data.keyword.cloud_notm}} non fornisce ai suoi clienti delle VM in esecuzione; tu prendi il controllo del tuo ambiente e lo configuri per soddisfare i tuoi requisiti. Quando ordini un server VMware ESX, ricevi un server configurato. I seguenti link forniscono informazioni sull'archiviazione aggiuntiva e l'esecuzione di VM guest.
 
-  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) fornisce ulteriori indicazioni su come integrare l'archiviazione in un ambiente ESX.
-  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) descrive la procedura per integrare l'archiviazione basata su iSCSI con ESX.
-  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine) ti guida attraverso il processo di distribuzione della tua prima VM.
+  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) fornisce ulteriori indicazioni su come integrare l'archiviazione in un ambiente ESX.
+  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) descrive la procedura per integrare l'archiviazione basata su iSCSI con ESX.
+  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) ti guida attraverso il processo di distribuzione della tua prima VM.
 
 Tieni presente che, per distribuire software basato su SAP NetWeaver nel sistema operativo guest, devi scegliere il sistema operativo guest dai sistemi operativi menzionati nella [nota SAP 2414097 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}.

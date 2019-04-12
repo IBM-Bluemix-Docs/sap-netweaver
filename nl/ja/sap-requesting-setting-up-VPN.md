@@ -22,7 +22,7 @@ subcollection: sap-netweaver
 
 パブリック・ポートをオフにする場合や、マシンをプライベート専用としてプロビジョンする場合は、[{{site.data.keyword.cloud}} サポート](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)と連携して、{{site.data.keyword.cloud_notm}} 仮想プライベート・ネットワーク (VPN) へのアクセス権を取得します。 実動レベルのいずれかの VPN オプションを使用している場合、ユーザーを作成し終えたら、{{site.data.keyword.cloud_notm}} プライベート・ネットワークへの VPN アクセス権をこれらのユーザーに割り当てることができます。
 
-VPN アクセス権をセットアップする方法の手順については、[Getting started with Virtual Private Network](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-) を参照してください。
+VPN アクセス権をセットアップする方法の手順については、[Getting started with Virtual Private Network](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking) を参照してください。
 
 ## 次のステップ
 

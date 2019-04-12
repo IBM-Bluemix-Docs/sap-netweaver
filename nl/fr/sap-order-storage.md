@@ -25,11 +25,11 @@ Vous commandez {{site.data.keyword.blockstoragefull}}, {{site.data.keyword.files
 ## Commande de stockage {{site.data.keyword.cloud_notm}}
 {: #ibm_storage}
 
-Vous pouvez suivre les étapes décrites dans [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) ou [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) pour commander votre solution de stockage pour la sauvegarde et la restauration. Vous serez guidé pour choisir le type de stockage à utiliser, savoir comment le commander et savoir comment le déployer sur votre serveur.
+Vous pouvez suivre les étapes décrites dans [Provisioning and Managing {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) ou [Provisioning and Managing {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) pour commander votre solution de stockage pour la sauvegarde et la restauration. Vous serez guidé pour choisir le type de stockage à utiliser, savoir comment le commander et savoir comment le déployer sur votre serveur.
 
 Les manuels *SAP NetWeaver Quick Reference Guides (for Microsoft Windows* ou *for Red Hat Enterprise Linux*) décrivent la procédure complète de configuration et de déploiement d'un serveur, y compris du périphérique {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}, et indiquent les étapes de configuration iSCSI basées sur un exemple de déploiement sous Linux et Windows.
 
-Pour VMware ESXi, le type de périphérique de stockage {{site.data.keyword.cloud_notm}} peut être utilisé comme magasins de données. Dans ce cas, il est mappé à ESXi en tant que périphérique iSCSI. Suivez les étapes décrites dans [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) pour mapper les périphériques iSCSI à ESXi.
+Pour VMware ESXi, le type de périphérique de stockage {{site.data.keyword.cloud_notm}} peut être utilisé comme magasins de données. Dans ce cas, il est mappé à ESXi en tant que périphérique iSCSI. Suivez les étapes décrites dans [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) pour mapper les périphériques iSCSI à ESXi.
 
 ## Etapes suivantes
 

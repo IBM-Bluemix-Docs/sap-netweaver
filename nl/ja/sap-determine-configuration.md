@@ -31,7 +31,7 @@ SAP NetWeaver システムには、以下の 2 つのデプロイメント・オ
 ## ストレージ構成
 {: #storage_config}
 
-表 1 は、50,000 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server) の 256 GB サーバーのサンプル・ストレージ構成です。SAP を備えた中央システムは 1.5 TB (6,000 IOPS) です。外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) または [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted) (4 IOPS/GB) で {{site.data.keyword.Db2_on_Cloud_long}} データベースを使用します。IOPS の計算は次のとおりです。
+表 1 は、50,000 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server) の 256 GB サーバーのサンプル・ストレージ構成です。SAP を備えた中央システムは 1.5 TB (6,000 IOPS) です。外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) または [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) (4 IOPS/GB) で {{site.data.keyword.Db2_on_Cloud_long}} データベースを使用します。IOPS の計算は次のとおりです。
 
   * 6,000 IOPS/1,500 GG = 4 IOPS/GB (外部ストレージに必要)。 バックアップの前提は 2 IOPS/GB で 3,000 GB (中程度のパフォーマンス) です。
 

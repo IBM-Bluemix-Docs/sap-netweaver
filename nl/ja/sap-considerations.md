@@ -62,15 +62,15 @@ subcollection: sap-netweaver
 
 もう 1 つの推奨事項として、データベースが主に外部ストレージ上にある場合は、4 IOPS/GB 以上を使用することをお勧めします。 これより低速なストレージは、プロジェクトにおいてデータベース・パフォーマンスが重要ではない場合、またはバックアップの目的で使用される場合にのみ使用してください。
 
-VMware ESX のデータ・ストアとして外部ストレージを使用する場合は、[VMware システムで使用するストレージ](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)の決定ガイドラインに従って、ご使用のユース・ケースに最適なストレージ・タイプを判別してください。
+VMware ESX のデータ・ストアとして外部ストレージを使用する場合は、[VMware システムで使用するストレージ](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)の決定ガイドラインに従って、ご使用のユース・ケースに最適なストレージ・タイプを判別してください。
 
 ## VMware ESXi サーバーのデプロイメント
 {: #vmware_server}
 
 {{site.data.keyword.cloud_notm}} での VMware ESXi ベースのデプロイメントは、他のクラウド・ベースのデプロイメントとは異なります。 {{site.data.keyword.cloud_notm}} は、稼働状態の VM をお客様に提供しません。お客様自身でご使用の環境を制御し、要件を満たすように環境を構成する必要があります。 VMware ESX サーバーを注文すると、構成済みのサーバーを受け取ることができます。 以下のリンクから、追加ストレージと稼働状態のゲスト VM に関する情報にアクセスすることができます。
 
-  *	[VMware システムで使用するストレージ](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)では、ESX 環境でストレージを統合する方法について詳しく説明しています。
-  * [iSCSI の VMware ESXi へのマウント](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi)では、SCSI ベースのストレージを ESX に統合する手順について説明しています。
-  * [VMware ESX 仮想マシンの作成](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine)では、VM を初めてデプロイするためのプロセスについて説明しています。
+  *	[VMware システムで使用するストレージ](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)では、ESX 環境でストレージを統合する方法について詳しく説明しています。
+  * [iSCSI の VMware ESXi へのマウント](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi)では、SCSI ベースのストレージを ESX に統合する手順について説明しています。
+  * [VMware ESX 仮想マシンの作成](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm)では、VM を初めてデプロイするためのプロセスについて説明しています。
 
 ゲスト OS に SAP NetWeaver ベースのソフトウェアをデプロイする場合は、[SAP Note 2414097 ![外部リンクのアイコン](../../icons/launch-glyph.svg "外部リンクのアイコン")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} に記載されているオペレーティング・システムからゲスト OS を選択する必要があります。

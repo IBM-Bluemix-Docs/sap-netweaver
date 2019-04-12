@@ -44,14 +44,14 @@ subcollection: sap-netweaver
 
 ## 网络连接
 
-在设置 {{site.data.keyword.cloud_notm}} 帐户时，将自动授权到 {{site.data.keyword.cloud_notm}} Virtual Cloud Network 的虚拟专用网 (VPN) 连接。缺省情况下，服务器具有公共和专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-)，以获取有关 {{site.data.keyword.cloud_notm}} VPN 的更多信息。
+在设置 {{site.data.keyword.cloud_notm}} 帐户时，将自动授权到 {{site.data.keyword.cloud_notm}} Virtual Cloud Network 的虚拟专用网 (VPN) 连接。缺省情况下，服务器具有公共和专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking)，以获取有关 {{site.data.keyword.cloud_notm}} VPN 的更多信息。
 
 ## 存储器
 {: #storage}
 
 本地存储器随 {{site.data.keyword.baremetal_short}} 一起提供，它使用 {{site.data.keyword.cloud_notm}} 专用网络虚拟 LAN (VLAN) 来帮助提供企业级安全性，而不阻碍管理员访问。这非常适合 I/O 需求较高的存储密集型应用程序（例如，操作系统、数据库和应用程序软件）。SAP NetWeaver 服务器磁盘空间取决于服务器的配置方式。如果服务器上的本地存储器不足以用于工作负载，请联系 [{{site.data.keyword.cloud_notm}} 支持](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)以了解扩展选项。
 
-提供了适用于 {{site.data.keyword.cloud_notm}} 的两种类型的存储器，即块存储器和文件存储器，可选择用于为 SAP NetWeaver 执行备份和复原。这两种类型都使用每秒输入/输出操作数 (IOPS)，这些操作数用于确定存储需求。IOPS 基于 16 KB 块大小（50/50 读/写混合）进行度量。要在卷上实现最大 IOPS，需要有足够的网络资源。其他注意事项包括专用网络在存储器和主机端之外的使用量，以及特定于应用程序的调整（例如，IP 堆栈和队列深度）。请参阅 [Block Storage 入门](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted)和 [File Storage 入门](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted)，以获取有关存储器层和性能的更多信息。
+提供了适用于 {{site.data.keyword.cloud_notm}} 的两种类型的存储器，即块存储器和文件存储器，可选择用于为 SAP NetWeaver 执行备份和复原。这两种类型都使用每秒输入/输出操作数 (IOPS)，这些操作数用于确定存储需求。IOPS 基于 16 KB 块大小（50/50 读/写混合）进行度量。要在卷上实现最大 IOPS，需要有足够的网络资源。其他注意事项包括专用网络在存储器和主机端之外的使用量，以及特定于应用程序的调整（例如，IP 堆栈和队列深度）。请参阅 [Block Storage 入门](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started)和 [File Storage 入门](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started)，以获取有关存储器层和性能的更多信息。
 
 ## 部署和管理
 

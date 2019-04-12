@@ -62,15 +62,15 @@ Sie sollten ein 10 GB-basiertes Rechenzentrum für Ihre Bereitstellung auswähle
 
 Des Weiteren wird empfohlen, dass Sie mindestens 4 IOPS/GB verwenden, wenn die Datenbank primär auf externen Speicher zurückgreift. Langsamere Speichersysteme sollten nur verwendet werden, wenn die Datenbankleistung für das Projekt nicht wichtig ist, oder für Backups.
 
-Wenn Sie externen Speicher als Datenspeicher für VMware ESX verwenden möchten, befolgen Sie die Entscheidungsleitlinien unter [Zu verwendender Speicher mit VMware-Systemen](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems), um den optimalen Speichertyp für Ihren Anwendungsfall zu ermitteln.
+Wenn Sie externen Speicher als Datenspeicher für VMware ESX verwenden möchten, befolgen Sie die Entscheidungsleitlinien unter [Zu verwendender Speicher mit VMware-Systemen](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage), um den optimalen Speichertyp für Ihren Anwendungsfall zu ermitteln.
 
 ## Bereitstellungen von VMware ESXi-Servern
 {: #vmware_server}
 
 VMware ESXi-basierte Bereitstellungen in {{site.data.keyword.cloud_notm}} unterscheiden sich von anderen cloudbasierten Bereitstellungen. {{site.data.keyword.cloud_notm}} stellt Kunden keine betriebsbereiten VMs bereit; Sie haben die Kontrolle über Ihre Umgebung und konfigurieren diese Ihren Anforderungen entsprechend. Bei der Bestellung eines VMware ESX-Servers erhalten Sie einen konfigurierten Server. Unter den folgenden Links finden Sie Informationen zu zusätzlichem Speicher und zum Ausführen von virtuellen Gastmaschinen.
 
-  *	Unter [Zu verwendender Speicher mit VMware-Systemen](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) finden Sie weitere Anweisungen zum Integrieren von Speicher in einer ESX-Umgebung.
-  * Unter [iSCSI an VMware ESXi anhängen](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) sind die Schritte zum Integrieren von iSCSI-basiertem Speicher mit ESX beschrieben.
-  * Unter [Virtuelle VMware ESX-Maschine erstellen](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine) finden Sie eine Anleitung zum Bereitstellen Ihrer ersten virtuellen Maschine.
+  *	Unter [Zu verwendender Speicher mit VMware-Systemen](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) finden Sie weitere Anweisungen zum Integrieren von Speicher in einer ESX-Umgebung.
+  * Unter [iSCSI an VMware ESXi anhängen](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) sind die Schritte zum Integrieren von iSCSI-basiertem Speicher mit ESX beschrieben.
+  * Unter [Virtuelle VMware ESX-Maschine erstellen](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) finden Sie eine Anleitung zum Bereitstellen Ihrer ersten virtuellen Maschine.
 
 Beachten Sie, dass Sie bei der Bereitstellung von SAP NetWeaver-basierter Software im Gastbetriebssystem das Gastbetriebssystem aus den Betriebssystemen auswählen müssen, die in [SAP Note 2414097 ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} aufgeführt sind. 

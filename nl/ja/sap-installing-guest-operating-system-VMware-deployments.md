@@ -20,7 +20,7 @@ subcollection: sap-netweaver
 # 3. ESX ハイパーバイザーにゲスト OS をインストールする (オプション)
 {: #install_guest_os}
 
-[ への ESXi ベースのデプロイメントのゲスト・オペレーティング・システムとしてサポートされるのは、{{site.data.keyword.cloud_notm}}オファリング・モデル](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-offer_model#offer_model)にリストされているオペレーティング・システムのみです。 ゲスト OS をインストールするには、[Remote Console および仮想メディアを介した VMware vSphere ESXi のインストール](/docs/infrastructure/vmware?topic=VMware-installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media#installing-vmware-vsphere-esxi-via-remote-console-and-virtual-media)を参照してください。 また、外部アドレスとホスト名に関する[拡張システム構成のセットアップ](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-adv_config#adv_config)の情報も参照してください。
+[ への ESXi ベースのデプロイメントのゲスト・オペレーティング・システムとしてサポートされるのは、{{site.data.keyword.cloud_notm}}オファリング・モデル](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-offer_model#offer_model)にリストされているオペレーティング・システムのみです。 ゲスト OS をインストールするには、[Remote Console および仮想メディアを介した VMware vSphere ESXi のインストール](docs/infrastructure/vmware?topic=VMware-installing-vsphere-esxi#installing-vsphere-esxi)を参照してください。 また、外部アドレスとホスト名に関する[拡張システム構成のセットアップ](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-adv_config#adv_config)の情報も参照してください。
 
 ## 次のステップ
 

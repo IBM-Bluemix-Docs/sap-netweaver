@@ -62,15 +62,15 @@ subcollection: sap-netweaver
 
 另一个建议是，如果数据库主要驻留在外部存储器上，至少使用 4 IOPS/GB。仅当数据库性能对于项目或备份而言不太重要时，才应使用速度较慢的存储器。
 
-如果计划使用外部存储器作为 VMware ESX 的数据存储器，请遵循[与 VMware 系统配合使用的存储器](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)中的决策准则，以确定适用于您用例的最佳存储器类型。
+如果计划使用外部存储器作为 VMware ESX 的数据存储器，请遵循[与 VMware 系统配合使用的存储器](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)中的决策准则，以确定适用于您用例的最佳存储器类型。
 
 ## VMware ESXi 服务器部署
 {: #vmware_server}
 
 {{site.data.keyword.cloud_notm}} 中基于 VMware ESXi 的部署不同于其他基于云的部署。{{site.data.keyword.cloud_notm}} 不向客户提供运行的 VM；您可以控制和配置环境以满足自己的需求。在订购 VMware ESX 服务器时，您收到的是已配置的服务器。以下链接提供有关其他存储器和运行的访客 VM 的信息。
 
-  *	[与 VMware 系统配合使用的存储器](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)提供有关如何在 ESX 环境中集成存储器的更多指示信息。
-  * [安装 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) 描述将基于 iSCSI 的存储器与 ESX 集成的步骤。
-  * [创建 VMware ESX 虚拟机](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine)指导您完成部署第一个 VM 的过程。
+  *	[与 VMware 系统配合使用的存储器](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)提供有关如何在 ESX 环境中集成存储器的更多指示信息。
+  * [安装 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) 描述将基于 iSCSI 的存储器与 ESX 集成的步骤。
+  * [创建 VMware ESX 虚拟机](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm)指导您完成部署第一个 VM 的过程。
 
 请记住，要在访客操作系统中部署基于 SAP NetWeaver 的软件，必须从 [SAP Note 2414097 ![外部链接图标](../../icons/launch-glyph.svg "")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中提及的操作系统选择访客操作系统。

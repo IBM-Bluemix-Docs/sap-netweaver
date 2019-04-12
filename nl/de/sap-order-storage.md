@@ -25,11 +25,11 @@ subcollection: sap-netweaver
 ## {{site.data.keyword.cloud_notm}}-Speicher bestellen
 {: #ibm_storage}
 
-Sie können die Schritte unter [{{site.data.keyword.blockstorageshort}} bereitstellen und verwalten](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) oder [{{site.data.keyword.filestorage_full_notm}} bereitstellen und verwalten](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) ausführen, um Ihre Speicherlösung für Sicherung und Wiederherstellung zu bestellen. Dabei können Sie entscheiden, welchen Speichertyp Sie verwenden möchten und wie Sie ihn bestellen und auf dem Server bereitstellen.
+Sie können die Schritte unter [{{site.data.keyword.blockstorageshort}} bereitstellen und verwalten](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) oder [{{site.data.keyword.filestorage_full_notm}} bereitstellen und verwalten](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) ausführen, um Ihre Speicherlösung für Sicherung und Wiederherstellung zu bestellen. Dabei können Sie entscheiden, welchen Speichertyp Sie verwenden möchten und wie Sie ihn bestellen und auf dem Server bereitstellen.
 
 In den *Kurzübersichten zu SAP NetWeaver (für Microsoft Windows* bzw. *für Red Hat Enterprise Linux*) finden Sie umfassende Informationen zur Serverkonfiguration und -bereitstellung, einschließlich auf einer Beispielkonfiguration für Linux und Windows basierende Konfigurationsschritte für {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}} und iSCSI.
 
-Für VMware ESXi kann der {{site.data.keyword.cloud_notm}}-Speichertyp als Datenspeicher genutzt werden; in diesem Fall wird er ESXi als iSCSI-Gerät zugeordnet. Die Schritte zum Zuordnen von iSCSI-Geräten zu ESXi finden Sie unter [iSCSI an VMware ESXi anhängen](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi).
+Für VMware ESXi kann der {{site.data.keyword.cloud_notm}}-Speichertyp als Datenspeicher genutzt werden; in diesem Fall wird er ESXi als iSCSI-Gerät zugeordnet. Die Schritte zum Zuordnen von iSCSI-Geräten zu ESXi finden Sie unter [iSCSI an VMware ESXi anhängen](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi).
 
 ## Nächste Schritte
 

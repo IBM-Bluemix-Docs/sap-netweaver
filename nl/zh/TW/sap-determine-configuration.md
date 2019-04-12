@@ -31,7 +31,7 @@ subcollection: sap-netweaver
 ## 儲存空間配置
 {: #storage_config}
 
-表 1 是一個 256 GB 伺服器的儲存空間配置範例，具有 50,000 個 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)，對於具有 SAP 的中央系統，它有 1.5 TB 及 6,000 IOPS，並使用具有外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) 或 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted) (4 IOPS/GB) 的 {{site.data.keyword.Db2_on_Cloud_long}} 資料庫。IOPS 的計算方式如下
+表 1 是一個 256 GB 伺服器的儲存空間配置範例，具有 50,000 個 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)，對於具有 SAP 的中央系統，它有 1.5 TB 及 6,000 IOPS，並使用具有外部 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) 或 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) (4 IOPS/GB) 的 {{site.data.keyword.Db2_on_Cloud_long}} 資料庫。IOPS 的計算方式如下
 
   * 6,000 IOPS/1,500 GG = 4 IOPS/GB，為外部儲存空間所需。已假設有 3,000 GB 來進行 2 IOPS/GB（中間效能）的備份。
 

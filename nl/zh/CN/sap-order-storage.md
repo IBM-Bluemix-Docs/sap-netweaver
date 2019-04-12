@@ -25,11 +25,11 @@ subcollection: sap-netweaver
 ## 订购 {{site.data.keyword.cloud_notm}} 存储器
 {: #ibm_storage}
 
-您可以执行[供应和管理 {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) 或者[供应和管理 {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) 下的步骤，以订购备份和复原存储器解决方案。这些步骤将逐步指导您确定要使用哪种存储器类型、如何进行订购以及如何将其部署到服务器。
+您可以执行[供应和管理 {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) 或者[供应和管理 {{site.data.keyword.filestorage_full_notm}}](/docs/infrastructure/FileStorage?topic=FileStorage-orderingConsole#orderingConsole) 下的步骤，以订购备份和复原存储器解决方案。这些步骤将逐步指导您确定要使用哪种存储器类型、如何进行订购以及如何将其部署到服务器。
 
 使用 *SAP NetWeaver 快速参考指南（针对 Microsoft Windows* 或*针对 Red Hat Enterprise Linux*），可以执行完整的服务器配置和部署，包括基于 Linux 和 Windows 的样本部署的 {{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}} 和 iSCSI 配置步骤。
 
-对于 VMware ESXi，可以使用 {{site.data.keyword.cloud_notm}} 存储器类型作为数据存储器；在此情况下，会将其作为 iSCSI 设备映射到 ESXi。遵循[安装 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) 中的步骤，以将 iSCSI 设备映射到 ESXi。
+对于 VMware ESXi，可以使用 {{site.data.keyword.cloud_notm}} 存储器类型作为数据存储器；在此情况下，会将其作为 iSCSI 设备映射到 ESXi。遵循[安装 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) 中的步骤，以将 iSCSI 设备映射到 ESXi。
 
 ## 后续步骤
 

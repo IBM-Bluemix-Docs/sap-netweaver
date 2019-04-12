@@ -31,7 +31,7 @@ SAP NetWeaver 시스템을 사용하는 경우에는 두 가지 배치 선택사
 ## 스토리지 구성
 {: #storage_config}
 
-표 1은 외부 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) 또는 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted)(4IOPS/GB)를 포함하는 {{site.data.keyword.Db2_on_Cloud_long}} 데이터베이스를 사용하며, SAP를 포함하는 중앙 집중식 시스템에서 1.5TB에 대해 IOPS가 6,000이고, [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)가 50,000인 256GB 서버에 대한 샘플 스토리지 구성입니다. IOPS 계산은 다음과 같습니다.
+표 1은 외부 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) 또는 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started)(4IOPS/GB)를 포함하는 {{site.data.keyword.Db2_on_Cloud_long}} 데이터베이스를 사용하며, SAP를 포함하는 중앙 집중식 시스템에서 1.5TB에 대해 IOPS가 6,000이고, [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)가 50,000인 256GB 서버에 대한 샘플 스토리지 구성입니다. IOPS 계산은 다음과 같습니다.
 
   * 6,000IOPS / 1,500GB = 4IOPS/GB가 외부 스토리지에 대해 필요합니다. 2IOPS/GB(중간 성능)인 3,000GB의 백업용 스토리지가 있다고 가정합니다.
 

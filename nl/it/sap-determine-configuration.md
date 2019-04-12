@@ -31,7 +31,7 @@ Le opzioni influenzano la tua scelta del server. Potresti voler distribuire il t
 ## Configurazione dell'archiviazione
 {: #storage_config}
 
-La Tabella 1 è una configurazione dell'archiviazione di esempio per un server da 256 GB con 50.000 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server), 1,5 TB a 6.000 IOPS per un sistema centrale con SAP, con un database {{site.data.keyword.Db2_on_Cloud_long}} con[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) o [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted) esterna (4 IOPS/GB). Il calcolo per l'IOPS è
+La Tabella 1 è una configurazione dell'archiviazione di esempio per un server da 256 GB con 50.000 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server), 1,5 TB a 6.000 IOPS per un sistema centrale con SAP, con un database {{site.data.keyword.Db2_on_Cloud_long}} con[{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) o [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) esterna (4 IOPS/GB). Il calcolo per l'IOPS è
 
   * 6.000 IOPS/1.500 GG = 4 IOPS/GB necessari per l'archiviazione esterna. Il presupposto sono 3.000 GB per il backup a 2 IOPS/GB (prestazioni medie).
 

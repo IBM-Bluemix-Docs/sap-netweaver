@@ -62,15 +62,15 @@ It is recommended that you choose a 10 Gb-based data center for your deployment 
 
 Another recommendation is that you use at least 4 IOPS/GB if your database resides primarily on external storage. Slower storage should only be used if database performance is not critical for your project or for backup purposes.
 
-If you are planning to use external storage as data stores for VMware ESX, follow the decision guidelines under [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) to determine the optimal storage type for your use case.
+If you are planning to use external storage as data stores for VMware ESX, follow the decision guidelines under [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) to determine the optimal storage type for your use case.
 
 ## VMware ESXi server deployments
 {: #vmware_server}
 
 VMware ESXi-based deployments in {{site.data.keyword.cloud_notm}} are different from other cloud-based deployments. {{site.data.keyword.cloud_notm}} does not provide its customers with running VMs; you take control of your environment and configure it to meet your requirements. You receive a configured server when you order a VMware ESX server. The following links provide information on additional storage and running guest VMs.
 
-  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) provides further direction on how to integrate storage in an ESX environment.
-  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) describes the steps to integrate iSCSI-based storage with ESX.
-  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine) guides you through the process of deploying your first VM.
+  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) provides further direction on how to integrate storage in an ESX environment.
+  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) describes the steps to integrate iSCSI-based storage with ESX.
+  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) guides you through the process of deploying your first VM.
 
 Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}.

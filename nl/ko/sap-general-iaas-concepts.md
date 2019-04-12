@@ -44,14 +44,14 @@ SAP NetWeaver 기반 시스템을 배치하는 데 필요한 게스트 운영 �
 
 ## 네트워크 연결
 
-{{site.data.keyword.cloud_notm}} 계정이 설정되면 {{site.data.keyword.cloud_notm}} Virtual Cloud Network에 대한 가상 사설망(VPN) 연결이 자동으로 부여됩니다. 기본적으로 서버에는 공인 및 사설 IP 주소가 있습니다. 서버를 개인용으로 사용하려는 경우에는 서버가 프로비저닝된 후 공용 인터페이스를 끄거나 서버를 개인용으로 주문할 수 있습니다. {{site.data.keyword.cloud_notm}} VPN에 대한 자세한 정보는 [가상 사설망(VPN) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-)를 참조하십시오.
+{{site.data.keyword.cloud_notm}} 계정이 설정되면 {{site.data.keyword.cloud_notm}} Virtual Cloud Network에 대한 가상 사설망(VPN) 연결이 자동으로 부여됩니다. 기본적으로 서버에는 공인 및 사설 IP 주소가 있습니다. 서버를 개인용으로 사용하려는 경우에는 서버가 프로비저닝된 후 공용 인터페이스를 끄거나 서버를 개인용으로 주문할 수 있습니다. {{site.data.keyword.cloud_notm}} VPN에 대한 자세한 정보는 [가상 사설망(VPN) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking)를 참조하십시오.
 
 ## 스토리지
 {: #storage}
 
 로컬 스토리지는 {{site.data.keyword.baremetal_short}}와 함께 제공되며 {{site.data.keyword.cloud_notm}} 사설 네트워크 가상 LAN(VLAN)을 사용하여 관리자 액세스를 방해하지 않는 동시에 엔터프라이즈급 보안을 제공하는 데 도움을 줍니다. 이는 OS와 같이 I/O 요구사항이 높으며 스토리지 사용량이 많은 애플리케이션, 그리고 데이터베이스 및 애플리케이션 소프트웨어에 대해 적합합니다. SAP NetWeaver 서버 디스크 공간은 서버 구성 방법에 따라 다릅니다. 서버에 있는 로컬 스토리지가 워크로드에 비해 충분하지 않은 경우에는 [{{site.data.keyword.cloud_notm}} 지원](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)에 확장 선택사항에 대해 문의하십시오.
 
-{{site.data.keyword.cloud_notm}}에는 SAP NetWeaver의 백업 및 복원을 수행하기 위해 선택할 수 있는 두 가지 유형의 스토리지(블록 및 파일)가 있습니다. 두 유형은 모두 스토리지 요구사항을 판별하는 데 사용되는 IOPS(Input/output Operations Per Second)를 사용합니다. IOPS는 50/50으로 읽기/쓰기가 혼합된 16KB 블록 크기를 기반으로 측정됩니다. 볼륨에서 최대 IOPS를 달성하려면 적절한 네트워크 리소스가 갖추어져 있어야 합니다. 기타 고려사항에는 스토리지 외부 및 호스트 측의 사설 네트워크 사용 및 애플리케이션 고유 튜닝(IP 스택 및 큐 깊이)이 있습니다. 스토리지 계층 및 성능에 대한 자세한 정보는 [블록 스토리지 시작하기](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted#GettingStarted) 및 [파일 스토리지 시작하기](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted#GettingStarted)를 참조하십시오.
+{{site.data.keyword.cloud_notm}}에는 SAP NetWeaver의 백업 및 복원을 수행하기 위해 선택할 수 있는 두 가지 유형의 스토리지(블록 및 파일)가 있습니다. 두 유형은 모두 스토리지 요구사항을 판별하는 데 사용되는 IOPS(Input/output Operations Per Second)를 사용합니다. IOPS는 50/50으로 읽기/쓰기가 혼합된 16KB 블록 크기를 기반으로 측정됩니다. 볼륨에서 최대 IOPS를 달성하려면 적절한 네트워크 리소스가 갖추어져 있어야 합니다. 기타 고려사항에는 스토리지 외부 및 호스트 측의 사설 네트워크 사용 및 애플리케이션 고유 튜닝(IP 스택 및 큐 깊이)이 있습니다. 스토리지 계층 및 성능에 대한 자세한 정보는 [블록 스토리지 시작하기](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) 및 [파일 스토리지 시작하기](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started)를 참조하십시오.
 
 ## 배치 및 관리
 

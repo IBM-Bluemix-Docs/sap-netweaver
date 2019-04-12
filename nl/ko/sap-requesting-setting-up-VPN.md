@@ -22,7 +22,7 @@ subcollection: sap-netweaver
 
 공용 포트를 끄거나 시스템을 개인용으로만 프로비저닝하려는 경우에는 [{{site.data.keyword.cloud}} 지원](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support)과 협력하여 {{site.data.keyword.cloud_notm}} 가상 사설망(VPN)에 대한 액세스를 획득하십시오. 프로덕션 레벨 VPN 선택사항 중 하나를 사용하고 있는 경우에는 사용자를 작성한 후 해당 사용자에게 {{site.data.keyword.cloud_notm}} 사설 네트워크에 대한 VPN 액세스를 지정할 수 있습니다.
 
-VPN 액세스 설정 방법에 대한 단계는 [가상 사설망(VPN) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-#getting-started-with-virtual-private-networking-vpn-)를 참조하십시오.
+VPN 액세스 설정 방법에 대한 단계는 [가상 사설망(VPN) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking)를 참조하십시오.
 
 ## 다음 단계
 

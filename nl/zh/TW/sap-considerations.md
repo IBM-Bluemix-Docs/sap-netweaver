@@ -62,15 +62,15 @@ subcollection: sap-netweaver
 
 如果您的資料庫主要位於外部儲存空間上，則另一項建議是至少使用 4 IOPS/GB。只有在資料庫效能對您的專案而言不重要，或為了備份時，才應該使用較慢速的儲存空間。
 
-如果您打算使用外部儲存空間作為 VMware ESX 的資料儲存庫，請遵循[與 VMware 系統搭配使用的儲存空間](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)的決策準則，以決定適合您使用案例的最佳儲存空間類型。
+如果您打算使用外部儲存空間作為 VMware ESX 的資料儲存庫，請遵循[與 VMware 系統搭配使用的儲存空間](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)的決策準則，以決定適合您使用案例的最佳儲存空間類型。
 
 ## VMware ESXi 伺服器部署
 {: #vmware_server}
 
 在 {{site.data.keyword.cloud_notm}} 中，VMware ESXi 型部署與其他雲端型部署不同。{{site.data.keyword.cloud_notm}} 不為其客戶提供執行的 VM；您可以控制自己的環境，並配置它來符合您的需求。當您訂購 VMware ESX 伺服器時，您會收到已配置的伺服器。下列鏈結提供關於其他儲存空間及執行的來賓 VM 的資訊。
 
-  *	[與 VMware 系統搭配使用的儲存空間](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems)提供關於如何在 ESX 環境中整合儲存空間的進一步指示。
-  * [裝載 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) 說明整合 iSCSI 型儲存空間與 ESX 的步驟。
-  * [建立 VMware ESX 虛擬機器](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine)會引導您完成部署第一個 VM 的處理程序。
+  *	[與 VMware 系統搭配使用的儲存空間](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage)提供關於如何在 ESX 環境中整合儲存空間的進一步指示。
+  * [裝載 iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) 說明整合 iSCSI 型儲存空間與 ESX 的步驟。
+  * [建立 VMware ESX 虛擬機器](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm)會引導您完成部署第一個 VM 的處理程序。
 
 請記住，在來賓作業系統中部署 SAP NetWeaver 型的軟體時，您必須從 [SAP 附註 2414097 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} 中提及的作業系統中選擇來賓作業系統。

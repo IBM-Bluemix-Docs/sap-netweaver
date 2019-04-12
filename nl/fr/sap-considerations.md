@@ -62,15 +62,15 @@ Il est préférable de choisir un centre de données 10 Go pour votre déploieme
 
 Il est également conseillé d'utiliser au moins 4 IOPS/Go si votre base de données réside principalement sur le stockage externe. Un stockage moindre ne doit être envisagé que si les performances de base de données ne sont pas primordiales pour votre projet ou vos besoins de sauvegarde.
 
-Si vous prévoyez d'utiliser le stockage externe comme magasin de données pour VMware ESX, consultez les bonnes pratiques sous [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) afin de déterminer le type de stockage optimal pour votre utilisation.
+Si vous prévoyez d'utiliser le stockage externe comme magasin de données pour VMware ESX, consultez les bonnes pratiques sous [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) afin de déterminer le type de stockage optimal pour votre utilisation.
 
 ## Déploiement de serveurs VMware ESXi
 {: #vmware_server}
 
 Les déploiements basés sur VMware ESXi dans {{site.data.keyword.cloud_notm}} sont différents des autres déploiement basés sur le Cloud. {{site.data.keyword.cloud_notm}} ne fournit pas à ses clients de machines virtuelles en cours d'exécution. Il vous incombe de contrôler votre environnement et de le configurer en fonction de vos besoins. Lorsque vous commandez un serveur VMware ESX, celui-ci est déjà configuré. Les liens ci-dessous fournissent des informations sur les types de stockage supplémentaires et l'exécution de machines virtuelles invitées.
 
-  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-storage-to-use-with-vmware-systems#storage-to-use-with-vmware-systems) fournit des précisions sur les modalités d'intégration du stockage dans un environnement ESX.
-  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mounting-iscsi-vmware-esxi#mounting-iscsi-vmware-esxi) décrit la procédure d'intégration d'un stockage iSCSI à ESX.
-  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-creating-a-vmware-esx-virtual-machine#creating-a-vmware-esx-virtual-machine) vous guide tout au long du processus de déploiement de votre première machine virtuelle.
+  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) fournit des précisions sur les modalités d'intégration du stockage dans un environnement ESX.
+  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) décrit la procédure d'intégration d'un stockage iSCSI à ESX.
+  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) vous guide tout au long du processus de déploiement de votre première machine virtuelle.
 
 Notez que pour déployer un logiciel basé sur SAP NetWeaver dans le système d'exploitation invité, vous devez choisir ce dernier dans la liste qui figure dans la [note SAP 2414097 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}.
