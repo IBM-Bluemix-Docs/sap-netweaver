@@ -44,7 +44,7 @@ SAP NetWeaver on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Getting help and support](/bare-metal/bare-metal-gettinghelp#gettinghelp)
+    [Getting help and support](/vsi/virtual-servers-gettinghelp#gettinghelp)
     sap-support.md
 
     {: .topicgroup}
