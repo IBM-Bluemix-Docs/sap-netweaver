@@ -95,7 +95,7 @@ Um e-mail de confirmação com o assunto Seu pedido nº do _{{site.data.keyword.
 ## Bring your own license
 {: #byol}
 
-Quando tiver sua própria licença do sistema operacional, instale-a em seu {{site.data.keyword.baremetal_short}} com base nas instruções do fornecedor. Para obter mais informações, consulte [A opção sem S.O.](/docs/bare-metal?topic=bare-metal-how-to-install-an-operating-system-on-a-no-os-server-#how-to-install-an-operating-system-on-a-no-os-server-).
+Quando tiver sua própria licença do sistema operacional, instale-a em seu {{site.data.keyword.baremetal_short}} com base nas instruções do fornecedor. Para obter mais informações, consulte [A opção sem S.O.](/docs/bare-metal?topic=bare-metal-how-to-install-an-operating-system-on-a-no-os-server-#bm-no-os).
 
 ## Próximas etapas
 
