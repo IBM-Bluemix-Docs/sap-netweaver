@@ -92,7 +92,7 @@ _Your {{site.data.keyword.cloud_notm}} Order ## has been approved_라는 제목�
 ## BYOL(Bring Your Own License)
 {: #byol}
 
-고유한 운영 체제 라이센스가 있는 경우에는 공급업체의 지시사항에 따라 {{site.data.keyword.baremetal_short}}에 이를 설치하십시오. 자세한 정보는 [OS 없음 옵션](/docs/bare-metal?topic=bare-metal-how-to-install-an-operating-system-on-a-no-os-server-#bm-no-os)을 참조하십시오.
+고유한 운영 체제 라이센스가 있는 경우에는 공급업체의 지시사항에 따라 {{site.data.keyword.baremetal_short}}에 이를 설치하십시오. 자세한 정보는 [OS 없음 옵션](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os)을 참조하십시오.
 
 ## 다음 단계
 
