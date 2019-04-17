@@ -92,7 +92,7 @@ Es wird eine Bestätigungs-E-Mail mit dem Betreff 'Ihre _{{site.data.keyword.clo
 ## Bring your own license (BYOL)
 {: #byol}
 
-Wenn Sie über eine eigene Betriebssystemlizenz verfügen, installieren Sie sie auf dem {{site.data.keyword.baremetal_short}} anhand der Herstelleranweisungen. Weitere Informationen finden Sie in [Option 'Kein Betriebssystem'](/docs/bare-metal?topic=bare-metal-how-to-install-an-operating-system-on-a-no-os-server-#bm-no-os).
+Wenn Sie über eine eigene Betriebssystemlizenz verfügen, installieren Sie sie auf dem {{site.data.keyword.baremetal_short}} anhand der Herstelleranweisungen. Weitere Informationen finden Sie in [Option 'Kein Betriebssystem'](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os).
 
 ## Nächste Schritte
 
