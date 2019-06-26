@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, credentials, SAP Certified
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -27,12 +27,12 @@ The following steps provide guidance on how to obtain the necessary credentials 
 ## SAP credentials and accounts for new users
 {: #sap_credentials}
 
-1. Set up an account on the [SAP home page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.sap.com/){: new_window} and follow the instructions.
+1. Set up an account on the [SAP home page](https://www.sap.com/index.html){: external} and follow the instructions.
 
 ## {{site.data.keyword.cloud_notm}} credentials and accounts for new users
 {: #ibm_credentials}
 
-1. Go to [Getting started with {{site.data.keyword.cloud_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/get-started){: new_window} and click **Get started free**.
+1. Go to [Getting started with {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/get-started){: external} and click **Get started free**.
 
    You will receive an email from {{site.data.keyword.cloud_notm}} Support containing your verification code, from which you can create your initial login ID and password.
 
@@ -41,6 +41,7 @@ The following steps provide guidance on how to obtain the necessary credentials 
 You can [create other accounts](/docs/customer-portal?topic=customer-portal-getting-started#getting-started) and [create new users](/docs/customer-portal?topic=customer-portal-getting-started#users-permissions) after you have received your login credentials, and you have connectivity to the {{site.data.keyword.cloud_notm}} private network.
 
 ## Next Steps
+{: #get-credentials-next-steps}
 
   [2. Reviewing any relevant SAP and IBM Cloud documentation](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-review_doc#review_doc)
 

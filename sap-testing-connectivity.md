@@ -1,6 +1,6 @@
 ---
 
-
+<!--This file is no longer used because the license for the speedtest was not renewed-->
 
 copyright:
   years: 2018

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.blockstorageshort}}, {{site.data.keyword.filestorage_full_notm}}, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.baremetal_short}}
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -32,6 +32,7 @@ The *SAP NetWeaver Quick Reference Guides (for Microsoft Windows* or *for Red Ha
 For VMware ESXi, the {{site.data.keyword.cloud_notm}} storage type can be used as data stores; in which case, it is mapped to ESXi as an iSCSI device. Follow the steps in [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) to map iSCSI devices to ESXi.
 
 ## Next Steps
+{: #order-storage-next-steps}
 
   [2. Securing your environment](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment)
 

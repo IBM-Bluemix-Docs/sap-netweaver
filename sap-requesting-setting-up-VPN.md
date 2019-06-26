@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, virtual private network, VPN
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -25,5 +25,6 @@ Work with [{{site.data.keyword.cloud}} Support](/docs/get-support?topic=get-supp
 See [Getting started with Virtual Private Network](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking#gettingstarted-with-virtual-private-networking) for steps on how to set up VPN access.
 
 ## Next Steps
+{: #request-vpn-next-steps}
 
   [2. Setting up your infrastructure](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure)

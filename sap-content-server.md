@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP Content Server, SAP Product Availability Matrix, PAM, SAP certified, database
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:note: .note}
@@ -33,7 +33,7 @@ The SAP Content Server uses the SAP MaxDB database and one of the following oper
 * SUSE Linux
 * Red Hat Linux  
 
-For release information on these supported operating systems, see the [SAP Product Availability Matrix (PAM) ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window} for release information.
+For release information on these supported operating systems, see the [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: external} for release information.
 
 The SAP Content Server is not an alternative for optical storage and other storage media for long-term document archiving.
 {: note}
@@ -41,9 +41,9 @@ The SAP Content Server is not an alternative for optical storage and other stora
 ## Implementation considerations
 {: #implementation}
 
-You install the SAP Content Server by using the _SAP NetWeaver Presentation DVD_. The _SAP Content Server Installation Guide_ is found on the [SAP Help Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://help.sap.com/viewer/index){: new_window}. Enter "Installation of SAP Content Server" in the Search bar and select the appropriate installation guide (Windows or Linux).
+You install the SAP Content Server by using the _SAP NetWeaver Presentation DVD_. The _SAP Content Server Installation Guide_ is found on the [SAP Help Portal](https://help.sap.com/viewer/index){: external}. Enter "Installation of SAP Content Server" in the Search bar and select the appropriate installation guide (Windows or Linux).
 
 ## Additional information
 {: #addl_info}
 
-For more information about the SAP Content Server, see [SAP Help ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://help.sap.com/viewer/index){: new_window} and [SAP Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://help.sap.com/viewer/3ad3ba0715c5422eae08578d4c40328d/7.5.13/en-US/4cff90895b605dc6e10000000a42189c.html){: new_window}.
+For more information about the SAP Content Server, see [SAP Help](https://help.sap.com/viewer/index){: external} and [SAP Documentation](https://help.sap.com/viewer/3ad3ba0715c5422eae08578d4c40328d/7.5.13/en-US/4cff90895b605dc6e10000000a42189c.html){: external}.

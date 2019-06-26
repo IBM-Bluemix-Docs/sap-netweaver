@@ -12,6 +12,9 @@ SAP NetWeaver on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    /vsi/virtual-servers-navigating-devices
+
+
     {: .topicgroup}
     Planning
         sap-planning-your-system-landscape.md
@@ -45,8 +48,7 @@ SAP NetWeaver on IBM Cloud
 
     {: .navgroup id="help"}
     [Getting help and support](/vsi/virtual-servers-gettinghelp#gettinghelp)
-    sap-support.md
-
+    
     {: .topicgroup}
     FAQs
         sap-faqs.md

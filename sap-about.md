@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-18"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.baremetal_short}}, ABAP, application server, SAP Product Availability Matrix, PAM, SAP Certified, SAP Content Server, SAP liveCache
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:note: .note}
@@ -39,7 +39,7 @@ The offering features {{site.data.keyword.cloud_notm}} {{site.data.keyword.barem
 
 All eight options are certified for SAP NetWeaver and can provide a scalable, security-rich, open, global enterprise cloud platform for rapidly deploying SAP applications.
 
-You can use your servers for production, non-production, or proof-of-concept (POC) environments. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}. For all other software components, non-SAP NetWeaver-based SAP products, or third-party products, contact [SAP Support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/home.html){: new_window} if the products are supported within the IaaS offerings.
+You can use your servers for production, non-production, or proof-of-concept (POC) environments. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}. For all other software components, non-SAP NetWeaver-based SAP products, or third-party products, contact [SAP Support](https://support.sap.com/en/index.htmll){: external} if the products are supported within the IaaS offerings.
 
 ## {{site.data.keyword.cloud_notm}} for SAP NetWeaver offering model
 {: #offer_model}
@@ -60,29 +60,29 @@ The offering consists of the following servers, operating systems (OS), and data
   * Operating system or hypervisor
       * VMware vSphere ESXi 6.0 or 6.5 on your server
       * Red Hat Enterprise Linux (RHEL) for SAP Business Applications 6.X OS [SAP Business Warehouse (SAP BW) is supported in production on {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}]
-      * SUSE Linux Enterprise Server (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
-      * Microsoft Windows Server (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
+      * SUSE Linux Enterprise Server (see [SAP Note 2414097)](https://launchpad.support.sap.com/#/notes/2414097){: external} for version details)
+      * Microsoft Windows Server (see [SAP Note 2414097)](https://launchpad.support.sap.com/#/notes/2414097){: external} for version details)
 
   * The databases that are offered are
-      * Microsoft SQL Server for Windows (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
-      * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Linux (see [SAP Note 101809 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
-      * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Windows (see [SAP Note 101809-DB6 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/101809){: new_window}: Supported versions and fix pack levels)
-      * SAP MaxDB (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for version details)
-      * SAP ASE 16.0 (see [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window} for details)
+      * Microsoft SQL Server for Windows (see [SAP Note 2414097)](https://launchpad.support.sap.com/#/notes/2414097){: external} for version details)
+      * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Linux (see [SAP Note 101809)](https://launchpad.support.sap.com/#/notes/101809){: external}: Supported versions and fix pack levels)
+      * {{site.data.keyword.Db2_on_Cloud_long_notm}} for Windows (see [SAP Note 101809-DB6)](https://launchpad.support.sap.com/#/notes/101809){: external}: Supported versions and fix pack levels)
+      * SAP MaxDB (see [SAP Note 2414097)](https://launchpad.support.sap.com/#/notes/2414097){: external} for version details)
+      * SAP ASE 16.0 (see [SAP Note 2414097)](https://launchpad.support.sap.com/#/notes/2414097){: external} for details)
       * SAP HANA
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers can run other operating systems or non-SAP NetWeaver-based products, such as SAP liveCache, SAP Content Server, SAP Business One on Microsft SQL, and SAP BusinessObjects as listed in [SAP Note 2279688 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2279688){: new_window}.
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} that are deployed with VMware ESXi can run the listed versions of RHEL and Windows, the referenced databases', and SAP NetWeaver-based software products. The servers can run other operating systems or non-SAP NetWeaver-based products, such as SAP liveCache, SAP Content Server, SAP Business One on Microsft SQL, and SAP BusinessObjects as listed in [SAP Note 2279688](https://launchpad.support.sap.com/#/notes/2279688){: external}.
 
 If you're running SAP NetWeaver-based SAP products on your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, you must also run one of the supported operating systems and databases.
 {: note}
 
 See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started) for information on deploying SAP HANA.
 
-Consult the [SAP Product Availability Matrix (PAM) ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: new_window} for specific databases, operating system, and SAP NetWeaver requirements for {{site.data.keyword.cloud_notm}}. An SAP S-user ID is required to access SAP PAM.
+Consult the [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: external} for specific databases, operating system, and SAP NetWeaver requirements for {{site.data.keyword.cloud_notm}}. An SAP S-user ID is required to access SAP PAM.
 
 ## {{site.data.keyword.cloud_notm}} network
 {: #ibm_cloud_network}
 
 The {{site.data.keyword.cloud_notm}} provides more than 2,000 GB of connectivity across a global footprint of more than 60 {{site.data.keyword.cloud_notm}} data centers and 28 points of presence (PoPs). {{site.data.keyword.cloud_notm}} has 20 Gbps network connections across its locations. These connections are provided by leading global network providers and include multiple public peering links to dozens of additional internet access networks.
 
-The network is three distinct and redundant gigabit network architectures-public, private, and data center-to-data center-seamlessly integrated to the industry's first network-within-a-network topology. This design provides maximum accessibility, security, and control for your IT infrastructure. See [The IBM Cloud network ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/our-network){: new_window} for more information.
+The network is three distinct and redundant gigabit network architectures-public, private, and data center-to-data center-seamlessly integrated to the industry's first network-within-a-network topology. This design provides maximum accessibility, security, and control for your IT infrastructure. See [The IBM Cloud network](https://www.ibm.com/cloud/data-centers/){: external} for more information.

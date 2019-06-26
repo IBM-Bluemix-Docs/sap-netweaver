@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, VLANs, hybrid, STMS, SAProuter, SAP Solution Manager, SAP certified, database
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -49,14 +49,14 @@ For an SAP deployment with local storage, even for three-tier setups, 1 Gb-based
 
 The {{site.data.keyword.cloud_notm}} for SAP Applications offering can be thought of as an external data center, especially if you are thinking of implementing a hybrid landscape with some SAP systems at an {{site.data.keyword.cloud_notm}} data center and other systems on site. Some specific configuration items that need to be considered as part of your project’s planning phase with a hybrid setup:
 
-  *	[SAP Transport Management System (STMS) ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.sap.com/products/transportation-logistics.html){: new_window}. Configure it based on Transport Groups to prevent file sharing across data centers.
-  *	[SAProuter ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/tools/connectivity-tools/saprouter.html){: new_window}. Provides access to SAP On-Line Service System (OSS). Use your on-premises SAProuter, which is already available, to access the OSS. This SAProuter can be used through further SAProuter hops if IP-based routing is not permitted between your {{site.data.keyword.cloud_notm}}-based systems and your on-premises SAProuter. Alternatively, you might consider setting up another SAProuter that is based on one {{site.data.keyword.cloud_notm}}-based server with a public IP and connect it to the SAP OSS system through the internet.
-  *	[SAP Solution Manager ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/solution-manager.html){: new_window}. Access to the SAP Solution Manager has different connectivity requirements between an SAP Solution Manager and its managed systems, depending on your usage scenario. These scenarios require an understanding of the required network connectivity.  
+  *	[SAP Transport Management System (STMS)](https://www.sap.com/products/transportation-logistics.html){: external}. Configure it based on Transport Groups to prevent file sharing across data centers.
+  *	[SAProuter](https://support.sap.com/en/tools/connectivity-tools/saprouter.html){: external}. Provides access to SAP On-Line Service System (OSS). Use your on-premises SAProuter, which is already available, to access the OSS. This SAProuter can be used through further SAProuter hops if IP-based routing is not permitted between your {{site.data.keyword.cloud_notm}}-based systems and your on-premises SAProuter. Alternatively, you might consider setting up another SAProuter that is based on one {{site.data.keyword.cloud_notm}}-based server with a public IP and connect it to the SAP OSS system through the internet.
+  *	[SAP Solution Manager](https://support.sap.com/en/alm/solution-manager.html){: external}. Access to the SAP Solution Manager has different connectivity requirements between an SAP Solution Manager and its managed systems, depending on your usage scenario. These scenarios require an understanding of the required network connectivity.  
 
 ## External storage
 {: #external_storage}
 
-Local storage provides the best performance for your database deployment. In addition to the local storage, you might require more external storage to perform backups, or your SAP systems’ database might exceed the storage capacity of the internal disks. Another example is your project requirements might demand external storage; like for multiple ESX-based servers, which want to share virtual machines (VMs). For these requirements, you can order block storage or Network Attached Storage (NAS) as described in [Storage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-storage#storage). Since extra block storage and NAS data is transferred through the same physical adapters as all other network traffic, the impact needs to be kept in mind. Performance numbers comparable to the numbers measured in the certification benchmarks might merely be achievable.
+Local storage provides the best performance for your database deployment. In addition to the local storage, you might require more external storage to perform backups, or your SAP systems’ database might exceed the storage capacity of the internal disks. Another example is your project requirements might demand external storage; like for multiple ESX-based servers, which want to share virtual machines (VMs). For these requirements, you can order block storage or Network Attached Storage (NAS) as described in [Storage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage). Since extra block storage and NAS data is transferred through the same physical adapters as all other network traffic, the impact needs to be kept in mind. Performance numbers comparable to the numbers measured in the certification benchmarks might merely be achievable.
 
 It is recommended that you choose a 10 Gb-based data center for your deployment if you are planning to primarily use external storage instead of local storage. For example, the external storage is used for both backup and for your database, and if you are planning to put a high load on your SAP system. If you are close to over-loading a 1 Gb network with a 90 MB/s I/O load.
 
@@ -73,4 +73,4 @@ VMware ESXi-based deployments in {{site.data.keyword.cloud_notm}} are different 
   * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) describes the steps to integrate iSCSI-based storage with ESX.
   * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) guides you through the process of deploying your first VM.
 
-Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 2414097 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/notes/2414097){: new_window}.
+Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097){: external}.

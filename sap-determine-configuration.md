@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, RDBMS, SAP Application Performance Standards, SAPS, SAP Certified, database
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
@@ -35,8 +35,6 @@ Table 1 is a sample storage configuration for a 256 GB server with 50,000 [SAPS]
 
   * 6,000 IOPS/1,500 GG = 4 IOPS/GB needed for external storage. There is an assumption of 3,000 GB for backup at 2 IOPS/GB (medium performance.
 
-Table 1. Sample storage layout based on IOPS calculation
-
 | File system | # of volumes | Storage type | IOPS/GB | GB | # IOPS |
 | --- | --- | --- | --- | --- | --- |
 | `/` | 1 | Internal | N/A | 150 GB | N/A |
@@ -45,6 +43,7 @@ Table 1. Sample storage layout based on IOPS calculation
 | `/db2` (including logs) | 1 | Internal | N/A | 250 GB | N/A |
 | `sapdata` | 1 | External | 4 IOPS/GB | 1,500 GB | 6,000 IOPS |
 | `backup/log and backup` | 1 | External | 2 IOPS/GB | 3,000 GB | 6,000 IOPS |
+{: caption="Table 1. Sample storage layout based on IOPS calculation" caption-side="top"}
 
 ## High-availability configuration
 {: #ha_config}
@@ -54,5 +53,6 @@ The {{site.data.keyword.cloud_notm}} environment does not support any preconfigu
 This information not only applies to HA software for SAP NetWeaver, it also applies to HA software for the relational database management system (RDBMS) you choose. This includes the high-availability and disaster-recovery mechanisms for your RDBMS, for example, replication. Setup procedures do not differ from any setup procedures in an on-premises environment and require the same hardware and software configuration steps.
 
 ## Next Steps
+{: #determine-configuration-next-steps}
 
 You are now ready to begin Provisioning your {{site.data.keyword.baremetal_short}}. See [Provisioning your SAP NetWeaver environment](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-provision_environment#provision_environment) for your next steps.

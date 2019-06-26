@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-06-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, deployment, BYOL, database
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:note: .note}
@@ -95,7 +95,7 @@ Use the following steps to order your {{site.data.keyword.baremetal_short}} thro
 
 In the next step, you will select the type and number of disks you want to add to your configuration. You can also select different options for Redundant Array of Independent Disks (RAID) storage groups and partitioning layouts on-top of the RAID storage groups. See [About RAID](/docs/bare-metal?topic=bare-metal-about-raid#about-raid) or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information.
 
-1. Under **SAP Certified Servers**, make your selection based on how you plan to use your server. Consult the [Design Decision Tool ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool){: new_window} (scroll down to the tool) or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information
+1. Under **SAP Certified Servers**, make your selection based on how you plan to use your server. Consult the [Design Decision Tool](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool){: external} or [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for more information
 2. Click the **Add to order** button at the bottom of the page.
 
 ## Setting up Advanced System Configurations
@@ -103,7 +103,7 @@ In the next step, you will select the type and number of disks you want to add t
 
 1. Follow the [Advanced System Configuration](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server) guidelines for help with the values in the **Advanced System Configuration** window.
 
-SAP Hostnames must consist of a maximum of 13 alpha-numeric characters. See [SAP Notes 611361 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/611361){: new_window} and [129997 ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://launchpad.support.sap.com/#/129997){: new_window} for more SAP Hostname details.
+SAP Hostnames must consist of a maximum of 13 alpha-numeric characters. See [SAP Notes 611361](https://launchpad.support.sap.com/#/611361){: external} and [129997](https://launchpad.support.sap.com/#/129997){: external} for more SAP Hostname details.
 
 If you have decided on a public/private setup for your environment and plan to
   * Install multiple SAP systems that need to communicate with each other *or*
@@ -128,5 +128,6 @@ A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Ord
 When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal?topic=bare-metal-how-to-install-an-operating-system-on-a-no-os-server-#how-to-install-an-operating-system-on-a-no-os-server-).
 
 ## Next Steps
+{: #test_setting-up-infrastructure-next-steps}
 
 You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-manage_environment#manage_environment) for your next steps.
