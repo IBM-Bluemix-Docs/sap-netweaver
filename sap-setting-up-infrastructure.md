@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-07-01"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, deployment, BYOL, database
 
@@ -31,7 +31,7 @@ You have two options to get to provision your {{site.data.keyword.baremetal_shor
 ## Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console
 {: #using-console}
 
-1. Log in to the [{site.data.keyword.cloud_notm} console](https://cloud.ibm.com/){: external} with your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external} with your unique credentials.
 2. Click **Create resource** > **Compute** > **Bare Metal Server** > **Continue**.
 3. Enter the number of servers you are ordering in the **Quantity** field and select your **Location**, which is your data center.
 4. Click **All servers** > **SAP certified**. SAP NetWeaver-certified servers are identified with **-NW** under CPU Model.
@@ -122,7 +122,7 @@ The internal addresses will not appear in the domain name system (DNS). Since in
 2. Scroll down to Create Account: Enter Billing and enter the **Payment Type, Name, Card** and **Expiration** (date) for the credit card to be used for billing.
 3. Click the **Submit Order** button. You are redirected to a screen with your order number. You can print the screen, because it is also your order receipt.
 
-A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ is be sent to the email address in your profile. This email is notice that your server has been approved and is in the process of being deployed. After it is deployed, another notice is sent notifying you that the server is available and can be managed through the [{site.data.keyword.cloud_notm} console](https://cloud.ibm.com/){: external} or the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com){: external}.
+A confirmation email with the subject Your _{{site.data.keyword.cloud_notm}} Order ## has been approved_ is be sent to the email address in your profile. This email is notice that your server has been approved and is in the process of being deployed. After it is deployed, another notice is sent notifying you that the server is available and can be managed through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external} or the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com){: external}.
 
 ## Bring your own license
 {: #byol}
