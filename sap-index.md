@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-07-18"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, SAP certified servers, SAP Certified, database,
 
@@ -17,7 +17,7 @@ subcollection: sap-netweaver
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Getting started tutorial
+# Getting started with SAP NetWeaver on IBM Cloud
 {: #getting-started}
 
 {{site.data.keyword.IBM_notm}} and SAP continue a 40-year collaboration in multiple areas, including hardware, software, cloud, services, and finance. They are now collaborating to run SAP NetWeaver-based applications on {{site.data.keyword.baremetal_long}}. The offering features four memory options, single socket (32 GB) and dual sockets (128 GB, 256 GB, and 512 GB). These memory options are all available in the more than 60 {{site.data.keyword.cloud_notm}} data centers worldwide.
