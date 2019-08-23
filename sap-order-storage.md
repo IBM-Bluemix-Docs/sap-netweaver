@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-09-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.blockstorageshort}}, {{site.data.keyword.filestorage_full_notm}}, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.baremetal_short}}
 
@@ -21,6 +21,7 @@ subcollection: sap-netweaver
 {: #order_storage}
 
 {{site.data.keyword.blockstoragefull}}, {{site.data.keyword.filestorage_full_notm}}, and Network Attached Storage (NAS) are ordered after you deploy your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}.
+{:shortdesc}
 
 ## Ordering {{site.data.keyword.cloud_notm}} storage
 {: #ibm_storage}

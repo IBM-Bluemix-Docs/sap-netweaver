@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, high availability, highly available, HA, disaster recovery, DR, Microsft Windows Server Failover Clustering, WFSC, bring your own license, BYOL, single point of failure, SPOF, Link Aggregation Control Protocol, LACP, VLANs, SAP Certified, database, Linux Pacemaker
 
@@ -22,6 +22,7 @@ subcollection: sap-netweaver
 {: #ha}
 
 The {{site.data.keyword.cloud}} Infrastructure as a Service (IaaS) offers you a robust compute environment with an optional operating system (OS) deployment on top that supports high availability (HA) solutions. The solution is based on the supported OS version, which is discussed in [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097){: external}. The HA solution is restricted to the ordered OS licenses that comes with your deployment, or third-party licenses, such as bring your own license (BYOL). Be sure to discuss HA details with {{site.data.keyword.cloud_notm}} Support before your deployment.
+{:shortdesc}
 
 The operating systems supported and deployed by {{site.data.keyword.cloud_notm}} for SAP are
 * Linux [Red Hat Enterprise Linux (RHEL) or SUSE Enterprise Linux Server (SLES)] supports both SAP NetWeaver and SAP HANA HA solutions. There are minor restrictions in the {{site.data.keyword.cloud_notm}} environment, which are discussed in [Overview of SAP NetWeaver high-availability configurations](#overview-configs).

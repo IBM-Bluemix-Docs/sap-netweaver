@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.Db2_on_Cloud_short}}, FAQs, VLAN, application server, SAP Certified, high availability, highly available
 
@@ -44,4 +44,4 @@ The only supported high availability architecture is the scaling of application 
 ## Can I download the SAP distribution software directly from {{site.data.keyword.cloud_notm}}?
 {: faq}
 
-Currently, we are not offering a direct link with the [SAP Service Marketplace](https://websmp201.sap-ag.de){: external}. Therefore, you should download the distribution DVDs just like you do today for an on-premise deployment.
+Currently, we don't have a direct link for SAP software downloads. You download the distribution DVDs just like you do today for an on-premise deployment.

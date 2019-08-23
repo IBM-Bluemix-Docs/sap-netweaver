@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, VLANs, hybrid, STMS, SAProuter, SAP Solution Manager, SAP certified, database
 
@@ -21,6 +21,7 @@ subcollection: sap-netweaver
 {: #considerations}
 
 The SAP systems in a landscape have specific requirements for connectivity, either among each other or to external systems. You also need to think about external storage for your landscape, and what to do if you decide to deploy VMware on your server.
+{:shortdesc}
 
 ## Network connectivity
 {: #network_connectivity}
@@ -42,7 +43,7 @@ For the following use cases, you might want to make sure that all servers are on
   *	Multiple servers exchanging data, such as a three-tier SAP setup—database and SAP application instances on different servers
   *	Multiple systems that exchange large amounts of data
 
-For an SAP deployment with local storage, even for three-tier setups, 1 Gb-based networks are sufficient. More factors might have to be considered; see [External storage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-considerations#considerations#external_storage) for more information on your network storage choices.
+For an SAP deployment with local storage, even for three-tier setups, 1 Gb-based networks are sufficient. More factors might have to be considered; see [External storage](#external_storage) for more information on your network storage choices.
 
 ### Hybrid setups
 {: #hybrid}

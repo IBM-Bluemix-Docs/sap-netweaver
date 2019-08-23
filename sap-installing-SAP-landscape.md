@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, downloading SAP software, installing SAP software, SAP Download Manager, SAP Certified
 
@@ -21,6 +21,7 @@ subcollection: sap-netweaver
 {: #install_sap}
 
 Log in to the [SAP Support Portal](https://support.sap.com/en/index.html){: external} and click **Download Software** to download the required digital versatile discs (DVDs) to a local share drive that is visible to the private {{site.data.keyword.cloud_notm}} network. You can either download each DVD or use the [SAP Download Manager](https://support.sap.com/en/my-support/software-downloads.html){: external}. If you are using the SAP Download Manager, download it to an on-premise machine and transfer it to your SAP NetWeaver server.
+{:shortdesc}
 
 After you connect to the SAP Marketplace, you can choose the SAP software components to download through the [SAP Download Basket](https://websmp201.sap-ag.de/~sapidp/002006825000000233112001/){: external}.
 

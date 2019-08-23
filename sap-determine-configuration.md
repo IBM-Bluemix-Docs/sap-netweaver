@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, RDBMS, SAP Application Performance Standards, SAPS, SAP Certified, database
 
@@ -27,6 +27,7 @@ With an SAP NetWeaver system, you have two deployment options:
   * Distributed system, which is a multi-host installation (three-tier)
 
 The options influence your server choice. You might want to distribute your workload to different servers or keep the workload on one server for simplicity. See [Setting up your infrastructure](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#set_up_infrastructure) for step-by-step guidance on how deploy your server.
+{:shortdesc}
 
 ## Storage configuration
 {: #storage_config}

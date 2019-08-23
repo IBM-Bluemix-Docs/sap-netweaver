@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-23"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
 
@@ -21,6 +21,7 @@ subcollection: sap-netweaver
 {: #manage_environment}
 
 Managing your {{site.data.keyword.cloud}} environment includes ordering your storage (block, file, or network attached), securing it, optionally installing a guest OS on the VMware hypervisor, downloading and installing your SAP NetWeaver software and applications, and testing your connectivity to your {{site.data.keyword.cloud_notm}} data center.
+{:shortdesc}
 
 ## Before you begin
 {: #before-you-begin}
