@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-23"
+lastupdated: "2019-09-04"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, RDBMS, SAP Application Performance Standards, SAPS, SAP Certified, database
 
@@ -34,7 +34,7 @@ The options influence your server choice. You might want to distribute your work
 
 Table 1 is a sample storage configuration for a 256 GB server with 50,000 [SAPS](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server), 1.5 TB at 6,000 IOPS for a central system with SAP, using an {{site.data.keyword.Db2_on_Cloud_long}} database with external [{{site.data.keyword.cloud_notm}} {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started) or [{{site.data.keyword.cloud_notm}} {{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started#getting-started) (4 IOPS/GB). The calculation for the IOPS is
 
-  * 6,000 IOPS/1,500 GG = 4 IOPS/GB needed for external storage. There is an assumption of 3,000 GB for backup at 2 IOPS/GB (medium performance.
+  * 6,000 IOPS/1,500 GB = 4 IOPS/GB needed for external storage. There is an assumption of 3,000 GB for backup at 2 IOPS/GB (medium performance.
 
 | File system | # of volumes | Storage type | IOPS/GB | GB | # IOPS |
 | --- | --- | --- | --- | --- | --- |
