@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-08-23"
+lastupdated: "2019-09-09"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, deployment, BYOL, database
 
@@ -64,7 +64,7 @@ Select your SAP-certified server and OS.
 3. Select your **Operating System** from either Microsoft, Red Hat, or SUSE and select the specific operating system, or VMware hypervisor for your server.
 
 If you are bringing your own license (BYOL) for your operating system, select **Other** > **No Operating System**. For more information, see [Bring your own license](#byol).
-{ :note}
+{: note}
 
 The Red Hat-based server configuration is described in step 3, the steps are the same for Microsoft Windows. For VMWare, your choice is limited, however, the steps are the same.
 {: note}
