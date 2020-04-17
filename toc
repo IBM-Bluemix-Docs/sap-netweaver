@@ -6,6 +6,7 @@ SAP NetWeaver on IBM Cloud
 
     {: .navgroup id="learn"}
     sap-index.md
+    [What is the SAP-Certified Infrastructure?](https://www.ibm.com/cloud/sap/certified-infrastructure)
     [Solutions for SAP](https://www.ibm.com/cloud/sap)
     sap-general-iaas-concepts.md
     sap-byol.md
