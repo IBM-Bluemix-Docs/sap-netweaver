@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-08-23"
+  years: 2018, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
 
@@ -28,17 +28,17 @@ Managing your {{site.data.keyword.cloud}} environment includes ordering your sto
 
 First, navigate to the device menu, and ensure you have the correct account permissions to complete the tasks.
 
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/sap-netweaver?topic=virtual-servers-navigating-devices).
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/sap-netweaver?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 Table 1 contains hyperlinks to help you through the management process.
 
 | Step | Details |
 | --- | --- |
-| 1 | [Ordering storage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
-| 2 | [Securing your environment](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
-| 3 | [Installing guest OS on the VMware ESX hypervisor (optional)](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
-| 4 | [Downloading and installing SAP software and applications](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
+| 1 | [Ordering storage](/docs/sap-netweaver?topic=sap-netweaver-order_storage#order_storage) |
+| 2 | [Securing your environment](/docs/sap-netweaver?topic=sap-netweaver-secure_environment#secure_environment) |
+| 3 | [Installing guest OS on the VMware ESX hypervisor (optional)](/docs/sap-netweaver?topic=sap-netweaver-install_guest_os#install_guest_os) |
+| 4 | [Downloading and installing SAP software and applications](/docs/sap-netweaver?topic=sap-netweaver-install_sap#install_sap) |
 {: caption="Table 1. Managing your environment overview" caption-side="top"
 
 ## Next Steps

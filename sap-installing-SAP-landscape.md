@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-23"
+  years: 2017, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, downloading SAP software, installing SAP software, SAP Download Manager, SAP Certified
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-04"
+  years: 2018, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, SAP Application Performance Standard, SAPS, SAP Quick Sizer
 
@@ -19,7 +19,7 @@ subcollection: sap-netweaver
 {:table: .aria-labeledby="caption"}
 
 
-# 4. Sizing the server
+# 2. Sizing the server
 {: #size_the_server}
 
 After you decide which SAP solutions you plan to use, your next step is to determine the number of {{site.data.keyword.baremetal_long}} you need to support your SAP landscape and ensure that the servers are correctly sized.
@@ -67,4 +67,4 @@ If you are planning to migrate an existing SAP system from any source to your {{
 ## Next Steps
 {: #size-server-next-steps}
 
- [5. Determining your configuration](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)
+ [5. Determining your configuration](/docs/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)

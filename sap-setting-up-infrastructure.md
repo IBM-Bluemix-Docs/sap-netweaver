@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-09-09"
+  years: 2017, 2020
+lastupdated: "2019-04-17"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, deployment, BYOL, database
 
@@ -108,4 +108,4 @@ When you have your own operating system license, you install it on your {{site.d
 ## Next Steps
 {: #setting-up-infrastructure-next-steps}
 
-You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-manage_environment#manage_environment) for your next steps.
+You are now ready to begin Managing your {{site.data.keyword.baremetal_short}}. See [Managing your SAP NetWeaver environment](/docs/sap-netweaver?topic=sap-netweaver-manage_environment#manage_environment) for your next steps.

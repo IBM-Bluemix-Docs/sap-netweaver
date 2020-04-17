@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-23"
+  years: 2017, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, VLANs, hybrid, STMS, SAProuter, SAP Solution Manager, SAP certified, database
 
@@ -26,7 +26,7 @@ The SAP systems in a landscape have specific requirements for connectivity, eith
 ## Network connectivity
 {: #network_connectivity}
 
-[{{site.data.keyword.cloud_notm}} network](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-ibm_cloud_network#ibm_cloud_network) provided an overview of the {{site.data.keyword.cloud}} approach to network connectivity. Issues with network connectivity can cause significant delays for your project if you do not plan appropriately, regardless of how you plan to use your system.
+[{{site.data.keyword.cloud_notm}} network](/docs/sap-netweaver?topic=sap-netweaver-ibm_cloud_network#ibm_cloud_network) provided an overview of the {{site.data.keyword.cloud}} approach to network connectivity. Issues with network connectivity can cause significant delays for your project if you do not plan appropriately, regardless of how you plan to use your system.
 
 In general, you have two interface choices for your IaaS-provisioned {{site.data.keyword.cloud_notm}} servers—the first is an external interface with a public IP. The second is an internal interface that is provided with a “private IP” in compliance with Request for Comment (RFC) 1918. You can also choose a single internal interface with a “private IP.” Both options can be made redundant through a Linux “bonding interface” or through Windows Network Interface Card (NIC) Teaming, and can be made available at a speed of 100 Mb/s, 1 Gb/s, and 10 Gb/s.
 
@@ -57,21 +57,21 @@ The {{site.data.keyword.cloud_notm}} for SAP Applications offering can be though
 ## External storage
 {: #external_storage}
 
-Local storage provides the best performance for your database deployment. In addition to the local storage, you might require more external storage to perform backups, or your SAP systems’ database might exceed the storage capacity of the internal disks. Another example is your project requirements might demand external storage; like for multiple ESX-based servers, which want to share virtual machines (VMs). For these requirements, you can order block storage or Network Attached Storage (NAS) as described in [Storage](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-order_storage). Since extra block storage and NAS data is transferred through the same physical adapters as all other network traffic, the impact needs to be kept in mind. Performance numbers comparable to the numbers measured in the certification benchmarks might merely be achievable.
+Local storage provides the best performance for your database deployment. In addition to the local storage, you might require more external storage to perform backups, or your SAP systems’ database might exceed the storage capacity of the internal disks. Another example is your project requirements might demand external storage; like for multiple ESX-based servers, which want to share virtual machines (VMs). For these requirements, you can order block storage or Network Attached Storage (NAS) as described in [Storage](/docs/sap-netweaver?topic=sap-netweaver-order_storage). Since extra block storage and NAS data is transferred through the same physical adapters as all other network traffic, the impact needs to be kept in mind. Performance numbers comparable to the numbers measured in the certification benchmarks might merely be achievable.
 
 It is recommended that you choose a 10 Gb-based data center for your deployment if you are planning to primarily use external storage instead of local storage. For example, the external storage is used for both backup and for your database, and if you are planning to put a high load on your SAP system. If you are close to over-loading a 1 Gb network with a 90 MB/s I/O load.
 
 Another recommendation is that you use at least 4 IOPS/GB if your database resides primarily on external storage. Slower storage should only be used if database performance is not critical for your project or for backup purposes.
 
-If you are planning to use external storage as data stores for VMware ESX, follow the decision guidelines under [Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) to determine the optimal storage type for your use case.
+If you are planning to use external storage as data stores for VMware ESX, follow the decision guidelines under [Storage to use with VMware Systems](/docs/vmware?topic=VMware-vmware-storage#vmware-storage) to determine the optimal storage type for your use case.
 
 ## VMware ESXi server deployments
 {: #vmware_server}
 
 VMware ESXi-based deployments in {{site.data.keyword.cloud_notm}} are different from other cloud-based deployments. {{site.data.keyword.cloud_notm}} does not provide its customers with running VMs; you take control of your environment and configure it to meet your requirements. You receive a configured server when you order a VMware ESX server. The following links provide information on additional storage and running guest VMs.
 
-  *	[Storage to use with VMware Systems](/docs/infrastructure/vmware?topic=VMware-vmware-storage#vmware-storage) provides further direction on how to integrate storage in an ESX environment.
-  * [Mounting iSCSI VMware ESXi](/docs/infrastructure/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) describes the steps to integrate iSCSI-based storage with ESX.
-  * [Creating a VMware ESX Virtual Machine](/docs/infrastructure/vmware?topic=VMware-create-esx-vm#create-esx-vm) guides you through the process of deploying your first VM.
+  *	[Storage to use with VMware Systems](/docs/vmware?topic=VMware-vmware-storage#vmware-storage) provides further direction on how to integrate storage in an ESX environment.
+  * [Mounting iSCSI VMware ESXi](/docs/vmware?topic=VMware-mount-iscsi-esxi#mount-iscsi-esxi) describes the steps to integrate iSCSI-based storage with ESX.
+  * [Creating a VMware ESX Virtual Machine](/docs/vmware?topic=VMware-create-esx-vm#create-esx-vm) guides you through the process of deploying your first VM.
 
 Keep in mind that for deploying SAP NetWeaver-based software in the guest OS, you have to choose the guest OS from the operating systems mentioned in [SAP Note 2414097](https://launchpad.support.sap.com/#/notes/2414097){: external}.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-04"
+  years: 2017, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, credentials, SAP Certified
 
@@ -18,7 +18,7 @@ subcollection: sap-netweaver
 {:table: .aria-labeledby="caption"}
 
 
-# 1. Getting SAP and IBM Cloud credentials and create accounts
+# Getting SAP and IBM Cloud credentials and create accounts
 {: #get_sap_ibm_credentials}
 
 The following steps provide guidance on how to obtain the necessary credentials for SAP and {{site.data.keyword.cloud}}.
@@ -38,15 +38,6 @@ The following steps provide guidance on how to obtain the necessary credentials 
 
 2. Set up your [profile](/docs/account?topic=account-usersettings#profile-photo) to log in as a new user.
 
-You can [create other accounts](/docs/customer-portal?topic=customer-portal-getting-started#getting-started) and [create new users](/docs/customer-portal?topic=customer-portal-getting-started#users-permissions) after you have received your login credentials, and you have connectivity to the {{site.data.keyword.cloud_notm}} private network.
+For additional information, see [Signing up for {{site.data.keyword.cloud_notm}}]{/docs/account/adminpublic.html#signing-up-for-ibm-cloud}.
 
-## Next Steps
-{: #get-credentials-next-steps}
-
-  [2. Reviewing any relevant SAP and IBM Cloud documentation](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-review_doc#review_doc)
-
-  [3. Determining your SAP NetWeaver applications](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-3-determining-your-sap-netweaver-applications#3-determining-your-sap-netweaver-applications)
-
-  [4. Sizing the server](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-size_the_server#size_the_server)
-
-  [5. Determining your configuration](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-determine_configuration#determine_configuration)
+After you receive our login credentials and have connectivity to the {{site.data.keyword.cloud_notm}} private network, you can create other accounts and users. See [Best practices for assigning access](/docs/iam?topic=iam-account_setup) to learn more about assigning access to {{site.data.keyword.cloud_notm}}.

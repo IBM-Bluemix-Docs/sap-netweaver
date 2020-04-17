@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-23"
+  years: 2017, 2020
+lastupdated: "2020-04-17"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, {{site.data.keyword.baremetal_short}}, ABAP, application server, SAP Product Availability Matrix, PAM, SAP Certified, SAP Content Server, SAP liveCache
 
@@ -77,7 +77,7 @@ The offering consists of the following servers, operating systems (OS), and data
 If you're running SAP NetWeaver-based SAP products on your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}, you must also run one of the supported operating systems and databases.
 {: note}
 
-See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/infrastructure/sap-hana?topic=sap-hana-getting-started#getting-started) for information on deploying SAP HANA.
+See [SAP HANA on {{site.data.keyword.cloud_notm}}](/docs/sap-hana?topic=sap-hana-getting-started#getting-started) for information on deploying SAP HANA.
 
 Consult the [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: external} for specific databases, operating system, and SAP NetWeaver requirements for {{site.data.keyword.cloud_notm}}. An SAP S-user ID is required to access SAP PAM.
 
