@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2019-04-17"
+lastupdated: "2019-05-26"
 
 keywords: SAP NetWeaver, SAP Product Availability Matrix, PAM
 
@@ -18,7 +18,7 @@ subcollection: sap-netweaver
 {:table: .aria-labeledby="caption"}
 
 
-Reviewing any relevant SAP and IBM Cloud documentation
+# Reviewing any relevant SAP and IBM Cloud documentation
 {: #review_doc}
 
 Review relevant documentation to help you determine any prerequisites for the SAP products you are planning to install on your {{site.data.keyword.baremetal_long}}.
