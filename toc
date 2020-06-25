@@ -13,7 +13,7 @@ SAP NetWeaver on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    /vsi/virtual-servers-navigating-devices
+    /virtual-servers/virtual-servers-navigating-devices
 
 
     {: .topicgroup}
@@ -48,10 +48,9 @@ SAP NetWeaver on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Getting help and support](/vsi/virtual-servers-gettinghelp#gettinghelp)
+    [Getting help and support](/virtual-servers/virtual-servers-gettinghelp#gettinghelp)
 
     {: .topicgroup}
     FAQs
         sap-faqs.md
-
     {: .navgroup-end}
